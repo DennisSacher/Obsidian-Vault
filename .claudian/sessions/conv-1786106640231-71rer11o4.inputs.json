@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1786106640231-71rer11o4",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1786106640420-oolbesv",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1786106640228-sl2xf3l",
+      "timestamp": 1786106640228,
+      "rawDisplayText": "Wie benutze ich obsidian genau? Hast du gerade zugriff auf meinen Vault? Wenn ich jetzt zum Beispiel an einem Projekt arbeite-in claude code. Geb ich dann claude code einfach immer zugriff auf das Projekt und den vault und sage. \"Speicher dir alles sinnvolllee von meine Projekt in den Vault\"?",
+      "canonicalText": "Wie benutze ich obsidian genau? Hast du gerade zugriff auf meinen Vault? Wenn ich jetzt zum Beispiel an einem Projekt arbeite-in claude code. Geb ich dann claude code einfach immer zugriff auf das Projekt und den vault und sage. \"Speicher dir alles sinnvolllee von meine Projekt in den Vault\"?",
+      "images": [],
+      "contentDigest": "7d0826b568cf189b56d44eb3e37e0367c0249d60efb1a51649af7a52125c3ba5",
+      "providerUserMessageId": "01f28db5-3e65-48f5-b2fa-c3294296b33d"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1786106935271-2b2wb54",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1786106935258-tz1pay4",
+      "timestamp": 1786106935258,
+      "rawDisplayText": "Wie benutze ich obsidian genau? Hast du gerade zugriff auf meinen Vault? Wenn ich jetzt zum Beispiel an einem Projekt arbeite-in claude code. Geb ich dann claude code einfach immer zugriff auf das Projekt und den vault und sage. \"Speicher dir alles sinnvolllee von meine Projekt in den Vault\"?",
+      "canonicalText": "Wie benutze ich obsidian genau? Hast du gerade zugriff auf meinen Vault? Wenn ich jetzt zum Beispiel an einem Projekt arbeite-in claude code. Geb ich dann claude code einfach immer zugriff auf das Projekt und den vault und sage. \"Speicher dir alles sinnvolllee von meine Projekt in den Vault\"?",
+      "images": [],
+      "contentDigest": "7d0826b568cf189b56d44eb3e37e0367c0249d60efb1a51649af7a52125c3ba5",
+      "providerUserMessageId": "2b25a63d-dcfc-454e-ba40-acf7bc962d7f",
+      "providerAssistantMessageId": "2c29947f-0d9d-4ec1-a4d6-a119251a1d59"
+    }
+  ]
+}

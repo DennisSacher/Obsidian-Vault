@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785336278590-kxjej4okf",
+  "providerId": "claude",
+  "title": "Setup Obsidian Zweites Gehirn",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785336278590,
+  "lastActivityAt": 1786106660762,
+  "sessionId": "a97125d2-3596-4d0b-b4f9-e8376aea842d",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "a97125d2-3596-4d0b-b4f9-e8376aea842d"
+  },
+  "currentNote": "CLAUDE.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 3287,
+    "cacheReadInputTokens": 59273,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 62562,
+    "percentage": 6
+  }
+}

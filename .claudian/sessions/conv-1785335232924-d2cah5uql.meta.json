@@ -1,0 +1,23 @@
+{
+  "id": "conv-1785335232924-d2cah5uql",
+  "providerId": "claude",
+  "title": "Start conversation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785335232931,
+  "lastActivityAt": 1785336240411,
+  "sessionId": "99cf8361-7b82-45d1-9944-911eb22eebc7",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "99cf8361-7b82-45d1-9944-911eb22eebc7"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 1791,
+    "cacheReadInputTokens": 36566,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 38359,
+    "percentage": 4
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1785336278590-kxjej4okf",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1786106659868-s8bm5xr",
+      "userTurnOrdinal": 19,
+      "state": "accepted",
+      "localMessageId": "msg-1786106659857-79vzvzt",
+      "timestamp": 1786106659857,
+      "rawDisplayText": "hi",
+      "canonicalText": "hi",
+      "images": [],
+      "contentDigest": "88de65a2615a366404fdfd86bc354f32929270ce50be0af4a2bb771e29bf83ef",
+      "providerUserMessageId": "cfcdd21a-23dc-4905-9c98-76a435bcd76e"
+    }
+  ]
+}

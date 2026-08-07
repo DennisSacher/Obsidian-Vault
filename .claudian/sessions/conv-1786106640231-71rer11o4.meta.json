@@ -1,0 +1,22 @@
+{
+  "id": "conv-1786106640231-71rer11o4",
+  "providerId": "claude",
+  "title": "Wie benutze ich obsidian genau",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1786106640233,
+  "lastActivityAt": 1786106950550,
+  "sessionId": "e9126443-ea3a-45e8-b74f-3238e0509f19",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "e9126443-ea3a-45e8-b74f-3238e0509f19"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 10,
+    "cacheCreationInputTokens": 16889,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 16899,
+    "percentage": 8
+  }
+}
