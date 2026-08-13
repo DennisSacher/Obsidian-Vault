@@ -11,4 +11,5 @@ Dennis' beruflicher Schwerpunkt aktuell. Wird bei der Bayfu GmbH für das AsiMin
 -
 
 ## Notizen
--
+- [[Testfixtures mit Umgebungsvariablen brauchen eine Sperre bei Parallelität]]
+- [[EF Core Projektion als Expression statt Methode]]
