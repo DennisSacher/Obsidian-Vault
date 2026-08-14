@@ -1,0 +1,22 @@
+{
+  "id": "conv-1786450648608-mpatz8hbz",
+  "providerId": "claude",
+  "title": "Optimize Obsidian workflow with Claude integration",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786450648612,
+  "lastActivityAt": 1786546124988,
+  "sessionId": "26b28c26-e47c-424e-b79c-057373dab868",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "26b28c26-e47c-424e-b79c-057373dab868"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 2484,
+    "cacheReadInputTokens": 48486,
+    "contextWindow": 1000000,
+    "contextTokens": 50972,
+    "percentage": 5
+  }
+}

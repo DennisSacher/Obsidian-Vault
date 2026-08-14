@@ -41,6 +41,9 @@ Dennis Sacher, 25 Jahre alt, Informatik-Student (8. Semester, TH Rosenheim) und 
 ### Kontext bei Bedarf
 Wenn Dennis fragt "Was ist gerade aktuell?", "Wo war ich stehen geblieben?" oder ähnliches: Lies die letzten 2-3 Daily Notes in 05 Daily Notes/ und die aktiven Projekt-Dateien in 02 Projekte/ um ein Briefing zu geben.
 
+### Bei Bachelorarbeit-Themen
+Wenn es um das Schreiben, Formatieren oder formale Anforderungen der Bachelorarbeit geht (Gliederung, Zitieren, wissenschaftlicher Sprachstil, Abgabe, KI-Nutzungsdokumentation): lies zuerst 04 Ressourcen/Wissenschaftliches Arbeiten/Wissenschaftliches Arbeiten.md und die darin verlinkten Notizen. Der eigentliche Fließtext der Arbeit wird nicht hier, sondern im separaten Repo unter C:\Users\DSacher\Desktop\Bachelorarbeit geschrieben (siehe dortige CLAUDE.md).
+
 ### Bei Session-Ende
 Wenn Dennis die Session beendet oder du merkst dass ein natürliches Ende erreicht ist, biete an:
 1. Einen Daily Note Eintrag in 05 Daily Notes/ zu erstellen mit einer Zusammenfassung des Tages

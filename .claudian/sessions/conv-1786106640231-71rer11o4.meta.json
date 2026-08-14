@@ -10,6 +10,7 @@
   "providerState": {
     "providerSessionId": "e9126443-ea3a-45e8-b74f-3238e0509f19"
   },
+  "currentNote": "CLAUDE.md",
   "usage": {
     "model": "haiku",
     "inputTokens": 10,

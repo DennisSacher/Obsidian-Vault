@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1786450648608-mpatz8hbz",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1786450648837-kn6lbi5",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1786450648592-9d2g13o",
+      "timestamp": 1786450648592,
+      "rawDisplayText": "wie arbeite ich am besten mit Obsidian? Wie halte ich es immer aktuell und gebe obsidian mit claude die neusten Infos usw?",
+      "canonicalText": "wie arbeite ich am besten mit Obsidian? Wie halte ich es immer aktuell und gebe obsidian mit claude die neusten Infos usw?",
+      "images": [],
+      "contentDigest": "101d35392e40bbb8f08cf8e973d4f7a6e91898b148038137374d7b311e9dfdf3",
+      "providerUserMessageId": "0d943ef9-d9f8-4ffb-9277-3fdc5103a32d",
+      "providerAssistantMessageId": "2479cef7-e7c4-4b71-960f-5c899c98fb77"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1786534393928-58wrtm2",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1786534393906-y506ko1",
+      "timestamp": 1786534393907,
+      "rawDisplayText": "hast du wissen über meine Bachelorarbeit, also in welchem Format, Zeilenabstand usw?",
+      "canonicalText": "hast du wissen über meine Bachelorarbeit, also in welchem Format, Zeilenabstand usw?",
+      "images": [],
+      "contentDigest": "ea2db8f3208db9279a97665dfc6ffdd4d674a2c059ab847ae6824e1d6e9c4c08",
+      "providerUserMessageId": "ea037e0c-7c2b-44c5-9d11-a8c5d999e304",
+      "providerAssistantMessageId": "1db30d1e-d2cc-4dd6-9d8d-a19ab95e2200"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1786546070176-fa4thy7",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1786546070156-5drmznj",
+      "timestamp": 1786546070156,
+      "rawDisplayText": "Welche skillls kennst du gerade alle die von mir selbst hinzugefügt wurden?",
+      "canonicalText": "Welche skillls kennst du gerade alle die von mir selbst hinzugefügt wurden?",
+      "images": [],
+      "contentDigest": "a2959bb3caffd594bbe4f7768c57a399647b5d85e5fc018914a59d9d1ecc7d51",
+      "providerUserMessageId": "ba0d35bd-2749-4e1a-b8dc-873b6b08cafe",
+      "providerAssistantMessageId": "4d2c3e1d-18c4-4e0d-b2f1-90a997794e64"
+    }
+  ]
+}
