@@ -2,7 +2,7 @@
 tags: [projekt, bachelorarbeit]
 status: aktiv
 erstellt: 2026-07-29
-deadline: 2026-10-31
+deadline: 2026-10-22
 ---
 
 # Bachelorarbeit AsiMinu CRQ-Management-System
@@ -25,17 +25,14 @@ Bachelorarbeit über das AsiMinu CRQ-Management-System, entwickelt bei Bayfu Gmb
 
 ## Aktueller Fortschritt
 
-```
-Kapitel 01 Einleitung          [ ] Entwurf  [ ] Vollständig  [ ] Überarbeitet
-Kapitel 02 Grundlagen          [ ] Entwurf  [ ] Vollständig  [ ] Überarbeitet
-Kapitel 03 Ist-Analyse         [ ] Entwurf  [ ] Vollständig  [ ] Überarbeitet
-Kapitel 04 Anforderungen       [ ] Entwurf  [ ] Vollständig  [ ] Überarbeitet
-Kapitel 05 Entwurf/Realisierung[ ] Entwurf  [ ] Vollständig  [ ] Überarbeitet
-Kapitel 06 –                   [ ] Entwurf  [ ] Vollständig  [ ] Überarbeitet
-Kapitel 07 –                   [ ] Entwurf  [ ] Vollständig  [ ] Überarbeitet
-Kapitel 08 –                   [ ] Entwurf  [ ] Vollständig  [ ] Überarbeitet
-Kapitel 09 –                   [ ] Entwurf  [ ] Vollständig  [ ] Überarbeitet
-```
+> [!tip] Live-Dashboard statt manueller Checkliste (seit 02.09.2026)
+> Der Kapitel-für-Kapitel-Fortschritt (Status, geschätzte Seiten, fehlende Quellen,
+> KI-Fußnoten-Lücken, Tagesempfehlung) wird nicht mehr hier von Hand gepflegt, sondern
+> automatisch berechnet: `thesis/dashboard/` im Bachelorarbeit-Repo. Läuft täglich 9 Uhr
+> per Windows-Taskplaner, manuell per Desktop-Verknüpfung „Dashboard aktualisieren".
+> Abschnittsstatus ändern: `thesis/dashboard/status-setzen.ps1`. [[Kapitelplanung]] bleibt
+> als qualitative Planungsnotiz (Schreibreihenfolge, inhaltliche Lücken, Kontext je Kapitel)
+> bestehen, nur die reine Statusverfolgung ist ins Dashboard gewandert.
 
 ## Rahmendaten
 
@@ -45,8 +42,8 @@ Kapitel 09 –                   [ ] Entwurf  [ ] Vollständig  [ ] Überarbeite
 | Betreuer (Erstkorrektor) | – |
 | Zweitkorrektor | – |
 | Bearbeitungszeit | 5 Monate ab Anmeldung (frühestens nach 2 Monaten abgebbar) |
-| Abgabe | Oktober 2026 |
-| Seitenzahl-Ziel | – |
+| Abgabe | **22.10.2026** — harte Schreibfrist **12.10.2026** (10 Tage Korrektur-Puffer danach), bestätigt 02.09.2026 |
+| Seitenzahl-Ziel | **40–45 Seiten**, harte Obergrenze 50 Seiten |
 | Sprache | Deutsch |
 
 > [!info] Formale Vorgaben

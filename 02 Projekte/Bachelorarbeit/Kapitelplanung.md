@@ -8,7 +8,23 @@ erstellt: 2026-08-11
 ← zurück zu [[Bachelorarbeit AsiMinu App]]
 
 > [!tip] LaTeX-Dateien
-> `Bachelorarbeit/thesis/latex-projekt/chapters/` → ein Ordner je Kapitel
+> `Bachelorarbeit/thesis/BA-Text/latex-projekt/chapters/` → ein Ordner je Kapitel (Pfad seit
+> der Submodul-Umstellung im August um `BA-Text/` erweitert)
+
+> [!important] Stand 02.09.2026 — Gliederung erweitert, Status-Tracking ins Dashboard gewandert
+> Die Kapitelgliederung wurde am 01.09.2026 deutlich erweitert (Commit `d6d1841`): Kapitel 05
+> hat jetzt **7 statt 5 Sektionen** — die unten unter „Echte Lücken" genannten fehlenden
+> Sektionen **ChangeCoordinator-Panel/CRQ-Chat** und **TEF-Automatisierung** sind damit
+> geschlossen, existieren jetzt als eigene `\section`. Alle Todo-Blöcke in Kapitel 2–9 wurden
+> außerdem sehr ausführlich mit ADR-Verweisen befüllt. Der echte Abgabetermin ist **22.10.2026**
+> (nicht die weiter unten in diesem Dokument genannten 31.10.2026 — das war eine vorläufige
+> Angabe), harte Schreibfrist zum Schreiben selbst: **12.10.2026**.
+>
+> Die „Status: …"-Zeilen je Kapitel unten sind ab jetzt **nicht mehr die aktuelle
+> Wahrheit** — dafür gibt es seit heute `thesis/dashboard/` (automatisch generiertes
+> Dashboard, berechnet Status/Seiten/Ampeln/Tagesempfehlung direkt aus den `.tex`-Dateien).
+> Die inhaltlichen Notizen unten (Quellmaterial, ADR-Bezüge, Lücken-Analyse,
+> Schreibreihenfolge) bleiben trotzdem wertvoll und werden nicht dupliziert.
 
 > [!warning] Stand 13.08.2026 — Zwei Sessions in Folge ohne Kapiteltext
 > Weder am 11.08. noch am 12.08. wurde an Kapitel 03 weitergeschrieben (12.08. war reine Formalia-Session). Kapitel 03 bleibt seit Beginn der Planung unverändert auf „Gliederung". Bei 79 verbleibenden Tagen bis zur Deadline (31.10.2026) sollte diese Session tatsächlich Kapiteltext produzieren, sonst wächst der Rückstand weiter (6 von 9 Kapiteln noch reine Gliederung).
