@@ -1,6 +1,7 @@
 ---
 tags: [bachelorarbeit, planung]
 erstellt: 2026-08-11
+aktualisiert: 2026-09-15
 ---
 
 # Kapitelplanung
@@ -8,140 +9,173 @@ erstellt: 2026-08-11
 ← zurück zu [[Bachelorarbeit AsiMinu App]]
 
 > [!tip] LaTeX-Dateien
-> `Bachelorarbeit/thesis/BA-Text/latex-projekt/chapters/` → ein Ordner je Kapitel (Pfad seit
-> der Submodul-Umstellung im August um `BA-Text/` erweitert)
+> `Bachelorarbeit/thesis/BA-Text/latex-projekt/chapters/` → ein Ordner je Kapitel
 
-> [!important] Stand 02.09.2026 — Gliederung erweitert, Status-Tracking ins Dashboard gewandert
+> [!important] Stand 15.09.2026 — Variante D umgesetzt, komplette Kapitelstruktur neu
+> Die am 09.09.2026 empfohlene [[Gliederungsvarianten|Variante D]] wurde vollständig umgesetzt.
+> Die Kapitelzuordnung unten ist entsprechend komplett neu geschrieben. Ältere Zuordnungen
+> (Kapitel 03 „Ist-Analyse", Kapitel 04 „Anforderungen & Architektur", Kapitel 05 „Entwurf &
+> Realisierung", Kapitel 06 „Herausforderungen während der Entwicklung") existieren so nicht
+> mehr:
+>
+> | Neu | Kapitel | Datei | Zielumfang |
+> |---|---|---|---|
+> | 01 | Einleitung | `chapters/01/einleitung.tex` | 4 Seiten |
+> | 02 | Grundlagen | `chapters/02/grundlagen.tex` | 8 Seiten |
+> | 03 | Vorgehen | `chapters/03/vorgehen.tex` | 3 Seiten |
+> | 04 | Ist-Analyse und Anforderungen | `chapters/04/ist_analyse_anforderungen.tex` | 7 Seiten |
+> | 05 | Architektur | `chapters/05/architektur.tex` | 7 Seiten |
+> | 06 | Realisierung | `chapters/06/realisierung.tex` | 12 Seiten |
+> | 07 | Evaluation | `chapters/07/evaluation.tex` | 8 Seiten |
+> | 08 | Diskussion (neu) | `chapters/08/diskussion.tex` | 4 Seiten |
+> | 09 | Zusammenfassung und Ausblick | `chapters/09/zusammenfassung.tex` | 3 Seiten |
+>
+> Summe 56 Seiten Fließtext, nah am vorgeschlagenen Zielkorridor von 55 bis 60 Seiten. Die
+> bestehenden, sehr ausführlichen Todo-Baupläne wurden dabei erhalten und an die neue Gliederung
+> angepasst, nicht verworfen. Zusätzlich hat jetzt jeder Abschnitt eine türkise
+> Kurzfassungs-Notiz und jedes Kapitel eine grüne Begründung des Zielumfangs, beides wörtlich aus
+> dem Abstimmungsdokument mit dem Betreuer übernommen.
+>
+> Offen: prüfen, ob `thesis/dashboard/` nach der Umbenennung noch korrekt rechnet, siehe
+> [[Offene-Fragen]].
+
+> [!important] Stand 02.09.2026 — Gliederung erweitert, Status-Tracking ins Dashboard gewandert (historisch, bezieht sich auf die alte Struktur)
 > Die Kapitelgliederung wurde am 01.09.2026 deutlich erweitert (Commit `d6d1841`): Kapitel 05
-> hat jetzt **7 statt 5 Sektionen** — die unten unter „Echte Lücken" genannten fehlenden
-> Sektionen **ChangeCoordinator-Panel/CRQ-Chat** und **TEF-Automatisierung** sind damit
-> geschlossen, existieren jetzt als eigene `\section`. Alle Todo-Blöcke in Kapitel 2–9 wurden
-> außerdem sehr ausführlich mit ADR-Verweisen befüllt. Der echte Abgabetermin ist **22.10.2026**
-> (nicht die weiter unten in diesem Dokument genannten 31.10.2026 — das war eine vorläufige
-> Angabe), harte Schreibfrist zum Schreiben selbst: **12.10.2026**.
->
-> Die „Status: …"-Zeilen je Kapitel unten sind ab jetzt **nicht mehr die aktuelle
-> Wahrheit** — dafür gibt es seit heute `thesis/dashboard/` (automatisch generiertes
+> hatte damals **7 statt 5 Sektionen**, die unten unter „Echte Lücken" genannten fehlenden
+> Sektionen **ChangeCoordinator-Panel/CRQ-Chat** und **TEF-Automatisierung** waren damit
+> geschlossen. Alle Todo-Blöcke in Kapitel 2–9 wurden außerdem sehr ausführlich mit
+> ADR-Verweisen befüllt. Seit diesem Tag gibt es `thesis/dashboard/` (automatisch generiertes
 > Dashboard, berechnet Status/Seiten/Ampeln/Tagesempfehlung direkt aus den `.tex`-Dateien).
-> Die inhaltlichen Notizen unten (Quellmaterial, ADR-Bezüge, Lücken-Analyse,
-> Schreibreihenfolge) bleiben trotzdem wertvoll und werden nicht dupliziert.
+> Läuft täglich 9 Uhr per Windows-Taskplaner, manuell per Desktop-Verknüpfung „Dashboard
+> aktualisieren", Abschnittsstatus ändern über `thesis/dashboard/status-setzen.ps1`.
 
-> [!warning] Stand 13.08.2026 — Zwei Sessions in Folge ohne Kapiteltext
-> Weder am 11.08. noch am 12.08. wurde an Kapitel 03 weitergeschrieben (12.08. war reine Formalia-Session). Kapitel 03 bleibt seit Beginn der Planung unverändert auf „Gliederung". Bei 79 verbleibenden Tagen bis zur Deadline (31.10.2026) sollte diese Session tatsächlich Kapiteltext produzieren, sonst wächst der Rückstand weiter (6 von 9 Kapiteln noch reine Gliederung).
-> - Neu entdeckt beim Gegenlesen von `ist_analyse.tex`: In Abschnitt „Prozessbeschreibung" steht als einziger Fließtext das Wort „hi" (offenbar ein alter Test-Platzhalter) — beim Ausformulieren von 03.1 entfernen.
-> - AsiMinu-Submodul aktualisiert (`4182ae3` → `fd9d8d6`): neue Chatfunktion im CRQ (inkl. Ungelesen-Benachrichtigungen in CC-/GU-Panel) und Automatisierungsseite mit einstellbaren Uhrzeiten für automatische Läufe — für Kapitel 05 (Entwurf/Realisierung) und ggf. Kapitel 04 (Anforderungen) relevant, bisher nirgends in der Kapitelplanung berücksichtigt.
->
-> [!info] Stand 12.08.2026 — Formale Vorgaben eingearbeitet
-> Dennis hat die offiziellen TH-Rosenheim-Schreibrichtlinien nachgereicht (siehe [[Wissenschaftliches Arbeiten]]). Kein Kapiteltext wurde heute geschrieben, aber die LaTeX-Struktur wurde daraufhin angepasst:
-> - Neues Pflicht-Verzeichnis `chapters/abkuerzungsverzeichnis.tex` angelegt und in `toc.tex` eingebunden (Position v der vorgeschriebenen Verzeichnis-Reihenfolge, war komplett gefehlt — auch die offizielle Fakultätsvorlage hat es nicht, ist aber laut Formvorgaben-PDF Pflicht). Bisher nur CRQ/GU/TEF eingetragen — muss mit jedem neuen Kapitel wachsen.
-> - `title.tex`: Platzhalter „Studiengang" und „Zweitprüfer" sind jetzt ausgefüllt (Informatik B.Sc., Prof. Dr. rer. pol Laura Marcus)
-> - `natger.bst`-Zitierstil gegen die offizielle Fakultäts-LaTeX-Vorlage (ZIP) abgeglichen — identisch, keine Änderung nötig
-> - **Offener Compliance-Punkt:** KI-Nutzung ist laut Vorgabe per Fußnote im Text zu dokumentieren, das fehlt bisher komplett (auch in Kapitel 01, das mit KI-Unterstützung entstand) — siehe [[Offene-Fragen]]
+> [!warning] Stand 13.08.2026 — Zwei Sessions in Folge ohne Kapiteltext (historisch)
+> Weder am 11.08. noch am 12.08. wurde weitergeschrieben. Neu entdeckt beim Gegenlesen: In der
+> damaligen Ist-Analyse stand als einziger Fließtext eines Abschnitts das Wort „hi", ein alter
+> Test-Platzhalter, mittlerweile beim Ausformulieren entfernt. AsiMinu-Submodul war zu diesem
+> Zeitpunkt auf einer neuen Chatfunktion im CRQ und einer Automatisierungsseite mit
+> einstellbaren Uhrzeiten aktualisiert worden.
+
+> [!info] Stand 12.08.2026 — Formale Vorgaben eingearbeitet (historisch)
+> Die offiziellen TH-Rosenheim-Schreibrichtlinien wurden nachgereicht (siehe
+> [[Wissenschaftliches Arbeiten]]). Neues Pflicht-Verzeichnis `chapters/abkuerzungsverzeichnis.tex`
+> angelegt, `title.tex` mit Studiengang und Zweitprüfer ausgefüllt, `natger.bst`-Zitierstil gegen
+> die offizielle Fakultäts-LaTeX-Vorlage abgeglichen (identisch). **Offener Compliance-Punkt seit
+> damals:** KI-Nutzung ist laut Vorgabe per Fußnote im Text zu dokumentieren, siehe
+> [[Offene-Fragen]].
 
 ## Kapitelstruktur
 
 ### 01 – Einleitung
-**LaTeX:** `chapters/01/einleitung.tex` — **Status: Vollständig (Entwurf)**, ~1500 Wörter
+**LaTeX:** `chapters/01/einleitung.tex` — **Status: Vier von fünf Abschnitten ausformuliert,
+wird gerade final überarbeitet (Word-Arbeitsdokument seit 15.09.2026)**
 
-- [x] Motivation / Problemstellung
-- [x] Zielsetzung der Arbeit (inkl. Hauptforschungsfrage + 6 Unterfragen)
-- [x] Aufbau der Arbeit
+- [x] 1.1 Unternehmenskontext: BayFu und Telefónica — Text vorhanden, wird gerade überarbeitet
+  (u. a. Rolle des ChangeCoordinators ergänzen, Grafik GU→BayFu→TEF erwägen)
+- [x] 1.2 Ausgangslage und Problemstellung — fertig, umfangreichster Abschnitt, ggf. beim
+  Überarbeiten straffen
+- [x] 1.3 Zielsetzung und Forschungsfragen — fertig (Hauptforschungsfrage + 6 Unterfragen)
+- [ ] 1.4 Abgrenzung des Betrachtungsgegenstands — **neu in Variante D, noch komplett leer**,
+  vier zu klärende Punkte: Systemgrenze TEF-System, Eigenleistung vs. Übernahme, nachträglicher
+  Scope-Zuwachs, Abgrenzung zur Incident-Erfassung
+- [x] 1.5 Aufbau der Arbeit — fertig (ein Absatz je Kapitel, laut Anforderung eigentlich ein
+  einziger Absatz gewünscht)
 
-**Kernaussage:** Warum braucht Bayfu ein CRQ-Management-System?
-
-> [!success] Stand 11.08.2026
-> Kapitel ist durchgeschrieben (5 Sektionen, kein `\todo`). Kandidat für Überarbeitung/Feinschliff statt Neuschreiben.
-
----
+**Kernaussage:** Warum braucht Bayfu ein CRQ-Management-System, und was ist Gegenstand dieser
+Arbeit?
 
 ### 02 – Grundlagen
-**LaTeX:** `chapters/02/grundlagen.tex` — **Status: Gliederung** (nur `\todo[inline]`-Stichpunkte, keine Prosa)
+**LaTeX:** `chapters/02/grundlagen.tex` — **Status: Gliederung mit sehr ausführlichen
+Todo-Bauplänen**, 11 Unterabschnitte
 
-- [ ] Change-Request-Management (ITIL-Kontext) — Sektion „Geschäftsprozessmanagement und Automatisierung"
-- [ ] Clean Architecture (theoretisch) — Sektion „Softwarearchitekturprinzipien"
-- [ ] Authentifizierung/Autorisierung/IT-Sicherheit (JWT, TOTP, RBAC) — Sektion „Security-Grundlagen"
-- [ ] Datenqualität und Eingabevalidierung
-- [ ] Verwandte Lösungsansätze (Power-Apps-Ad-hoc-Lösung)
+CRQ-Begriffe, Prozessredesign, Automatisierungsgrade, Regeln und Konfiguration,
+Qualitätsdimensionen, Validierung, Schichtung/Architekturprinzipien, Auth-Grundlagen und
+Security, Low-Code, ITSM, Einordnung der Eigenlösung.
 
-> [!warning] Abweichung von dieser Planung
-> „ASP.NET Core & Blazor WASM" und „Azure-Infrastruktur" sind **keine eigenen Sektionen** in `grundlagen.tex` — die konkrete Technologieauswahl liegt stattdessen in Kapitel 04 (`Technologieauswahl und Begründung`) und das Deployment in Kapitel 05 (`Deployment und Betrieb`). Kapitel 02 bleibt bewusst rein theoretisch/generisch.
+### 03 – Vorgehen
+**LaTeX:** `chapters/03/vorgehen.tex` — **Status: Gliederung mit Todo-Bauplänen**, 3 Abschnitte
+(neu als eigenständiges Kapitel in Variante D)
 
----
+Forschungslogik, Erhebung des Ist-Zustands, Entscheidungsverfahren für die Architektur- und
+Realisierungsentscheidungen.
 
-### 03 – Ist-Analyse
-**LaTeX:** `chapters/03/ist_analyse.tex` — **Status: Gliederung** (3 Sektionen mit `\todo[inline]`, keine Prosa)
+### 04 – Ist-Analyse und Anforderungen
+**LaTeX:** `chapters/04/ist_analyse_anforderungen.tex` — **Status: Gliederung mit sehr
+ausführlichen Todo-Bauplänen**, 9 Abschnitte (führt die früheren Kapitel „Ist-Analyse" und
+„Anforderungen" zusammen, weil die Anforderung die direkte Antwort auf die jeweilige
+Schwachstelle ist)
 
-- [ ] Aktueller Prozess bei Bayfu (manuell, Excel, E-Mail) — Sektion „Prozessbeschreibung" — Quellmaterial vorhanden: `docs/04-prozesse/crq-prozessbeschreibung.pdf`, `crq-gesamtprozess-uebersicht.svg`, BPMN-Dateien `docs/03-diagramme/bpmn/crq-creation-prozess.bpmn` + `admin-panel-functions.bpmn`
-- [ ] Stakeholder und Rollen (GU, Bayfu-Mitarbeiter, TEF) — Sektion „Beteiligte Akteure"
-- [ ] Schwachstellen und Verbesserungspotenziale — Sektion „Schwachstellenanalyse" (Fallbeispiel „ausgeblendete Excel-Zeilen" bereits in Kap. 01 vorweggenommen, muss hier vertieft werden)
-- [ ] Beim Ausformulieren: Platzhaltertext „hi" in Sektion „Prozessbeschreibung" entfernen (Fundstelle 13.08.2026)
+Ablauf des bestehenden Prozesses, Akteure, Fehler bei der Erfassung, Medienbrüche, fehlende
+Nachvollziehbarkeit, funktionale Anforderungen, nicht-funktionale Anforderungen,
+rollenbezogene Anforderungen, Priorisierung.
 
----
+### 05 – Architektur
+**LaTeX:** `chapters/05/architektur.tex` — **Status: Gliederung mit Todo-Bauplänen**,
+7 Abschnitte
 
-### 04 – Anforderungen & Architektur
-**LaTeX:** `chapters/04/anforderungen_architektur.tex` — **Status: Gliederung** (5 Sektionen mit `\todo[inline]`, keine Prosa)
+Systemkontext, Schichtenschnitt, Benutzermodell, Datentrennung, Vorgangsidentität, Rollenmodell,
+Technologieauswahl (Techstack) — jeweils mit den erwogenen Alternativen.
 
-- [ ] Funktionale + nicht-funktionale Anforderungen — eine gemeinsame Sektion (nicht getrennt wie ursprünglich geplant)
-- [ ] Rollenmodell (GU/Admin/Least-Privilege, ADR-002/ADR-015)
-- [ ] Architekturentscheidung Clean Architecture (ADR-001, Vier-Schichten-Modell)
-- [ ] Technologieauswahl (.NET 10, Blazor WASM, EF Core, PostgreSQL)
-- [ ] Datenmodell (AMR-Nummer, Auth/CRQ-Trennung ADR-007, Advisory-Lock ADR-013)
+### 06 – Realisierung
+**LaTeX:** `chapters/06/realisierung.tex` — **Status: Gliederung mit sehr ausführlichen
+Todo-Bauplänen und Code-Platzhaltern**, 16 Abschnitte, größtes Kapitel (12 Seiten)
 
-> [!note] Fehlt noch als eigener Punkt
-> Kein explizites C4-Modell-Unterkapitel und keine dedizierte Erklärung des ADR-Entscheidungsprozesses als eigener Abschnitt — ggf. beim Ausschreiben ergänzen oder bewusst weglassen.
+Aufbau, Formularentwurf, Fehlervermeidung, Validierungsregeln, Vorgangsnummer, Regelbasis,
+Ausführungsmodell, Schnittstellenentwurf, interne Bearbeitung (Admin-/ChangeCoordinator-Panel),
+Authentifizierung, Berechtigungen, Prüfprotokoll, Betrieb. Drei **Tiefenschwerpunkte** laut
+Abstimmungsdokument: Backend/serverseitige Validierung, TEF-Automatisierung, Sicherheit — dort
+ausführlicher als in den übrigen Abschnitten.
 
----
-
-### 05 – Entwurf & Realisierung
-**LaTeX:** `chapters/05/entwurf_realisierung.tex` — **Status: Gliederung** (5 Sektionen mit `\todo[inline]` + Code-Platzhalter, keine Prosa)
-
-- [ ] GU-Panel (Registrierung, CRQ-Formular, Folge-CRQ, Statusverfolgung)
-- [ ] Backend-Service (Validierung, AMR-Vergabe, TEF-Stub ADR-009)
-- [ ] Admin-Panel (Anträge, Benutzerverwaltung, Standort-Excel-Import ADR-025)
-- [ ] Sicherheitskonzept (TOTP ADR-010, Provisioning ADR-002, Lockout ADR-019, Refresh-Token ADR-024)
-- [ ] Deployment und Betrieb (Azure, Key-Vault-Präfix ADR-021, CI/CD, Bootstrap ADR-023)
-
-> [!bug] Echte Lücken (nicht nur unausgeschrieben — fehlen als Sektion komplett)
-> - [ ] **Implementierungsreihenfolge und Vorgehen** — keine eigene Sektion vorhanden
-> - [ ] **ChangeCoordinator-Panel / TicketSpecialist-Rollenmodell** (ADR-047) — im Submodul seit 05.08.2026 fertig implementiert, in `entwurf_realisierung.tex` aber noch **gar nicht als Sektion** angelegt
-> - [ ] **INC-Worker (Postfach-Integration)** (ADR-045) — ebenfalls implementiert, ebenfalls noch keine Sektion
-> - [ ] Neu seit 11.08.2026 im Code: Operator-Rolle (ADR-053), Löschlauf (ADR-051), Prüfprotokoll (ADR-052) — noch nirgends in der Kapitelplanung berücksichtigt
-> - [ ] Neu seit 12.08.2026 im Code (Submodul-Update 3311c97 → 4182ae3): Fassungsnummern und scharfe Qualitätstore (ADR-054), neuer `StandortController`, `PaketberichtController` — noch nicht in Kapitelplanung berücksichtigt
-> - [ ] Neu seit 13.08.2026 im Code (Submodul-Update 4182ae3 → fd9d8d6): CRQ-Chatfunktion (inkl. Ungelesen-Benachrichtigungen in CC-/GU-Panel) und Automatisierungsseite mit einstellbaren Uhrzeiten für automatische Läufe — noch nicht in Kapitelplanung berücksichtigt
-
----
-
-### 06 – Herausforderungen während der Entwicklung
-**LaTeX:** `chapters/06/herausforderungen.tex` — **Status: Gliederung**
-
-- [ ] Ausgewählte ADRs im Detail (z. B. ADR-013 Advisory-Lock, ADR-020 Postgres-Odyssee)
-- [ ] Exemplarische Fehleranalyse (JWT-Signaturschlüssel-Bug als Fallstudie)
-- [ ] Abweichungen vom ursprünglichen Konzept (AsiMinu-Dashboard-Erweiterung → eigenständiges System)
+> [!success] Damit geschlossen (waren vorher echte Lücken in der alten Struktur)
+> ChangeCoordinator-Panel/TicketSpecialist-Rollenmodell und INC-Worker sind jetzt als reguläre
+> Abschnitte vorhanden, nicht mehr nur im Code umgesetzt und in der Gliederung fehlend.
 
 ### 07 – Evaluation
-**LaTeX:** `chapters/07/evaluation.tex` — **Status: Teilweise** (~900 Wörter Methodik/Kennzahlen ausformuliert, Ergebnisse-Abschnitt bewusst leer bis Testdurchläufe stattfinden)
+**LaTeX:** `chapters/07/evaluation.tex` — **Status: vor der Umstrukturierung teilweise
+ausformuliert** (~900 Wörter Methodik/Kennzahlen, Ergebnisse-Abschnitt bewusst leer bis
+Testdurchläufe stattfinden) — beim nächsten Bearbeiten gegenchecken, ob sich durch die neue
+Gliederung an der Textmenge etwas geändert hat
 
-- [x] Methodik des Vergleichs alt vs. neu (Testfallkatalog, Durchführung, Limitationen)
-- [x] Kennzahlen (Bearbeitungszeit, Fehlerquote, Datenqualität, Kurzbefragung nach DIN EN ISO 9241-110)
-- [ ] Ergebnisse und Diskussion — wartet auf Datenerhebung (Testdurchläufe mit Bayfu-Mitarbeitenden)
+Kennzahlen, Testabdeckung, funktionale Abdeckung, Versuchsaufbau, Messverfahren, Effekt auf
+Datenqualität, Automatisierung und Prozesssicherheit, Limitationen.
 
-### 08 – Zusammenfassung und Ausblick
-**LaTeX:** `chapters/08/zusammenfassung.tex` — **Status: Gliederung**
+- [x] Methodik des Vergleichs alt vs. neu
+- [x] Kennzahlen (Bearbeitungszeit, Fehlerquote, Datenqualität, Kurzbefragung nach
+  DIN EN ISO 9241-110)
+- [ ] Ergebnisse und Diskussion — wartet auf Datenerhebung mit Bayfu-Mitarbeitenden
 
-- [ ] Zusammenfassung der Ergebnisse
-- [ ] Kritische Reflexion (TEF-Stub, begrenzter Evaluationsumfang)
-- [ ] Ausblick (TEF-Echtanbindung, Streaming-Parser, objekt-level RBAC, Domain-Whitelist)
+### 08 – Diskussion
+**LaTeX:** `chapters/08/diskussion.tex` — **Status: Gliederung mit Todo-Bauplänen**,
+4 Abschnitte, **komplett neues Kapitel in Variante D**
 
-### 09 – Anhang
-**LaTeX:** `chapters/09/anhang.tex`, `chapters/09/ki_erklaerung.tex` — enthält u. a. die pflichtige KI-Nutzungserklärung der Hochschule Rosenheim
+Beantwortung der sechs Forschungsfragen einzeln, Einordnung in den Stand der Technik,
+Übertragbarkeit auf vergleichbare Prozesse, kritische Reflexion der eigenen Lösung. Übernimmt
+zwei Inhalte aus dem aufgelösten früheren Kapitel „Herausforderungen": die Reflexion des
+Scope-Zuwachses und die exemplarische Fehleranalyse (JWT-Signaturschlüssel-Bug als Fallstudie).
+
+### 09 – Zusammenfassung und Ausblick
+**LaTeX:** `chapters/09/zusammenfassung.tex` — **Status: Gliederung mit Todo-Bauplänen**,
+2 Abschnitte
+
+Zusammenfassung der Ergebnisse (ohne die Forschungsfragen zu wiederholen, das passiert in
+Kapitel 08), Ausblick auf TEF-Echtanbindung, Streaming-Parser, objekt-level RBAC und weitere
+offene Punkte aus `STATUS.md`.
+
+### Anhang
+**LaTeX:** `chapters/09/anhang.tex` — unverändert, enthält u. a. Erhebungsinstrumente,
+Architekturentscheidungen im Volltext, Screenshots, Quellcode-Auszüge und die gemäß den Vorgaben
+der Hochschule Rosenheim verpflichtende Erklärung zur Verwendung generativer KI-Systeme.
 
 ---
 
-## Schreibreihenfolge (Empfehlung)
+## Schreibreihenfolge (Empfehlung, aktualisiert 15.09.2026)
 
-1. Ist-Analyse (03) — du kennst den Prozess am besten
-2. Anforderungen (04) — direkt aus der Analyse ableitbar
-3. Grundlagen (02) — Theorie nachziehen, wenn du weißt was du brauchst
-4. Entwurf/Realisierung (05) — das Herzstück, parallel zum [[ADR-zu-Kapitel]]
-5. Einleitung (01) — immer zuletzt, wenn du weißt was du geschrieben hast
-6. Schluss — nach dem Rest
+1. Ist-Analyse und Anforderungen (04) — bekannter Prozess, direkte Grundlage für alles Weitere
+2. Vorgehen (03) — kurz, direkt daraus ableitbar
+3. Grundlagen (02) — Theorie nachziehen, wenn klar ist, was gebraucht wird
+4. Architektur (05) und Realisierung (06) — das Herzstück, parallel zum [[ADR-zu-Kapitel]]
+5. Evaluation (07) — sobald Testdurchläufe mit Bayfu-Mitarbeitenden stattgefunden haben
+6. Diskussion (08) — beantwortet die Forschungsfragen, setzt Realisierung und Evaluation voraus
+7. Einleitung (01) — ursprünglich für ganz zuletzt vorgesehen; wird am 15.09.2026 als bewusste
+   Ausnahme vorgezogen, weil vier von fünf Abschnitten bereits stehen und nur 1.4 neu ist
+8. Zusammenfassung (09) — nach dem Rest
