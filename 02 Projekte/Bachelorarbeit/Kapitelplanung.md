@@ -1,7 +1,7 @@
 ---
 tags: [bachelorarbeit, planung]
 erstellt: 2026-08-11
-aktualisiert: 2026-09-15
+aktualisiert: 2026-09-16
 ---
 
 # Kapitelplanung
@@ -11,7 +11,48 @@ aktualisiert: 2026-09-15
 > [!tip] LaTeX-Dateien
 > `Bachelorarbeit/thesis/BA-Text/latex-projekt/chapters/` → ein Ordner je Kapitel
 
-> [!important] Stand 15.09.2026 — Variante D umgesetzt, komplette Kapitelstruktur neu
+> [!important] Stand 16.09.2026 — Betreuer-Feedback: von neun auf sieben Kapitel zusammengelegt
+> Gespräch mit dem Betreuer zur Gliederung: ihm waren neun Überkapitel zu viele. Auf seinen
+> Wunsch wurden **Kapitel 5 (Architektur) und 6 (Realisierung)** zu einem Kapitel zusammengelegt,
+> ebenso **Kapitel 7 (Evaluation) und 8 (Diskussion)**. Die Kapitelzuordnung vom 15.09.2026 unten
+> ist damit veraltet und durch diese Tabelle ersetzt:
+>
+> | Neu | Kapitel | Datei | Zielumfang |
+> |---|---|---|---|
+> | 01 | Einleitung | `chapters/01/einleitung.tex` | 4 Seiten |
+> | 02 | Grundlagen | `chapters/02/grundlagen.tex` | 8 Seiten |
+> | 03 | Vorgehen | `chapters/03/vorgehen.tex` | 3 Seiten |
+> | 04 | Ist-Analyse und Anforderungen | `chapters/04/ist_analyse_anforderungen.tex` | 7 Seiten |
+> | 05 | Architektur und Realisierung | `chapters/05/architektur_realisierung.tex` | 19 Seiten (7+12) |
+> | 06 | Evaluation und Diskussion | `chapters/06/evaluation_diskussion.tex` | 12 Seiten (8+4) |
+> | 07 | Zusammenfassung und Ausblick | `chapters/07/zusammenfassung.tex` | 3 Seiten |
+>
+> Summe weiterhin 56 Seiten Fließtext — es handelt sich um einen **reinen Strukturmerge**
+> (bewusst gegen den Betreuer-Vorschlag „auch inhaltlich straffen" entschieden): Inhalt,
+> Todo-Baupläne und Reihenfolge sind unverändert erhalten geblieben, nur die Kapitelgrenze fiel
+> weg. Die beiden ehemaligen Kapitel-Label (`ch:realisierung`, `ch:diskussion`) wurden dabei auf
+> den jeweils ersten Abschnitt des übernommenen Teils verschoben, alle betroffenen Querverweise
+> im Fließtext (`Kapitel~X` → `Abschnitt~X`) und einige Selbstverweise wurden entsprechend
+> angepasst. Anhang und KI-Erklärung liegen jetzt unter `chapters/07/` statt `chapters/09/`.
+> Datei-technisch relevant: `configuration/document-setup-digital.tex` und
+> `-print.tex` enthalten die eigentliche Include-Liste (nicht `chapters/toc.tex`, das nur die
+> Verzeichnisse für Inhalt/Abbildungen/Tabellen umfasst).
+>
+> Aufräumen (noch offen, bewusst nicht ungefragt gelöscht): Die alten Dateien
+> `chapters/05/architektur.tex`, `chapters/06/realisierung.tex`, `chapters/07/evaluation.tex`,
+> `chapters/08/diskussion.tex` sowie die alten `chapters/09/*`-Dateien liegen noch unverändert
+> auf der Platte, werden aber von keiner Include-Liste mehr referenziert. Ebenso noch vorhanden:
+> ältere Vor-Variante-D-Karteileichen wie `chapters/03/ist_analyse.tex`,
+> `chapters/04/anforderungen_architektur.tex`, `chapters/05/entwurf_realisierung.tex`,
+> `chapters/06/herausforderungen.tex`, `chapters/08/zusammenfassung.tex`.
+>
+> Offen: Kompilier-Test war in der genutzten Sandbox nicht möglich (dortiges TeX Live hat kein
+> `ngerman`-Sprachpaket installiert) — bitte einmal im gewohnten Editor/Overleaf durchkompilieren,
+> um das lokal zu bestätigen. Inhaltlich wurde stattdessen vollständig geprüft: 102 Labels,
+> 0 nicht auflösbare Querverweise, 0 doppelte Labels, Klammern in jeder Datei ausgeglichen, genau
+> ein `\chapter{}` und eine grüne Zielumfang-Box je Hauptkapiteldatei.
+
+> [!important] Stand 15.09.2026 — Variante D umgesetzt, komplette Kapitelstruktur neu (historisch, neun Kapitel — seit 16.09.2026 auf sieben reduziert, siehe oben)
 > Die am 09.09.2026 empfohlene [[Gliederungsvarianten|Variante D]] wurde vollständig umgesetzt.
 > Die Kapitelzuordnung unten ist entsprechend komplett neu geschrieben. Ältere Zuordnungen
 > (Kapitel 03 „Ist-Analyse", Kapitel 04 „Anforderungen & Architektur", Kapitel 05 „Entwurf &
@@ -68,7 +109,9 @@ aktualisiert: 2026-09-15
 
 ### 01 – Einleitung
 **LaTeX:** `chapters/01/einleitung.tex` — **Status: Vier von fünf Abschnitten ausformuliert,
-wird gerade final überarbeitet (Word-Arbeitsdokument seit 15.09.2026)**
+wird gerade final überarbeitet (Word-Arbeitsdokument seit 15.09.2026); am 16.09.2026 zusätzlich
+an die neue Sieben-Kapitel-Zählung angepasst („neun Kapitel" → „sieben Kapitel", Aufbau-der-Arbeit-
+Absätze für Architektur+Realisierung sowie Evaluation+Diskussion zusammengeführt)**
 
 - [x] 1.1 Unternehmenskontext: BayFu und Telefónica — Text vorhanden, wird gerade überarbeitet
   (u. a. Rolle des ChangeCoordinators ergänzen, Grafik GU→BayFu→TEF erwägen)
@@ -78,8 +121,7 @@ wird gerade final überarbeitet (Word-Arbeitsdokument seit 15.09.2026)**
 - [ ] 1.4 Abgrenzung des Betrachtungsgegenstands — **neu in Variante D, noch komplett leer**,
   vier zu klärende Punkte: Systemgrenze TEF-System, Eigenleistung vs. Übernahme, nachträglicher
   Scope-Zuwachs, Abgrenzung zur Incident-Erfassung
-- [x] 1.5 Aufbau der Arbeit — fertig (ein Absatz je Kapitel, laut Anforderung eigentlich ein
-  einziger Absatz gewünscht)
+- [x] 1.5 Aufbau der Arbeit — fertig, seit 16.09.2026 auf sieben statt neun Kapitel umgeschrieben
 
 **Kernaussage:** Warum braucht Bayfu ein CRQ-Management-System, und was ist Gegenstand dieser
 Arbeit?
@@ -109,73 +151,70 @@ Ablauf des bestehenden Prozesses, Akteure, Fehler bei der Erfassung, Medienbrüc
 Nachvollziehbarkeit, funktionale Anforderungen, nicht-funktionale Anforderungen,
 rollenbezogene Anforderungen, Priorisierung.
 
-### 05 – Architektur
-**LaTeX:** `chapters/05/architektur.tex` — **Status: Gliederung mit Todo-Bauplänen**,
-7 Abschnitte
+### 05 – Architektur und Realisierung
+**LaTeX:** `chapters/05/architektur_realisierung.tex` — **Status: Gliederung mit
+Todo-Bauplänen**, 12 Abschnitte (5 aus dem ehemaligen Kapitel „Architektur" + 7 aus dem
+ehemaligen Kapitel „Realisierung"), **am 16.09.2026 auf Wunsch des Betreuers aus zwei
+Überkapiteln zu einem zusammengelegt** — reiner Strukturmerge, kein Inhalt gekürzt
 
-Systemkontext, Schichtenschnitt, Benutzermodell, Datentrennung, Vorgangsidentität, Rollenmodell,
-Technologieauswahl (Techstack) — jeweils mit den erwogenen Alternativen.
-
-### 06 – Realisierung
-**LaTeX:** `chapters/06/realisierung.tex` — **Status: Gliederung mit sehr ausführlichen
-Todo-Bauplänen und Code-Platzhaltern**, 16 Abschnitte, größtes Kapitel (12 Seiten)
-
-Aufbau, Formularentwurf, Fehlervermeidung, Validierungsregeln, Vorgangsnummer, Regelbasis,
-Ausführungsmodell, Schnittstellenentwurf, interne Bearbeitung (Admin-/ChangeCoordinator-Panel),
-Authentifizierung, Berechtigungen, Prüfprotokoll, Betrieb. Drei **Tiefenschwerpunkte** laut
-Abstimmungsdokument: Backend/serverseitige Validierung, TEF-Automatisierung, Sicherheit — dort
-ausführlicher als in den übrigen Abschnitten.
+Architektur-Teil: Systemkontext, Schichtenschnitt, Benutzermodell, Datentrennung,
+Vorgangsidentität, Rollenmodell, Technologieauswahl (Techstack) — jeweils mit den erwogenen
+Alternativen. Realisierungs-Teil: Aufbau, Formularentwurf, Fehlervermeidung,
+Validierungsregeln, Vorgangsnummer, Regelbasis, Ausführungsmodell, Schnittstellenentwurf,
+interne Bearbeitung (Admin-/ChangeCoordinator-Panel), Authentifizierung, Berechtigungen,
+Prüfprotokoll, Betrieb. Drei **Tiefenschwerpunkte** laut Abstimmungsdokument: Backend/
+serverseitige Validierung, TEF-Automatisierung, Sicherheit — dort ausführlicher als in den
+übrigen Abschnitten. Größtes Kapitel (19 Seiten Zielumfang, 7+12).
 
 > [!success] Damit geschlossen (waren vorher echte Lücken in der alten Struktur)
 > ChangeCoordinator-Panel/TicketSpecialist-Rollenmodell und INC-Worker sind jetzt als reguläre
 > Abschnitte vorhanden, nicht mehr nur im Code umgesetzt und in der Gliederung fehlend.
 
-### 07 – Evaluation
-**LaTeX:** `chapters/07/evaluation.tex` — **Status: vor der Umstrukturierung teilweise
-ausformuliert** (~900 Wörter Methodik/Kennzahlen, Ergebnisse-Abschnitt bewusst leer bis
-Testdurchläufe stattfinden) — beim nächsten Bearbeiten gegenchecken, ob sich durch die neue
-Gliederung an der Textmenge etwas geändert hat
+### 06 – Evaluation und Diskussion
+**LaTeX:** `chapters/06/evaluation_diskussion.tex` — **Status: Evaluations-Teil vor der
+Umstrukturierung teilweise ausformuliert** (~900 Wörter Methodik/Kennzahnen, Ergebnisse-Abschnitt
+bewusst leer bis Testdurchläufe stattfinden), **Diskussions-Teil als Gliederung mit
+Todo-Bauplänen**, zusammen 9 Abschnitte (5 Evaluation + 4 Diskussion), **am 16.09.2026 auf
+Wunsch des Betreuers aus zwei Überkapiteln zu einem zusammengelegt** — reiner Strukturmerge, kein
+Inhalt gekürzt
 
-Kennzahlen, Testabdeckung, funktionale Abdeckung, Versuchsaufbau, Messverfahren, Effekt auf
-Datenqualität, Automatisierung und Prozesssicherheit, Limitationen.
+Evaluations-Teil: Kennzahlen, Testabdeckung, funktionale Abdeckung, Versuchsaufbau,
+Messverfahren, Effekt auf Datenqualität, Automatisierung und Prozesssicherheit, Limitationen.
+Diskussions-Teil: Beantwortung der sechs Forschungsfragen einzeln, Einordnung in den Stand der
+Technik, Übertragbarkeit auf vergleichbare Prozesse, kritische Reflexion der eigenen Lösung.
+Übernimmt zwei Inhalte aus dem aufgelösten früheren Kapitel „Herausforderungen": die Reflexion
+des Scope-Zuwachses und die exemplarische Fehleranalyse (JWT-Signaturschlüssel-Bug als
+Fallstudie).
 
 - [x] Methodik des Vergleichs alt vs. neu
 - [x] Kennzahlen (Bearbeitungszeit, Fehlerquote, Datenqualität, Kurzbefragung nach
   DIN EN ISO 9241-110)
 - [ ] Ergebnisse und Diskussion — wartet auf Datenerhebung mit Bayfu-Mitarbeitenden
 
-### 08 – Diskussion
-**LaTeX:** `chapters/08/diskussion.tex` — **Status: Gliederung mit Todo-Bauplänen**,
-4 Abschnitte, **komplett neues Kapitel in Variante D**
-
-Beantwortung der sechs Forschungsfragen einzeln, Einordnung in den Stand der Technik,
-Übertragbarkeit auf vergleichbare Prozesse, kritische Reflexion der eigenen Lösung. Übernimmt
-zwei Inhalte aus dem aufgelösten früheren Kapitel „Herausforderungen": die Reflexion des
-Scope-Zuwachses und die exemplarische Fehleranalyse (JWT-Signaturschlüssel-Bug als Fallstudie).
-
-### 09 – Zusammenfassung und Ausblick
-**LaTeX:** `chapters/09/zusammenfassung.tex` — **Status: Gliederung mit Todo-Bauplänen**,
-2 Abschnitte
+### 07 – Zusammenfassung und Ausblick
+**LaTeX:** `chapters/07/zusammenfassung.tex` — **Status: Gliederung mit Todo-Bauplänen**,
+2 Abschnitte (seit 16.09.2026 unter `chapters/07/` statt `chapters/09/`)
 
 Zusammenfassung der Ergebnisse (ohne die Forschungsfragen zu wiederholen, das passiert in
-Kapitel 08), Ausblick auf TEF-Echtanbindung, Streaming-Parser, objekt-level RBAC und weitere
+Kapitel 06), Ausblick auf TEF-Echtanbindung, Streaming-Parser, objekt-level RBAC und weitere
 offene Punkte aus `STATUS.md`.
 
 ### Anhang
-**LaTeX:** `chapters/09/anhang.tex` — unverändert, enthält u. a. Erhebungsinstrumente,
-Architekturentscheidungen im Volltext, Screenshots, Quellcode-Auszüge und die gemäß den Vorgaben
-der Hochschule Rosenheim verpflichtende Erklärung zur Verwendung generativer KI-Systeme.
+**LaTeX:** `chapters/07/anhang.tex` (seit 16.09.2026 unter `chapters/07/` statt `chapters/09/`)
+— unverändert, enthält u. a. Erhebungsinstrumente, Architekturentscheidungen im Volltext,
+Screenshots, Quellcode-Auszüge und die gemäß den Vorgaben der Hochschule Rosenheim
+verpflichtende Erklärung zur Verwendung generativer KI-Systeme (`chapters/07/ki_erklaerung.tex`).
 
 ---
 
-## Schreibreihenfolge (Empfehlung, aktualisiert 15.09.2026)
+## Schreibreihenfolge (Empfehlung, aktualisiert 16.09.2026)
 
 1. Ist-Analyse und Anforderungen (04) — bekannter Prozess, direkte Grundlage für alles Weitere
 2. Vorgehen (03) — kurz, direkt daraus ableitbar
 3. Grundlagen (02) — Theorie nachziehen, wenn klar ist, was gebraucht wird
-4. Architektur (05) und Realisierung (06) — das Herzstück, parallel zum [[ADR-zu-Kapitel]]
-5. Evaluation (07) — sobald Testdurchläufe mit Bayfu-Mitarbeitenden stattgefunden haben
-6. Diskussion (08) — beantwortet die Forschungsfragen, setzt Realisierung und Evaluation voraus
-7. Einleitung (01) — ursprünglich für ganz zuletzt vorgesehen; wird am 15.09.2026 als bewusste
+4. Architektur und Realisierung (05) — das Herzstück, parallel zum [[ADR-zu-Kapitel]]
+5. Evaluation und Diskussion (06) — Evaluations-Teil sobald Testdurchläufe mit
+   Bayfu-Mitarbeitenden stattgefunden haben, Diskussions-Teil setzt beides voraus
+6. Einleitung (01) — ursprünglich für ganz zuletzt vorgesehen; wird seit 15.09.2026 als bewusste
    Ausnahme vorgezogen, weil vier von fünf Abschnitten bereits stehen und nur 1.4 neu ist
-8. Zusammenfassung (09) — nach dem Rest
+7. Zusammenfassung und Ausblick (07) — nach dem Rest
