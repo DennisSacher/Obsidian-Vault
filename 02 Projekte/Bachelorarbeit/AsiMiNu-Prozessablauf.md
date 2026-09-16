@@ -52,12 +52,15 @@ Betreiber eine gesonderte Arbeitssicherheitsanfrage, den AsiMiNu-Request (auch
 MinuAsi-Request). Darin steht, wer ihn beauftragt hat, welche Arbeiten geplant sind und
 wann genau sie stattfinden sollen.
 
-**5. Weiterleitung und Prüfung durch die BayFu.** Bei Telefónica wird die Anfrage
-zuerst in das Ticketsystem eingelesen und dann über organisatorische Regelungen an die
-BayFu weitergeleitet. Die BayFu prüft sie auf Vollständigkeit und fachliche Richtigkeit
-und überträgt sie bei korrektem Befund in das interne Telefónica-System. Nach
-Genehmigung des Change Tickets gehen die Daten automatisch ans NOC, das die betroffenen
-Netzelemente zu den angegebenen Zeiten abschaltet und die Alarme unterdrückt.
+**5. Weiterleitung und Prüfung durch die BayFu.** Der GU schickt sein ausgefülltes
+Excel-Template per E-Mail an Telefónica. Telefónica speichert dabei nichts im eigenen
+Ticketsystem, sondern leitet die E-Mail unverändert an das zentrale CRQ-Postfach der
+BayFu weiter. Die BayFu prüft die Anfrage auf Vollständigkeit und fachliche Richtigkeit
+und trägt sie bei korrektem Befund manuell in das Ticketsystem von Telefónica (TSM) ein.
+Erst mit dieser Eintragung ist der Vorgang bei Telefónica überhaupt erfasst, erhält eine
+CRQ-Nummer und durchläuft das Genehmigungsverfahren. Nach der Genehmigung gehen die Daten
+automatisch ans NOC, das die betroffenen Netzelemente zu den angegebenen Zeiten abschaltet
+und die Alarme unterdrückt.
 
 **6. Manuelle Abschaltung beim eigenen Auftraggeber.** Für die eigentlichen Arbeiten
 muss der GU zusätzlich den Strom des betreffenden Netzelements vor Ort manuell
@@ -73,7 +76,14 @@ beteiligten NOC wieder ab, damit die Netzelemente über Nacht erneut aktiviert w
 Unterbleibt die Abmeldung, entsteht beim betroffenen NOC ein Incident, weil davon
 ausgegangen wird, dass sich noch jemand unangekündigt am Mast aufhält.
 
-> [!tip] Zwei Details, die beim Schreiben leicht verloren gehen
+> [!warning] Korrektur vom 16.09.2026
+> Im Quelldokument `AsiMiNu_Workflow_1.docx` steht, die Anfrage werde bei Telefónica
+> „ins Ticketing System geparst“. Das stimmt nicht. Telefónica leitet die E-Mail nur
+> weiter, die erste Erfassung in einem System erfolgt durch die BayFu im TSM. Dennis hat
+> das ausdrücklich richtiggestellt, bitte beim Abgleich mit dem Quelldokument nicht
+> zurückändern.
+
+> [!tip] Drei Details, die beim Schreiben leicht verloren gehen
 > Die AsiMiNu-Anfrage ist kein Regelschritt jeder Baumaßnahme, sondern an die Bedingung
 > aus Schritt 4 geknüpft. Und der Auftraggeber des GU ist in aller Regel ein anderer
 > Betreiber als Telefónica, der GU tritt Telefónica gegenüber also als Dritter ohne
@@ -99,7 +109,7 @@ manuellen Ist-Prozess gibt es ihn noch nicht als eigenständige Rolle.
 |---|---|
 | AsiMiNu / MinuAsi | Arbeitssicherheitsanfrage, mit der ein GU einen Netzbetreiber bittet, sein Netzelement für einen definierten Zeitraum abzuschalten. |
 | NOC | Network Operation Center; überwacht den Netzbetrieb und reagiert auf Alarme. |
-| TSM | Technical Site Management; internes System der Telefónica für Standort- und Arbeitszeitmeldungen. |
+| TSM | Technical Site Management; Ticketsystem der Telefónica. Hier trägt die BayFu die geprüften AsiMiNu-Anfragen ein, und hier melden direkt für Telefónica arbeitende GUs ihre Arbeitszeiten an. |
 | RAN | Radio Access Network; die aktive Sendetechnik am Standort. |
 | MNO | Mobile Network Operator; Mobilfunknetzbetreiber. |
 | CRQ | Change Request; so heißt der Vorgang im Telefónica-Zielsystem, inklusive offizieller CRQ-Nummer. |
