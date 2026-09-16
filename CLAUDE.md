@@ -27,6 +27,7 @@ Dennis Sacher, 25 Jahre alt, Informatik-Student (8. Semester, TH Rosenheim) und 
 - Dateinamen in normaler Schreibweise mit Leerzeichen und Großbuchstaben: Beschreibender Name.md
 - Neue Projekte bekommen eine einzelne .md Datei direkt unter 02 Projekte/. Einen Unterordner nur anlegen wenn das Projekt mehrere Dateien braucht.
 - Bereiche und Ressourcen sind immer Ordner, weil sie über die Zeit wachsen
+- 02 Projekte/Bachelorarbeit/Repo ist eine Junction (kein echter Ordner) auf das separate Bachelorarbeit-Repo. Nicht löschen, nicht verschieben, nicht als normalen Vault-Ordner behandeln. Er ist in der .gitignore ausgeschlossen, damit das Vault-Git das verschachtelte Repo nicht mit-trackt.
 - Abgeschlossene Projekte nach 06 Archiv/ verschieben. Nur auf Anweisung von Dennis, nicht eigenständig.
 - Wenn du Dateien erstellst oder verschiebst, erkläre kurz warum
 - Bevor du Dateien löschst oder überschreibst, frag nach
@@ -42,7 +43,7 @@ Dennis Sacher, 25 Jahre alt, Informatik-Student (8. Semester, TH Rosenheim) und 
 Wenn Dennis fragt "Was ist gerade aktuell?", "Wo war ich stehen geblieben?" oder ähnliches: Lies die letzten 2-3 Daily Notes in 05 Daily Notes/ und die aktiven Projekt-Dateien in 02 Projekte/ um ein Briefing zu geben.
 
 ### Bei Bachelorarbeit-Themen
-Wenn es um das Schreiben, Formatieren oder formale Anforderungen der Bachelorarbeit geht (Gliederung, Zitieren, wissenschaftlicher Sprachstil, Abgabe, KI-Nutzungsdokumentation): lies zuerst 04 Ressourcen/Wissenschaftliches Arbeiten/Wissenschaftliches Arbeiten.md und die darin verlinkten Notizen. Der eigentliche Fließtext der Arbeit wird nicht hier, sondern im separaten Repo unter C:\Users\DSacher\Desktop\Bachelorarbeit geschrieben (siehe dortige CLAUDE.md).
+Wenn es um das Schreiben, Formatieren oder formale Anforderungen der Bachelorarbeit geht (Gliederung, Zitieren, wissenschaftlicher Sprachstil, Abgabe, KI-Nutzungsdokumentation): lies zuerst 04 Ressourcen/Wissenschaftliches Arbeiten/Wissenschaftliches Arbeiten.md und die darin verlinkten Notizen. Der eigentliche Fließtext liegt unter 02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/ (LaTeX-Kapitel in chapters/). Dieser Repo-Ordner ist eine Windows-Junction auf das separate Bachelorarbeit-Repo unter C:\Users\DSacher\Desktop\Bachelorarbeit (eigenes Git-Repo mit Submodul zum AsiMinu-Quellcode, siehe dortige CLAUDE.md). Er ist bewusst in der Vault-.gitignore ausgeschlossen, Commits/Pushes für die Bachelorarbeit laufen weiterhin über das separate Repo, nicht über das Vault-Git. Bei **fachlichen** Aussagen über den AsiMiNu-Prozess selbst (Ablauf, Rollen, Begriffe, Entstehung des Projekts, Vergütungsmodell, Zukunftsvision) gelten 02 Projekte/Bachelorarbeit/AsiMiNu-Prozessablauf.md und AsiMiNu-Projekthintergrund.md als verbindliche Referenz, ausführlich im Repo unter thesis/Fachlicher-Kontext-AsiMiNu.md. Bei Widerspruch zu Exposé oder älteren Konzeptpapieren gelten diese Notizen. Beim Zitieren oder Faktenchecken von Literatur-Aussagen: prüfe zuerst gegen die Quellen-Notizen in 02 Projekte/Bachelorarbeit/Quellen/ (Metadaten, Kernzitate mit Seitenzahl, kritische Einordnung, verlinktes PDF unter 07 Anhänge/Quellen/), bevor du dich auf eigenes Wissen verlässt.
 
 ### Bei Session-Ende
 Wenn Dennis die Session beendet oder du merkst dass ein natürliches Ende erreicht ist, biete an:

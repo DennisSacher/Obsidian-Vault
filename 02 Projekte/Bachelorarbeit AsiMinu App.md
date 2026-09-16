@@ -26,11 +26,14 @@ Bachelorarbeit über das AsiMinu CRQ-Management-System, entwickelt bei Bayfu Gmb
 
 > [!info] Repo-Struktur
 > - **Code + Docs**: `AsiMiNu_Project_Intern` (Azure DevOps, geteilt mit Team)
-> - **Thesis-Text**: `Bachelorarbeit` (GitHub, privat) → `thesis/latex-projekt/`
+> - **Thesis-Text**: `Bachelorarbeit` (GitHub, privat) → `thesis/BA-Text/latex-projekt/`
+> - **Fachliche Referenz für den Thesis-Text**: `thesis/Fachlicher-Kontext-AsiMiNu.md` im selben Repo (ausführliche Fassung der beiden Notizen oben)
 > - **Projekt-Kontext für Claude**: immer über das Submodul `asiminu-projekt/` im Bachelorarbeit-Repo
 
 ## Navigation
 
+- [[AsiMiNu-Prozessablauf]] — **Verbindliche fachliche Referenz:** wie eine AsiMiNu-Anfrage wirklich abläuft, Rollen, Glossar
+- [[AsiMiNu-Projekthintergrund]] — **Verbindliche fachliche Referenz:** warum es das Projekt gibt, Vergütungsmodell, Zukunftsvision
 - [[Kapitelplanung]] — Welche Kapitel, was kommt wo, Fortschritt
 - [[ADR-zu-Kapitel]] — 52 ADRs × Kapitel-Mapping (welche sind schon drin?)
 - [[Offene-Fragen]] — Ungeklärtes für Betreuer oder Recherche

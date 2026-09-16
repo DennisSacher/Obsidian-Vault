@@ -16,6 +16,12 @@ erstellt: 2026-08-11
 - [ ] Wie viele ADRs sollen explizit diskutiert werden — alle 57 (Stand 09.09.2026, wächst laufend) oder eine Auswahl?
 - [ ] Soll das Sicherheitskonzept ein eigenes Kapitel bekommen oder in Realisierung integriert bleiben (aktueller Stand: integriert)?
 
+## Für die Bayfu (Freigaben, ergänzt 16.09.2026)
+
+- [ ] **Darf das Vergütungsmodell in der Arbeit stehen?** Einzelabrechnung vorher, jetzt Einmalzahlung plus Pauschale für Betrieb und Wartung. Die Arbeit wird von der Hochschule archiviert und in der Regel veröffentlicht. Betroffen ist Abschnitt 1.1 der Einleitung. Ohne Freigabe reicht die neutrale Aussage, dass die Bayfu künftig alle Anfragen zentral übernimmt und den Prozess im Gegenzug automatisiert. Details in [[AsiMiNu-Projekthintergrund]].
+- [ ] Ebenfalls freigabepflichtig, derzeit bewusst nicht im Text: dass die Bayfu insgesamt weniger einnimmt als zuvor, die Angabe zum verbleibenden Personalbedarf von ein bis zwei Personen, und dass andere Firmen sich über den Prozess dazuverdienen wollten.
+- [ ] **Was genau hat der Kollege beigetragen?** Wird für Abschnitt 1.4 (Abgrenzung) gebraucht, dort steht aktuell ein Platzhalter. Das Abstimmungsdokument verlangt die Angabe ausdrücklich, und ungenaue Angaben zur Eigenleistung sind bei einer Abschlussarbeit heikel.
+
 ## Für die Recherche
 
 - [ ] Welche wissenschaftlichen Quellen gibt es zu „Change Request Management in KMU"?
