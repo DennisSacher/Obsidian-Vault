@@ -80,6 +80,12 @@ aktualisiert: 2026-09-16
 > Offen: prüfen, ob `thesis/dashboard/` nach der Umbenennung noch korrekt rechnet, siehe
 > [[Offene-Fragen]].
 
+> [!tip] Schreibkonventionen liegen jetzt im Repo
+> Welcher Sachverhalt in welchem Kapitel erklärt wird, welche Begriffe durchgängig gelten und
+> welche Entscheidungen wann getroffen wurden, steht seit 16.09.2026 in
+> `thesis/Schreibstand.md`. Diese Notiz hier bleibt die qualitative Planungssicht,
+> `Schreibstand.md` ist die Arbeitsgrundlage beim Formulieren.
+
 > [!important] Stand 02.09.2026 — Gliederung erweitert, Status-Tracking ins Dashboard gewandert (historisch, bezieht sich auf die alte Struktur)
 > Die Kapitelgliederung wurde am 01.09.2026 deutlich erweitert (Commit `d6d1841`): Kapitel 05
 > hatte damals **7 statt 5 Sektionen**, die unten unter „Echte Lücken" genannten fehlenden
@@ -108,20 +114,28 @@ aktualisiert: 2026-09-16
 ## Kapitelstruktur
 
 ### 01 – Einleitung
-**LaTeX:** `chapters/01/einleitung.tex` — **Status: Vier von fünf Abschnitten ausformuliert,
-wird gerade final überarbeitet (Word-Arbeitsdokument seit 15.09.2026); am 16.09.2026 zusätzlich
-an die neue Sieben-Kapitel-Zählung angepasst („neun Kapitel" → „sieben Kapitel", Aufbau-der-Arbeit-
-Absätze für Architektur+Realisierung sowie Evaluation+Diskussion zusammengeführt)**
+**LaTeX:** `chapters/01/einleitung.tex` — **Status: alle fünf Abschnitte als Entwurf
+ausformuliert (16.09.2026), warten auf Dennis' Durchsicht**
 
-- [x] 1.1 Unternehmenskontext: BayFu und Telefónica — Text vorhanden, wird gerade überarbeitet
-  (u. a. Rolle des ChangeCoordinators ergänzen, Grafik GU→BayFu→TEF erwägen)
-- [x] 1.2 Ausgangslage und Problemstellung — fertig, umfangreichster Abschnitt, ggf. beim
-  Überarbeiten straffen
-- [x] 1.3 Zielsetzung und Forschungsfragen — fertig (Hauptforschungsfrage + 6 Unterfragen)
-- [ ] 1.4 Abgrenzung des Betrachtungsgegenstands — **neu in Variante D, noch komplett leer**,
-  vier zu klärende Punkte: Systemgrenze TEF-System, Eigenleistung vs. Übernahme, nachträglicher
-  Scope-Zuwachs, Abgrenzung zur Incident-Erfassung
-- [x] 1.5 Aufbau der Arbeit — fertig, seit 16.09.2026 auf sieben statt neun Kapitel umgeschrieben
+> [!warning] Der aktuelle Text steht noch nicht im LaTeX
+> Die fertige Fassung liegt in
+> `thesis/BA-Text/Arbeitsdokumente/Einleitung_Entwurf_v3_2026-09-16.docx`. Die `.tex` enthält
+> weiterhin die ältere Fassung mit leerem Abschnitt 1.4. Der Einbau erfolgt erst nach der
+> Durchsicht. Bis dahin ist die `.tex` **kein** gültiger Stand von Kapitel 1.
+
+- [x] 1.1 Unternehmenskontext: BayFu und Telefónica — komplett neu geschnitten, erklärt jetzt
+  den vollständigen fachlichen Ablauf einer AsiMiNu-Anfrage samt Rollen, Change-Request-Begriff
+  und Vergütungsmodell. Neu dazu **Abbildung 1.1** (`figures/abb-1-1-prozessuebersicht.*`)
+- [x] 1.2 Ausgangslage und Problemstellung — erklärt den Ablauf nicht mehr, sondern setzt beim
+  Ist-Zustand an; rund 340 Wörter kürzer als vorher
+- [x] 1.3 Zielsetzung und Forschungsfragen — Fragen unverändert im Wortlaut des Exposés,
+  nur der Einstiegsabsatz neu
+- [x] 1.4 Abgrenzung des Betrachtungsgegenstands — **erstmals ausformuliert**, ein Platzhalter
+  bleibt: der Beitrag des Kollegen
+- [x] 1.5 Aufbau der Arbeit — sieben statt neun Kapitel
+
+**Offen bei Kapitel 1:** keine einzige Literaturquelle in 1.1, Umfang bei knapp sechs statt
+vier Seiten, Freigabe der BayFu für das Vergütungsmodell. Siehe [[Offene-Fragen]].
 
 **Kernaussage:** Warum braucht Bayfu ein CRQ-Management-System, und was ist Gegenstand dieser
 Arbeit?

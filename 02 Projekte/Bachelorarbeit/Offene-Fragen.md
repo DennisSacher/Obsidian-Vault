@@ -22,8 +22,20 @@ erstellt: 2026-08-11
 - [ ] Ebenfalls freigabepflichtig, derzeit bewusst nicht im Text: dass die Bayfu insgesamt weniger einnimmt als zuvor, die Angabe zum verbleibenden Personalbedarf von ein bis zwei Personen, und dass andere Firmen sich über den Prozess dazuverdienen wollten.
 - [ ] **Was genau hat der Kollege beigetragen?** Wird für Abschnitt 1.4 (Abgrenzung) gebraucht, dort steht aktuell ein Platzhalter. Das Abstimmungsdokument verlangt die Angabe ausdrücklich, und ungenaue Angaben zur Eigenleistung sind bei einer Abschlussarbeit heikel.
 
+## Für den Betreuer (ergänzt 16.09.2026)
+
+- [ ] **Zielumfang für Kapitel 1.** Das Abstimmungsdokument sieht vier Seiten vor, der fertige
+  Entwurf liegt bei knapp sechs. Der fachliche Kontext (drei Parteien, zwei Schaltfälle,
+  firmeneigener Begriff) braucht diesen Platz. Argument: Was Kapitel 1 an Erklärung leistet,
+  muss Kapitel 4 nicht noch einmal leisten. Zwei Kürzungshebel sind vorbereitet, 1.5 auf einen
+  Absatz und der Absatz „Einordnung in die längerfristige Zielsetzung" in 1.2.
+
 ## Für die Recherche
 
+- [ ] **Dringend, weil schon für Abschnitt 1.1 gebraucht:** eine zitierfähige Quelle für die
+  Definition des Change Request (ITIL oder ein ITSM-Standardwerk). Abschnitt 1.1 hat aktuell
+  keinen einzigen Beleg, die TH-Vorgabe verlangt für die Einleitung aber Literaturbezug. Wird
+  in Kapitel 2 ohnehin gebraucht, siehe [[Zitate-und-Quellen]].
 - [ ] Welche wissenschaftlichen Quellen gibt es zu „Change Request Management in KMU"?
 - [ ] ITIL 4 vs. ITIL 3 — welche Version ist für den Bayfu-Kontext relevanter?
 - [ ] Gibt es Literatur zu Blazor WASM für Enterprise-Anwendungen?
@@ -35,6 +47,13 @@ erstellt: 2026-08-11
   - *Update 15.09.2026:* betrifft jetzt zusätzlich alle neun Kapitel, weil die komplette Umstellung auf Variante D sowie die Kurzfassungs- und Budget-Notizen mit KI-Unterstützung entstanden sind, und Kapitel 01 wird gerade weiter mit KI-Unterstützung überarbeitet (Word-Arbeitsdokument). Vor Abgabe entsprechend breiter gegenchecken, nicht nur Kapitel 01.
 - [ ] `thesis.bib` hat aktuell nur 20 Einträge, Richtgröße laut Vorgabe sind 25–30+ Quellen (~2 Zitate/Seite) — bei fortschreitendem Kapitelausbau im Blick behalten, nicht erst am Ende nachzählen.
   - *Update 02.09.2026:* Dashboard zeigt live 13 von 20 Bib-Einträgen bereits im Text referenziert — Zähler „X von 25–30+" steht ab jetzt automatisch im Dashboard, kein manuelles Nachzählen mehr nötig.
+
+## Nachzuziehen (ergänzt 16.09.2026)
+
+- [ ] **Quelldokument korrigieren.** In `AsiMiNu_Workflow_1.docx` steht, die Anfrage werde bei
+  Telefónica „ins Ticketing System geparst". Das stimmt nicht, Telefónica leitet die E-Mail nur
+  weiter. Die Referenzdokumente sind korrigiert und tragen einen Warnhinweis, das Word-Dokument
+  selbst noch nicht. Siehe [[AsiMiNu-Prozessablauf]].
 
 ## Technisch (noch ungeklärt)
 

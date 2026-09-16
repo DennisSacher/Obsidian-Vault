@@ -28,6 +28,7 @@ Bachelorarbeit über das AsiMinu CRQ-Management-System, entwickelt bei Bayfu Gmb
 > - **Code + Docs**: `AsiMiNu_Project_Intern` (Azure DevOps, geteilt mit Team)
 > - **Thesis-Text**: `Bachelorarbeit` (GitHub, privat) → `thesis/BA-Text/latex-projekt/`
 > - **Fachliche Referenz für den Thesis-Text**: `thesis/Fachlicher-Kontext-AsiMiNu.md` im selben Repo (ausführliche Fassung der beiden Notizen oben)
+> - **Aktueller Schreibstand und Konventionen**: `thesis/Schreibstand.md` im selben Repo (Gliederung, getroffene Entscheidungen, was wo erklärt wird, Status je Kapitel)
 > - **Projekt-Kontext für Claude**: immer über das Submodul `asiminu-projekt/` im Bachelorarbeit-Repo
 
 ## Navigation
@@ -39,6 +40,7 @@ Bachelorarbeit über das AsiMinu CRQ-Management-System, entwickelt bei Bayfu Gmb
 - [[Offene-Fragen]] — Ungeklärtes für Betreuer oder Recherche
 - [[Zitate-und-Quellen]] — Literatur-Notizen und BibTeX-Schlüssel
 - [[Ideen]] — Freier Gedankenstrom beim Coden
+- `02 Projekte/Bachelorarbeit/Arbeitsprotokolle/` — Tagesprotokolle je Schreib-Session
 - [[Gliederungsvarianten]] — Vier Strukturvarianten, Bewertung, Empfehlung für Variante D
 - [[Evaluationsplan]] — Kennzahlen, Versuchsaufbau und Zeitplan der Wirkungsmessung
 - [[Wissenschaftliches Arbeiten]] — Formale Vorgaben, Zitierregeln, Sprachstil der TH Rosenheim (immer vor dem Schreiben von Kapiteltext konsultieren)
