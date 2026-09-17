@@ -21,6 +21,7 @@ erstellt: 2026-08-11
 - [ ] **Darf das Vergütungsmodell in der Arbeit stehen?** Einzelabrechnung vorher, jetzt Einmalzahlung plus Pauschale für Betrieb und Wartung. Die Arbeit wird von der Hochschule archiviert und in der Regel veröffentlicht. Betroffen ist Abschnitt 1.1 der Einleitung. Ohne Freigabe reicht die neutrale Aussage, dass die Bayfu künftig alle Anfragen zentral übernimmt und den Prozess im Gegenzug automatisiert. Details in [[AsiMiNu-Projekthintergrund]].
 - [ ] Ebenfalls freigabepflichtig, derzeit bewusst nicht im Text: dass die Bayfu insgesamt weniger einnimmt als zuvor, die Angabe zum verbleibenden Personalbedarf von ein bis zwei Personen, und dass andere Firmen sich über den Prozess dazuverdienen wollten.
 - [ ] **Was genau hat der Kollege beigetragen?** Wird für Abschnitt 1.4 (Abgrenzung) gebraucht, dort steht aktuell ein Platzhalter. Das Abstimmungsdokument verlangt die Angabe ausdrücklich, und ungenaue Angaben zur Eigenleistung sind bei einer Abschlussarbeit heikel.
+  - *Präzisiert 17.09.2026:* Möglicherweise ist damit die AsiMinu-AdHoc-Übergangslösung gemeint, die du mit einem Kollegen gebaut hast. Zwei Teilfragen: Wurde daraus etwas in das AsiMinu-System übernommen, etwa der Excel-Parser oder das Datenmodell? Und hat derselbe Kollege zusätzlich am AsiMinu-System selbst mitgewirkt? Siehe [[AsiMiNu-Prozessablauf]].
 
 ## Für den Betreuer (ergänzt 16.09.2026)
 

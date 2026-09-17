@@ -89,6 +89,29 @@ ausgegangen wird, dass sich noch jemand unangekündigt am Mast aufhält.
 > Betreiber als Telefónica, der GU tritt Telefónica gegenüber also als Dritter ohne
 > Vertragsbeziehung auf.
 
+## Zwei Vorgangstypen, nur einer ist Gegenstand der Arbeit
+
+*(ergänzt 17.09.2026)*
+
+| | **Externe AsiMiNu-Anfrage** | **Interne Anfrage** |
+|---|---|---|
+| Auftraggeber des GU | ein anderer Netzbetreiber | Telefónica selbst |
+| Weg | E-Mail an Telefónica, Weiterleitung an die BayFu, Erfassung im TSM durch die BayFu | Vorgang steht bereits im TEF-Ticketsystem |
+| Rolle der BayFu | prüfen und erstmals im TSM erfassen | nur nachprüfen und genehmigen |
+| Werkzeug bisher | AsiMinu-AdHoc-Übergangslösung | Power-Apps-Anzeige-App |
+| Gegenstand der Bachelorarbeit | **ja** | **nein** |
+
+Die **AsiMinu-AdHoc-Lösung** hat Dennis mit einem Kollegen gebaut, bevor das eigentliche
+AsiMinu-System entstand, als bewusste Übergangslösung. Sie liest die E-Mails aus, parst die
+angehängten Excels, legt sie in einer internen Datenbank ab und zeigt alle Anfragen gebündelt
+mit Bearbeitungsstatus an. Die GUs erstellen ihre Anfragen aber weiterhin in Excel, eine
+Schnittstelle zur Telefónica gibt es nicht, und die Eintragung ins TSM bleibt manuell. Sie
+verbessert also die Übersicht über die Bearbeitung, nicht die Qualität der Daten.
+
+Die **Power-Apps-Anzeige-App** betrifft dagegen nur die internen Anfragen und ist für die
+Bachelorarbeit nicht relevant. Sie wird nur erwähnt, weil das Abstimmungsdokument in
+Abschnitt 1.4 ausdrücklich nach der Low-Code-Lösung fragt.
+
 ## Beteiligte Rollen
 
 | Rolle | Aufgabe im Prozess |

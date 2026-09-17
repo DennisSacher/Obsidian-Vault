@@ -9,14 +9,27 @@ deadline: 2026-11-09
 
 Bachelorarbeit über das AsiMinu CRQ-Management-System, entwickelt bei Bayfu GmbH, Kolbermoor. Abgabe: **09.11.2026**.
 
-> [!info] Vorgeschichte des Projekts (ergänzt 09.09.2026)
-> Die Arbeit ist die dritte Stufe einer Entwicklung. Zuerst gab es eine Anzeige-App auf Basis
-> von Microsoft Power Apps, die eingehende CRQ-Daten strukturiert darstellte, aber keine
-> Anbindung an das TEF-System hatte und an die Grenzen der Low-Code-Plattform stieß. Danach
-> entstand mit Kollegen die AsiMinu-AdHoc-Lösung, ein .NET-Worker, der E-Mails ausliest und die
-> Daten in WorkInfo, WorkInfoTable und WorkInfoSummary ablegt. Erst danach kam die
-> Bachelorarbeit. Diese Vorgeschichte ist das stärkste Argument für die Eigenentwicklung und
-> gehört in den Stand der Technik.
+> [!info] Vorgeschichte des Projekts (ergänzt 09.09.2026, korrigiert 17.09.2026)
+> **Wichtig: Es geht um zwei verschiedene Vorgangstypen, die lange verwechselt wurden.**
+>
+> Die **Power-Apps-Anzeige-App** betrifft die **internen** Anfragen, bei denen die Telefónica
+> selbst Auftraggeber des GU ist. Diese Vorgänge stehen bereits im TEF-Ticketsystem und werden
+> von der BayFu nur nachgeprüft und genehmigt. Sie ist damit **nicht** die Vorgängerlösung
+> deiner Bachelorarbeit und auch nicht Teil des Stands der Technik für dein Thema.
+>
+> Die einschlägige Vorgängerlösung ist die **AsiMinu-AdHoc-Lösung**, ein gemeinsam mit einem
+> Kollegen gebauter .NET-Worker, der die eingehenden E-Mails ausliest, die angehängten Excels
+> parst und die Daten in einer internen Datenbank (WorkInfo, WorkInfoTable, WorkInfoSummary)
+> ablegt, um sie gebündelt mit Bearbeitungsstatus auf einer internen Oberfläche anzuzeigen. Sie
+> war als Übergangslösung gedacht, bis das eigentliche AsiMinu-System fertig ist. Sie setzt
+> weiterhin auf dem Excel- und E-Mail-Eingang auf und hat keine TEF-Schnittstelle.
+>
+> **Das ist das stärkste Argument für die Eigenentwicklung:** Die Übergangslösung behandelt das
+> Symptom (fehlende Übersicht bei der Bearbeitung), nicht die Ursache (unstrukturierte
+> Erfassung an der Quelle). Gehört in den Stand der Technik.
+>
+> Ausführlich in [[AsiMiNu-Prozessablauf]] und im Repo unter
+> `thesis/Fachlicher-Kontext-AsiMiNu.md`, Abschnitt 2.9.
 >
 > Zwei weitere Klarstellungen: Das **Admin-Panel war von Anfang an Teil des Auftrags** (als
 > Admin-Service im ursprünglichen Umsetzungsplan), keine spätere Ergänzung. Und der ursprüngliche
