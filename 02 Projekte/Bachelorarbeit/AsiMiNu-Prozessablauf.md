@@ -101,12 +101,30 @@ ausgegangen wird, dass sich noch jemand unangekündigt am Mast aufhält.
 | Werkzeug bisher | AsiMinu-AdHoc-Übergangslösung | Power-Apps-Anzeige-App |
 | Gegenstand der Bachelorarbeit | **ja** | **nein** |
 
-Die **AsiMinu-AdHoc-Lösung** hat Dennis mit einem Kollegen gebaut, bevor das eigentliche
-AsiMinu-System entstand, als bewusste Übergangslösung. Sie liest die E-Mails aus, parst die
-angehängten Excels, legt sie in einer internen Datenbank ab und zeigt alle Anfragen gebündelt
-mit Bearbeitungsstatus an. Die GUs erstellen ihre Anfragen aber weiterhin in Excel, eine
-Schnittstelle zur Telefónica gibt es nicht, und die Eintragung ins TSM bleibt manuell. Sie
-verbessert also die Übersicht über die Bearbeitung, nicht die Qualität der Daten.
+Die **AsiMinu-AdHoc-Lösung** hat Dennis mit einem Kollegen als .NET-Anwendung gebaut, bevor das
+eigentliche AsiMinu-System entstand, als bewusste Übergangslösung. Ein Worker liest die E-Mails
+aus, parst die angehängten Excel-Tabellen in DTOs und legt sie nach fest definierten Regeln in
+einer internen Datenbank ab; alle Anfragen erscheinen gebündelt mit Bearbeitungsstatus auf einer
+internen Oberfläche. Eine dieser Regeln verwirft eine neue Anfrage, wenn sich die beantragten
+Zeiträume für einen Standort mit denen einer bereits gespeicherten Anfrage überschneiden.
+
+Die GUs erstellen ihre Anfragen aber weiterhin in Excel, eine Schnittstelle zur Telefónica gibt
+es nicht, und die Eintragung ins TSM bleibt manuell. Automatisiert ist also der Eingang, nicht
+die Prüfung und nicht die Übertragung. Die Lösung verbessert die Übersicht über die Bearbeitung,
+nicht die Qualität der Daten.
+
+> [!warning] Der dokumentierte Fehlerfall, Kernbeispiel der Arbeit
+> Für eine Korrektur verwendet der GU in aller Regel **dasselbe Excel-Template** wie zuvor, die
+> ursprünglich beantragten Zeiträume stehen also noch darin. Reduziert er die Anzahl der Tage,
+> werden die überflüssigen Ausfallzeilen von Excel nur **ausgeblendet**, nicht gelöscht. Der
+> Worker parst jedoch sämtliche Zeilen, auch die ausgeblendeten. Da die Erstanfrage schon in der
+> Datenbank liegt und die ausgeblendeten Zeilen genau deren Zeiträume tragen, greift die
+> Überschneidungsregel falsch-positiv und verwirft die gültige Korrektur, ohne dass der GU eine
+> nachvollziehbare Rückmeldung bekommt.
+>
+> **Die Pointe:** Die Regel ist sinnvoll, überschneidende Abschaltzeiträume gehören geprüft. Der
+> Fehler liegt in der Annahme, der ausgelesene Dateiinhalt entspreche dem, was der Absender
+> gemeint hat. Bei einem Freitextformat lässt sich das nicht absichern.
 
 Die **Power-Apps-Anzeige-App** betrifft dagegen nur die internen Anfragen und ist für die
 Bachelorarbeit nicht relevant. Sie wird nur erwähnt, weil das Abstimmungsdokument in
