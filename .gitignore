@@ -1,2 +1,5 @@
 _locks_leftover/
 _to_delete/
+
+# Junction zum Bachelorarbeit-Repo (verschachteltes Git-Repo mit Firmen-Submodul, nicht mit-tracken)
+02 Projekte/Bachelorarbeit/Repo
