@@ -101,10 +101,18 @@ Deckblatt → Eigenständigkeitserklärung → (ggf. Sperrvermerk) → Kurzfassu
 
 ## Gliederung — formale Regeln
 
+> [!important] Kein verbindlicher Seitenumfang (geprüft am 09.09.2026)
+> Keines der drei Fakultätsdokumente nennt eine Ober- oder Untergrenze für den Umfang der
+> Arbeit, weder "richtlinien_bama", noch "Informationen zur Bachelorarbeit", noch die
+> Seminarfolien. Die einzige Umfangsangabe in den Referenzdokumenten, 2 bis 5 Seiten, betrifft
+> das Exposé. Vorgegeben sind nur Proportionsregeln: Kapitel müssen zueinander in sinnvoller
+> Beziehung stehen, der Schluss soll 3 bis 4 Seiten umfassen. Der Zielumfang der eigenen Arbeit
+> ist damit frei wählbar und sollte mit dem Erstprüfer abgestimmt werden.
+
 - Max. **3 numerische Stufen** (1, 1.1, 1.1.1 — kein Punkt am Ende), Anhänge mit A, B, C… nummeriert
 - Jede Gliederungsstufe braucht **mindestens 2 Unterpunkte**, sonst ist sie überflüssig (also 1, 1.1, 1.2, 2 — nicht 1, 1.1, 2)
 - Inhaltsverzeichnis automatisch aus der Gliederung erzeugen
-- **Umfang pro Gliederungspunkt**: minimal 0,5 Seiten, maximal 3 Seiten (sonst: Punkt zu knapp behandelt bzw. Untergliederung nötig)
+- **Umfang pro Gliederungspunkt**: minimal 0,5 Seiten, maximal 3 Seiten (sonst: Punkt zu knapp behandelt bzw. Untergliederung nötig). **Achtung, Quelle beachten**: Diese Regel steht nur in den Seminarfolien ("Seminar zur Bachelorarbeit" SoSe 2026, Folie 70) und ist damit eine Empfehlung. Verbindlich aus "richtlinien_bama" sind nur die maximal drei numerischen Stufen und die mindestens zwei Unterpunkte je Stufe.
 - Überschriften: kurz, substantiviert, keine ganzen Sätze (Beispiel gut: „1.1 Änderungen im Systemplanungsprozess bei verteilten Architekturen" statt eines ausformulierten Satzes)
 
 ## Absatz-, Schrift- und Layoutformat
