@@ -10,7 +10,7 @@
   "providerState": {
     "providerSessionId": "a97125d2-3596-4d0b-b4f9-e8376aea842d"
   },
-  "currentNote": "CLAUDE.md",
+  "linkedContentPath": "CLAUDE.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 2,

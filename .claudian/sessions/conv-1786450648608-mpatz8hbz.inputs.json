@@ -43,6 +43,20 @@
       "contentDigest": "a2959bb3caffd594bbe4f7768c57a399647b5d85e5fc018914a59d9d1ecc7d51",
       "providerUserMessageId": "ba0d35bd-2749-4e1a-b8dc-873b6b08cafe",
       "providerAssistantMessageId": "4d2c3e1d-18c4-4e0d-b2f1-90a997794e64"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788336064934-euks7q7",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1788336064913-mp9ao91",
+      "timestamp": 1788336064914,
+      "rawDisplayText": "wie nutze ich obsidian?",
+      "canonicalText": "wie nutze ich obsidian?",
+      "images": [],
+      "contentDigest": "39e26580fcfe5f06b780ce4c7ccea604f0d513460425cec0957564b57f6fb7f6",
+      "providerUserMessageId": "7ee38fb8-609c-4604-a045-7777172ae245",
+      "providerAssistantMessageId": "e0f6e10e-2d12-41be-894e-20d0f6bedb91"
     }
   ]
 }
