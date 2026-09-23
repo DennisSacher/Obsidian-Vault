@@ -240,7 +240,7 @@ verpflichtende Erklärung zur Verwendung generativer KI-Systeme (`chapters/07/ki
 | Nr. | Kapitel | Status | Anmerkung |
 |---|---|---|---|
 | 01 | Einleitung | ✅ vollständig ausformuliert | ~2.960 Wörter / ca. 6,6 Seiten; 5 `\todo`-Marker für offene Punkte (Quellen 1.1, BayFu-Freigabe, Anfragevolumen, Kollegenbeitrag) |
-| 02 | Grundlagen | 🟡 fast vollständig | Alle 11 Unterabschnitte bis auf **2.4.1 (Schichtung/Clean Architecture)** ausformuliert; 2.4.1 ist gelber Platzhalter, blockiert auf Zugriff aufs Martin-Buch über TH-Bibliothek/VPN |
+| 02 | Grundlagen | ✅ vollständig | Alle 11 Unterabschnitte ausformuliert. Abschnitt 2.4.1 (Schichtung/Clean Architecture) geschrieben mit Lano & Yassipour Tehrani 2023 (Springer) als Hauptquelle. |
 | 03 | Vorgehen | ✅ vollständig ausformuliert | Neu am 22.09.2026: alle 3 Abschnitte fertig (Forschungslogik, Erhebung Ist-Zustand, ADR-Entscheidungsverfahren) |
 | 04 | Ist-Analyse und Anforderungen | 🔲 Todo-Baupläne | Nächstes Schreibziel, sehr ausführliche Baupläne vorhanden (249 Zeilen Struktur) |
 | 05 | Architektur und Realisierung | 🔲 Todo-Baupläne | 532 Zeilen Struktur, inkl. Variante-D-Darstellungsprinzip und Verweissystem |

@@ -37,7 +37,7 @@ erstellt: 2026-08-11
 - [ ] Welche wissenschaftlichen Quellen gibt es zu „Change Request Management in KMU"?
 - [ ] ITIL 4 vs. ITIL 3 — welche Version ist für den Bayfu-Kontext relevanter?
 - [ ] Gibt es Literatur zu Blazor WASM für Enterprise-Anwendungen?
-- [ ] **Clean Architecture Quelle (offen seit 18.09.2026):** Martin 2017 (Prentice Hall) ist zitierfähig aber nicht frei. Blogpost ist frei aber nicht zitierfähig (laut TH-Richtlinien). TH-Bibliothek/VPN prüfen (O'Reilly Safari). Abschnitt 2.4.1 ist bis dahin ein gelber Platzhalter.
+- [x] **Clean Architecture Quelle (erledigt 23.09.2026):** Lano & Yassipour Tehrani 2023 (Springer UTiCS, ISBN 978-3-031-44142-4) als Hauptquelle für Abschnitt 2.4.1 gewählt. TH Rosenheim hat Volltext-Zugriff. Martin 2017 wird nicht mehr benötigt.
 
 ## Formale Compliance (aus Schreibrichtlinien-Abgleich 12.08.2026)
 
