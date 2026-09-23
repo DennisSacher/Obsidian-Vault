@@ -33,13 +33,11 @@ erstellt: 2026-08-11
 
 ## Für die Recherche
 
-- [ ] **Dringend, weil schon für Abschnitt 1.1 gebraucht:** eine zitierfähige Quelle für die
-  Definition des Change Request (ITIL oder ein ITSM-Standardwerk). Abschnitt 1.1 hat aktuell
-  keinen einzigen Beleg, die TH-Vorgabe verlangt für die Einleitung aber Literaturbezug. Wird
-  in Kapitel 2 ohnehin gebraucht, siehe [[Zitate-und-Quellen]].
+- [x] **Erledigt 18.09.2026:** Quelle für CRQ-Definition → `ISO/IEC/IEEE 24765:2017` (`\cite{ISO24765}`), frei bei IEEE Xplore. Für ITSM/ITIL → Serrano/Faustino 2021 (`\cite{SerranoFaustino2021}`), Open Access. Beide in `thesis.bib` eingetragen, in Kapitel 2.1.1 und 1.1 verwendet. Siehe [[Zitate-und-Quellen]].
 - [ ] Welche wissenschaftlichen Quellen gibt es zu „Change Request Management in KMU"?
 - [ ] ITIL 4 vs. ITIL 3 — welche Version ist für den Bayfu-Kontext relevanter?
 - [ ] Gibt es Literatur zu Blazor WASM für Enterprise-Anwendungen?
+- [ ] **Clean Architecture Quelle (offen seit 18.09.2026):** Martin 2017 (Prentice Hall) ist zitierfähig aber nicht frei. Blogpost ist frei aber nicht zitierfähig (laut TH-Richtlinien). TH-Bibliothek/VPN prüfen (O'Reilly Safari). Abschnitt 2.4.1 ist bis dahin ein gelber Platzhalter.
 
 ## Formale Compliance (aus Schreibrichtlinien-Abgleich 12.08.2026)
 

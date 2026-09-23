@@ -17,16 +17,11 @@ Ausführliche Quellen-Notizen (Metadaten, Zitate, Bewertung, PDF) liegen einzeln
 
 ## Themenbereich: Change Request Management / ITIL
 
-*(noch leer)*
+> [!success] Stand 18.09.2026 — Lücke geschlossen
+> Die beiden fehlenden Quellen wurden am 18.09.2026 recherchiert und in `thesis.bib` eingetragen. Beide sind frei zugänglich.
 
-> [!warning] Diese Lücke ist seit 16.09.2026 dringend
-> Ursprünglich für Kapitel 02 und 03 vorgemerkt, inzwischen aber schon in **Abschnitt 1.1**
-> nötig: Dort wird der Change Request definiert („formalisierter Antrag, eine geplante Änderung
-> an einem produktiven System in einem genau bestimmten Zeitfenster durchführen zu dürfen"),
-> und diese Definition braucht einen Beleg. Abschnitt 1.1 hat derzeit keine einzige Quelle,
-> obwohl die TH-Vorgabe für die Einleitung ausdrücklich Literaturbezug verlangt.
-> Gesucht: ein ITIL- oder ITSM-Standardwerk mit einer zitierfähigen Definition von Change und
-> Change Request.
+- **ISO/IEC/IEEE 24765:2017** — `\cite{ISO24765}` — Glossar-Standard für Systems- und Software-Engineering; liefert die Definition von „change request" als formal eingereichter Änderungsantrag, der mit seinen Statusinformationen über den gesamten Lebenszyklus nachverfolgt wird. Frei bei IEEE Xplore (Open Standard). Verwendet in: Abschnitt 1.1, Kapitel 2.1.1.
+- **Serrano, N. / Faustino, J. (2021)** — *IT Service Management Software Tools*, MDPI *Information* 12(3), Artikel 111. DOI: 10.3390/info12030111 — `\cite{SerranoFaustino2021}` — Open-Access-Übersichtsartikel zu ITSM und ITIL als meistverbreitetem Framework; dient als Definitionsquelle für ITSM und zur Beschreibung wiederkehrender Herausforderungen bei ITSM-Einführungen. Verwendet in: Kapitel 2.1.1 und 2.5.2.
 
 ## Themenbereich: Architektur (Clean Architecture, DDD)
 
@@ -34,7 +29,7 @@ Ausführliche Quellen-Notizen (Metadaten, Zitate, Bewertung, PDF) liegen einzeln
 
 ## Themenbereich: Web-Technologien (Blazor, ASP.NET Core)
 
-*(noch leer — siehe auch Microsoft-Quelle unter "Sicherheit" unten, thematisch doppelt relevant)*
+- **OMG DMN 1.4 (2023)** — `\cite{OMGDMN2023}` — Object Management Group, Decision Model and Notation Standard Version 1.4; frei bei omg.org. Verwendet in: Kapitel 2.2.1.
 
 ## Themenbereich: Cloud / Azure
 
@@ -42,6 +37,14 @@ Ausführliche Quellen-Notizen (Metadaten, Zitate, Bewertung, PDF) liegen einzeln
 
 ## Themenbereich: Sicherheit (JWT, TOTP, DSGVO)
 
+> Neu ergänzt 18.09.2026
+
+- **RFC 6238 (TOTP)** — `\cite{RFC6238}` — IETF-Standard für zeitbasierte Einmalpasswörter; frei bei datatracker.ietf.org. Verwendet in: Kapitel 2.4.2.
+- **RFC 7519 (JWT)** — `\cite{RFC7519}` — IETF-Standard für JSON Web Tokens; frei bei datatracker.ietf.org. Verwendet in: Kapitel 2.4.2.
+- **NIST SP 800-63B** — `\cite{NIST80063B2025}` — NIST-Richtlinie zu digitaler Identität / Authentifizierung; frei bei nvlpubs.nist.gov. Verwendet in: Kapitel 2.4.2.
+- **Sandhu et al. (1996)** — `\cite{Sandhu1996}` — RBAC-Grundlagenarbeit. Verwendet in: Kapitel 2.4.2.
+- **Saltzer & Schroeder (1975)** — `\cite{SaltzerSchroeder1975}` — Prinzip der geringsten Rechte. Verwendet in: Kapitel 2.4.2.
+- **NIST SP 800-162** — `\cite{NIST800162}` — ABAC-Richtlinie. Verwendet in: Kapitel 2.4.2.
 - [[Gadatsch, Mangiapane 2017 - IT-Sicherheit]] — Gadatsch, Mangiapane 2017, `\cite{GadatschMangiapane2017}` (Autor-Vorname in thesis.bib korrigiert, siehe Notiz)
 - [[Microsoft Learn 2026 - ASP.NET Core Sicherheit]] — Microsoft Corporation 2026, `\cite{MicrosoftAspNetSecurity2024}`
 

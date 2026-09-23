@@ -232,3 +232,20 @@ verpflichtende Erklärung zur Verwendung generativer KI-Systeme (`chapters/07/ki
 6. Einleitung (01) — ursprünglich für ganz zuletzt vorgesehen; wird seit 15.09.2026 als bewusste
    Ausnahme vorgezogen, weil vier von fünf Abschnitten bereits stehen und nur 1.4 neu ist
 7. Zusammenfassung und Ausblick (07) — nach dem Rest
+
+---
+
+> [!success] Stand 23.09.2026 — Tatsächlicher Schreibstand (aus LaTeX-Dateien ermittelt)
+
+| Nr. | Kapitel | Status | Anmerkung |
+|---|---|---|---|
+| 01 | Einleitung | ✅ vollständig ausformuliert | ~2.960 Wörter / ca. 6,6 Seiten; 5 `\todo`-Marker für offene Punkte (Quellen 1.1, BayFu-Freigabe, Anfragevolumen, Kollegenbeitrag) |
+| 02 | Grundlagen | 🟡 fast vollständig | Alle 11 Unterabschnitte bis auf **2.4.1 (Schichtung/Clean Architecture)** ausformuliert; 2.4.1 ist gelber Platzhalter, blockiert auf Zugriff aufs Martin-Buch über TH-Bibliothek/VPN |
+| 03 | Vorgehen | ✅ vollständig ausformuliert | Neu am 22.09.2026: alle 3 Abschnitte fertig (Forschungslogik, Erhebung Ist-Zustand, ADR-Entscheidungsverfahren) |
+| 04 | Ist-Analyse und Anforderungen | 🔲 Todo-Baupläne | Nächstes Schreibziel, sehr ausführliche Baupläne vorhanden (249 Zeilen Struktur) |
+| 05 | Architektur und Realisierung | 🔲 Todo-Baupläne | 532 Zeilen Struktur, inkl. Variante-D-Darstellungsprinzip und Verweissystem |
+| 06 | Evaluation und Diskussion | 🔲 Konzept vorhanden, Daten fehlen | Evaluationskonzept mit Kennzahlen fertig (~900 Wörter); Datenerhebung noch nicht begonnen |
+| 07 | Zusammenfassung und Ausblick | 🔲 Todo-Baupläne | 63 Zeilen, nur Gliederung |
+
+**Hinweis:** `Schreibstand.md` im Repo ist für Kapitel 02 und 03 nicht mehr aktuell — ist nach dem Schreiben vom 22.09.2026 nachgezogen worden.
+
