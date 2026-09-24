@@ -65,6 +65,24 @@ Weitere stilistische Detailregeln (aus der Fakultäts-Richtlinie):
 - Bei Klammereinschüben keine Leerzeichen: `(Test)`, nicht `( Test )`
 - Bindestriche (z. B. „Software-Engineering") und Gedankenstriche unterscheiden: Bindestrich ohne Leerzeichen, Gedankenstrich im Deutschen mit Leerzeichen davor/danach
 
+## Bezug zu Dennis' persönlichem Schreibstil
+
+Der persönliche Schreibstil (siehe [[00 Kontext/Schreibstil.md]]) ist für Business-/Alltagstexte gedacht und lässt sich **nicht direkt** auf die Bachelorarbeit übertragen. Kurzer Abgleich:
+
+**Nicht übertragbar:**
+- Duzen ("Du") → in der BA kein direkter Leser-Bezug
+- Emojis, häufige Ausrufezeichen → unpassend, wirkt umgangssprachlich
+- Anglizismen selbstverständlich nutzen → hier gilt "sparsam", nur wenn kein deutsches Äquivalent existiert
+- Ich-Form ("ich denke", "meiner Meinung nach") → unüblich, stattdessen z. B. "daraus lässt sich schließen"
+- Wertende/werbliche Wörter ("natürlich", "perfekte Lösung") → neutral formulieren
+
+**Übertragbar:**
+- Gemischter, natürlicher Satzbau (Abwechslung kurz/lang, keine Schachtelsätze) → deckt sich mit der Vorgabe "kurz und prägnant"
+- Keine Gedankenstriche als Satztrenner → passt zur sauberen Unterscheidung Bindestrich/Gedankenstrich
+- Direkte, unkomplizierte Ausdrucksweise → vermeidet die in der Vorgabe kritisierte "abgehobene" Sprache
+
+**Praxis-Tipp:** Rohentwurf ruhig im eigenen natürlichen Stil schreiben (hilft, den Gedankengang klar zu bekommen), danach gezielt überarbeiten: Ich-Form raus, Wertungen raus, Anglizismen prüfen, Umgangssprache formalisieren. Formulierungshilfen: [[Formulierungshilfen]].
+
 ## Argumentationsmuster
 
 Vier Grundmuster, um eine These zu begründen und zu einer Schlussfolgerung zu kommen:

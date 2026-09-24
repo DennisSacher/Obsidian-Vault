@@ -55,6 +55,10 @@ Bachelorarbeit über das AsiMinu CRQ-Management-System, entwickelt bei Bayfu Gmb
 - [[Ideen]] — Freier Gedankenstrom beim Coden
 - `02 Projekte/Bachelorarbeit/Arbeitsprotokolle/` — Tagesprotokolle je Schreib-Session
 - [[Gliederungsvarianten]] — Vier Strukturvarianten, Bewertung, Empfehlung für Variante D
+- [[Gliederung Variante D - Abschnittsinhalte]] — Was in jeden Abschnitt gehört, mit Seitenbudget (aktuelle 7-Kapitel-Nummerierung)
+- [[Forschungsfragen]] — Hauptfrage, FF1 bis FF6, wo sie beantwortet werden, Exposé gegen Umsetzung
+- [[Darstellungsmuster Entwurfsentscheidungen]] — Schreibregel für Kapitel 5: Problem, Alternativen, Lösung, Begründung, Umsetzung
+- [[Seitenumfang und Proportionen]] — Warum 55 bis 60 Seiten, was kurz bleibt
 - [[Evaluationsplan]] — Kennzahlen, Versuchsaufbau und Zeitplan der Wirkungsmessung
 - [[Wissenschaftliches Arbeiten]] — Formale Vorgaben, Zitierregeln, Sprachstil der TH Rosenheim (immer vor dem Schreiben von Kapiteltext konsultieren)
 
