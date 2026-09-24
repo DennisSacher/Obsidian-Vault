@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Projekte/Bachelorarbeit AsiMinu App.md",
+                "file": "00 Kontext/Schreibstil.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bachelorarbeit AsiMinu App"
+              "title": "Schreibstil"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 720.1666870117188
+    "width": 455.5
   },
   "right": {
     "id": "c20a7aaa67a5b896",
@@ -175,13 +175,34 @@
               "icon": "lucide-file",
               "title": "Neuer Tab"
             }
+          },
+          {
+            "id": "20d11796f50bc6a9",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {
+                "tabWorkspace": {
+                  "version": 1,
+                  "openTabs": [
+                    {
+                      "tabId": "tab-1790147039074-za1sns3",
+                      "conversationId": "conv-1790147072454-iy7g7eni0"
+                    }
+                  ],
+                  "activeTabId": "tab-1790147039074-za1sns3"
+                }
+              },
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 624.5
+    "width": 874.833251953125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,30 +217,44 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "daca79735146a0f1",
+  "active": "20d11796f50bc6a9",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "05 Daily Notes/2026-09-09.md",
-    "04 Ressourcen/IT-Wissen/Git .gitignore mit Trailing-Slash matcht keine Windows-Junctions.md",
+    "05 Daily Notes/2026-09-24.md.tmp.26724.260c899b255f",
+    "05 Daily Notes/2026-09-24.md",
+    "02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-09-24.md",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.synctex(busy)",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.blg",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.ilg",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.ind",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.synctex.gz",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.lot",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.lof",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.toc",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.idx",
+    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.fls",
+    "02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-09-23.md",
+    "02 Projekte/Bachelorarbeit/Quellen/Hildebrand2025 - Daten- und Informationsqualität (6. Aufl., Springer Vieweg).md",
+    "02 Projekte/Bachelorarbeit/Quellen/Gadatsch2017 - IT-Sicherheit (Springer Vieweg essentials).md",
+    "02 Projekte/Bachelorarbeit/Quellen/Weske2024 - Business Process Management (4. Aufl., Springer).md",
+    "02 Projekte/Bachelorarbeit/Quellen/Weske 2024 - Business Process Management.md",
+    "02 Projekte/Bachelorarbeit/Quellen/_Vorlage Quelle.md",
+    "02 Projekte/Bachelorarbeit/Quellen/Loehr2025 - IT-Sicherheit (Lang Löhr, Hanser).md",
+    "02 Projekte/Bachelorarbeit/Quellen/Newman 2015 - Building Microservices.md",
     "02 Projekte/Bachelorarbeit/Quellen/Batini, Scannapieco 2016 - Data and Information Quality.md",
     "02 Projekte/Bachelorarbeit/Quellen/Dumas et al. 2018 - Fundamentals of BPM.md",
-    "02 Projekte/Bachelorarbeit/Quellen/_Vorlage Quelle.md",
-    "03 Bereiche/Werkstudent Bayfu/Werkstudent Bayfu.md",
-    "02 Projekte/Bachelorarbeit/Quellen/Microsoft Learn 2026 - ASP.NET Core Sicherheit.md",
+    "02 Projekte/Bachelorarbeit/Quellen/Lang, Löhr (Hrsg.) 2025 - IT-Sicherheit.md",
+    "02 Projekte/Bachelorarbeit/Quellen/Lano, Yassipour Tehrani 2023 - Introduction to Software Architecture.md",
+    "02 Projekte/Bachelorarbeit/Seitenumfang und Proportionen.md",
+    "02 Projekte/Bachelorarbeit/Darstellungsmuster Entwurfsentscheidungen.md",
+    "02 Projekte/Bachelorarbeit/Gliederung Variante D - Abschnittsinhalte.md",
+    "02 Projekte/Bachelorarbeit/Forschungsfragen.md",
     "02 Projekte/Bachelorarbeit/Quellen/van der Aalst et al. 2018 - RPA Editorial.md",
+    "02 Projekte/Bachelorarbeit/Quellen/Serrano Faustino 2021 - IT Service Management Software Tools.md",
+    "02 Projekte/Bachelorarbeit/Quellen/ISO 24765 2017 - Systems and Software Engineering Vocabulary.md",
+    "02 Projekte/Bachelorarbeit/Quellen/Microsoft Learn 2026 - ASP.NET Core Sicherheit.md",
     "02 Projekte/Bachelorarbeit/Quellen/Langmann, Turi 2021 - RPA.md",
     "02 Projekte/Bachelorarbeit/Quellen/Gadatsch, Mangiapane 2017 - IT-Sicherheit.md",
-    "02 Projekte/Bachelorarbeit/Quellen/Newman 2015 - Building Microservices.md",
-    "07 Anhänge/Quellen/Robotic Process Automation.pdf",
-    "07 Anhänge/Quellen/Robotic Process Automation(RPA) - Digitalisierung und Automatisierung von Prozessen.pdf",
-    "07 Anhänge/Quellen/IT-Sicherheit_Digitalisierung der Geschäftsprozesse und Informationssicherheit.pdf",
-    "07 Anhänge/Quellen/Fundamentals of Buisness Process Management.pdf",
-    "07 Anhänge/Quellen/Data and Information Quality.pdf",
-    "07 Anhänge/Quellen/Building Microservices - Designing Fine-Grained Systems.pdf",
-    "07 Anhänge/Quellen",
-    "02 Projekte/Bachelorarbeit/Quellen",
-    "sedj2YHgl",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/frontend/AsiMinu.GuPanel/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+    "02 Projekte/Bachelorarbeit AsiMinu App.md",
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/backend/AsiMinu.Api/Reporting/Bilder/logo_klein.png",
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/backend/AsiMinu.Api/Reporting/Bilder/logo.png",
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/backend/AsiMinu.Api/Reporting/Bilder/kompass.png",
@@ -229,20 +264,6 @@
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/backend/AsiMinu.Infrastructure/EmailAssets/AsiMinu-App_FullPixel.png",
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/admin-panel/AsiMinu.AdminPanel/wwwroot/favicon.png",
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/03-diagramme/c4/use-case/diagramm.svg",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/03-diagramme/c4/use-case/diagramm.png",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/backend/AsiMinu.Tests/README.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/SESSION_2026-05-06.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-09-01-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-08-12-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-08-11-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-08-10-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-08-07-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-08-06-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-08-05-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-08-04-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-07-31-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-07-30-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-07-29-tagesprotokoll.md",
-    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/Bachelorarbeit/arbeitsprotokolle/2026-07-28-tagesprotokoll.md"
+    "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/docs/03-diagramme/c4/use-case/diagramm.png"
   ]
 }
