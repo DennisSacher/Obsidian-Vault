@@ -22,20 +22,20 @@ Gehört zu [[Claude Code & KI-Tools]].
 
 ## Verzeichnis
 
-| Name | Beschreibung | Herkunft | Standard-Ziel |
-|---|---|---|---|
-| skills-verwalten | Bibliothek verwalten: installieren, Rechner einrichten, Änderungen zurückspielen | eigen | global |
-| grill-me | Löchert mit Fragen zu einem Plan, bis ein gemeinsames Verständnis steht | eigen | global |
-| excalidraw-diagram | Excalidraw-Diagramme, die visuell argumentieren, inkl. PNG-Rendering | angepasst von https://github.com/coleam00/excalidraw-diagram-skill | global |
-| defuddle | Webseiten als sauberes Markdown extrahieren | vermutlich https://github.com/kepano/obsidian-skills (nicht verifiziert) | Vault |
-| json-canvas | Obsidian-Canvas-Dateien (.canvas) erstellen und bearbeiten | vermutlich https://github.com/kepano/obsidian-skills (nicht verifiziert) | Vault |
-| obsidian-bases | Obsidian Bases (.base) mit Views, Filtern, Formeln | vermutlich https://github.com/kepano/obsidian-skills (nicht verifiziert) | Vault |
-| obsidian-cli | Vault über die Obsidian-CLI steuern | vermutlich https://github.com/kepano/obsidian-skills (nicht verifiziert) | Vault |
-| obsidian-markdown | Obsidian Flavored Markdown (Wikilinks, Callouts, Embeds) | vermutlich https://github.com/kepano/obsidian-skills (nicht verifiziert) | Vault |
-| asiminu-session-start | AsiMinu-Coding-Session starten | eigen | auf Anfrage (AsiMinu-Repo) |
-| asiminu-session-end | AsiMinu-Coding-Session beenden, Doku und Commits | eigen | auf Anfrage (AsiMinu-Repo) |
-| thesis-session-start | Bachelorarbeit-Schreibsession starten | eigen | auf Anfrage (BA-Repo) |
-| thesis-session-end | Bachelorarbeit-Schreibsession beenden | eigen | auf Anfrage (BA-Repo) |
+| Name | Beschreibung | Herkunft | Upstream-Stand | Standard-Ziel |
+|---|---|---|---|---|
+| skills-verwalten | Bibliothek verwalten: installieren, Rechner einrichten, Änderungen zurückspielen, fremde Skills aktualisieren | eigen | – | global |
+| grill-me | Löchert mit Fragen zu einem Plan, bis ein gemeinsames Verständnis steht | eigen | – | global |
+| excalidraw-diagram | Excalidraw-Diagramme, die visuell argumentieren, inkl. PNG-Rendering | angepasst von https://github.com/coleam00/excalidraw-diagram-skill | 8646fcc (2026-03-01) | global |
+| defuddle | Webseiten als sauberes Markdown extrahieren | https://github.com/kepano/obsidian-skills | 3ccff53 (2026-09-15) | Vault |
+| json-canvas | Obsidian-Canvas-Dateien (.canvas) erstellen und bearbeiten | https://github.com/kepano/obsidian-skills | 3ccff53 (2026-09-15) | Vault |
+| obsidian-bases | Obsidian Bases (.base) mit Views, Filtern, Formeln | https://github.com/kepano/obsidian-skills | 3ccff53 (2026-09-15) | Vault |
+| obsidian-cli | Vault über die Obsidian-CLI steuern | https://github.com/kepano/obsidian-skills | 3ccff53 (2026-09-15) | Vault |
+| obsidian-markdown | Obsidian Flavored Markdown (Wikilinks, Callouts, Embeds) | https://github.com/kepano/obsidian-skills | 3ccff53 (2026-09-15) | Vault |
+| asiminu-session-start | AsiMinu-Coding-Session starten | eigen | – | auf Anfrage (AsiMinu-Repo) |
+| asiminu-session-end | AsiMinu-Coding-Session beenden, Doku und Commits | eigen | – | auf Anfrage (AsiMinu-Repo) |
+| thesis-session-start | Bachelorarbeit-Schreibsession starten | eigen | – | auf Anfrage (BA-Repo) |
+| thesis-session-end | Bachelorarbeit-Schreibsession beenden | eigen | – | auf Anfrage (BA-Repo) |
 
 ## Wo installiert (Stand 2026-09-29)
 

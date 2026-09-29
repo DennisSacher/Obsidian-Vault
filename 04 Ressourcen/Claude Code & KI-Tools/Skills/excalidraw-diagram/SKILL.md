@@ -456,6 +456,14 @@ cd "<skill-base-dir>/references" && uv run python render_excalidraw.py <path-to-
 
 `<skill-base-dir>` is the base directory shown when this skill loads (it may be global `~/.claude/skills/excalidraw-diagram` or a repo-local `.claude/skills/excalidraw-diagram`). Pass an absolute path to the `.excalidraw` file.
 
+**If `uv` is not on the PATH** (`uv: command not found`), call the existing venv's Python directly instead:
+
+```bash
+"<skill-base-dir>/references/.venv/Scripts/python.exe" "<skill-base-dir>/references/render_excalidraw.py" <path-to-file.excalidraw>
+```
+
+On macOS/Linux the interpreter is at `.venv/bin/python` instead of `.venv/Scripts/python.exe`.
+
 This outputs a PNG next to the `.excalidraw` file. Then use the **Read tool** on the PNG to actually view it.
 
 ### The Loop

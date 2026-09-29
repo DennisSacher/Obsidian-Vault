@@ -1,6 +1,6 @@
 ---
 name: skills-verwalten
-description: Verwaltet Dennis' Skill-Bibliothek im Obsidian-Vault. Skills global oder in ein Repo installieren, einen neuen Rechner einrichten, Änderungen an installierten Skills zurück in die Bibliothek spielen und neue Skills in die Bibliothek aufnehmen. Aufrufen bei Sätzen wie "lade/installiere Skill X in dieses Repo", "installiere X global", "richte meine Skills ein", "welche Skills habe ich", "übernimm die Änderung in die Bibliothek", "speicher diesen Skill in meiner Bibliothek", oder immer dann, wenn ein Skill neu erstellt oder in einem Repo verändert wurde.
+description: Verwaltet Dennis' Skill-Bibliothek im Obsidian-Vault. Skills global oder in ein Repo installieren, einen neuen Rechner einrichten, Änderungen an installierten Skills zurück in die Bibliothek spielen, neue Skills in die Bibliothek aufnehmen und fremde Skills vom Original-Repo aktualisieren. Aufrufen bei Sätzen wie "lade/installiere Skill X in dieses Repo", "installiere X global", "richte meine Skills ein", "welche Skills habe ich", "übernimm die Änderung in die Bibliothek", "speicher diesen Skill in meiner Bibliothek", "aktualisiere Skill X", "gibt es Updates für meine Skills", oder immer dann, wenn ein Skill neu erstellt oder in einem Repo verändert wurde.
 ---
 
 # Skill-Bibliothek verwalten
@@ -53,8 +53,20 @@ Wird ein **kopierter** Skill in einem Repo geändert, anbieten, die Änderung in
 ### Neuen Skill aufnehmen
 Wenn ein Skill neu erstellt oder aus dem Netz übernommen wird:
 1. In der Bibliothek anlegen (Ordnername = `name` im Frontmatter, eindeutig in der ganzen Bibliothek).
-2. Zeile in `Skills.md` ergänzen: Name, Kurzbeschreibung, Herkunft (`eigen`, `angepasst von <URL>` oder `<URL>`), Standard-Ziel (`global`, `Vault`, `auf Anfrage`).
+2. Zeile in `Skills.md` ergänzen: Name, Kurzbeschreibung, Herkunft (`eigen`, `angepasst von <URL>` oder `<URL>`), Upstream-Stand (bei fremden Skills Kurz-Hash und Datum des Original-Commits, sonst `–`), Standard-Ziel (`global`, `Vault`, `auf Anfrage`).
 3. Gewünschtes Ziel installieren.
+
+### Fremden Skill aktualisieren
+Für Skills mit Herkunft `<URL>` oder `angepasst von <URL>` in `Skills.md`, z. B. bei "aktualisiere json-canvas" oder "gibt es Updates für meine fremden Skills?".
+1. Original-Repo flach in ein temporäres Verzeichnis klonen (`git clone --depth 1 <URL> <temp>`) und den Skill-Ordner darin suchen (Ordner mit `SKILL.md` und passendem `name`). Kein `npx skills`, `git` reicht und führt keinen fremden Code aus.
+2. Neuen Upstream-Commit (`git -C <temp> rev-parse --short HEAD`) mit der Spalte `Upstream-Stand` in `Skills.md` vergleichen. Gleich: "keine Updates" melden, fertig.
+3. Unterschiede zeigen: `diff -r --strip-trailing-cr <temp>/<skill> <bibliothek>/<skill>`, Laufzeit-Ordner ignorieren.
+   - **Herkunft `<URL>` (unverändert übernommen):** Diff kurz zusammenfassen, nach Bestätigung den Bibliotheksordner durch die neue Version ersetzen.
+   - **Herkunft `angepasst von <URL>`:** Dennis' eigene Änderungen dürfen nicht verloren gehen. Wenn `Upstream-Stand` bekannt ist, den alten Upstream-Stand zusätzlich holen (`git clone` ohne `--depth` bzw. `git fetch --depth 50`) und per Drei-Wege-Vergleich trennen, was upstream geändert wurde und was Dennis geändert hat. Upstream-Änderungen übernehmen, Dennis' Änderungen behalten, Konflikte einzeln zeigen und fragen. Ohne bekannten Upstream-Stand: beide Seiten zeigen und Datei für Datei entscheiden lassen.
+4. Nach dem Update `Upstream-Stand` in `Skills.md` auf den neuen Commit setzen. Hat sich an Setup-Dateien etwas geändert (z. B. `pyproject.toml`, `uv.lock`), anbieten, das Setup neu auszuführen.
+5. Temporäres Verzeichnis löschen.
+
+Bei "prüfe alle fremden Skills": Schritte 1 bis 3 für jeden fremden Skill, pro Repo nur einmal klonen, am Ende eine Tabelle zeigen (Skill, Stand alt, Stand neu, Änderungen ja/nein) und erst dann fragen, welche aktualisiert werden sollen.
 
 ### Abschluss
 Änderungen an der Bibliothek liegen im Vault-Repo. Am Ende anbieten, sie dort zu committen und zu pushen. Kopien in anderen Repos werden im jeweiligen Repo committet.
