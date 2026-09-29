@@ -11,4 +11,4 @@ Dennis nutzt Claude Code bzw. Claude generell als zentrales Werkzeug für nahezu
 -
 
 ## Notizen
--
+- [[Skills]]: zentrale Skill-Bibliothek mit allen eigenen und übernommenen Skills

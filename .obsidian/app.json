@@ -1,3 +1,6 @@
 {
-  "attachmentFolderPath": "07 Anhänge"
+  "attachmentFolderPath": "07 Anhänge",
+  "userIgnoreFilters": [
+    "04 Ressourcen/Claude Code & KI-Tools/Skills/"
+  ]
 }

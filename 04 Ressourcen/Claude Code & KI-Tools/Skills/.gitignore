@@ -1,0 +1,4 @@
+# Laufzeit-Dateien der Skills (rechnerspezifisch, werden per Setup neu erzeugt)
+.venv/
+__pycache__/
+node_modules/

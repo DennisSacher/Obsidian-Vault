@@ -3,3 +3,6 @@ _to_delete/
 
 # Junction zum Bachelorarbeit-Repo (verschachteltes Git-Repo mit Firmen-Submodul, nicht mit-tracken)
 02 Projekte/Bachelorarbeit/Repo
+
+# Vault-lokale Skills sind Junctions auf die Skill-Bibliothek (04 Ressourcen/Claude Code & KI-Tools/Skills), werden per skills-verwalten angelegt
+.claude/skills/

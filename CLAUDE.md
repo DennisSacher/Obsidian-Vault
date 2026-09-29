@@ -28,6 +28,7 @@ Dennis Sacher, 25 Jahre alt, Informatik-Student (8. Semester, TH Rosenheim) und 
 - Neue Projekte bekommen eine einzelne .md Datei direkt unter 02 Projekte/. Einen Unterordner nur anlegen wenn das Projekt mehrere Dateien braucht.
 - Bereiche und Ressourcen sind immer Ordner, weil sie über die Zeit wachsen
 - 02 Projekte/Bachelorarbeit/Repo ist eine Junction (kein echter Ordner) auf das separate Bachelorarbeit-Repo. Nicht löschen, nicht verschieben, nicht als normalen Vault-Ordner behandeln. Er ist in der .gitignore ausgeschlossen, damit das Vault-Git das verschachtelte Repo nicht mit-trackt.
+- 04 Ressourcen/Claude Code & KI-Tools/Skills/ ist die zentrale Skill-Bibliothek (das Original aller eigenen und übernommenen Skills), Verzeichnis in 04 Ressourcen/Claude Code & KI-Tools/Skills.md. Die Skills unter .claude/skills/ im Vault und unter ~/.claude/skills/ sind Junctions darauf, also nie mit rm -rf oder Remove-Item -Recurse entfernen. Alles rund um Installieren, Einrichten und Aufnehmen von Skills läuft über den Skill skills-verwalten. Neue oder geänderte Skills gehören immer in die Bibliothek.
 - Abgeschlossene Projekte nach 06 Archiv/ verschieben. Nur auf Anweisung von Dennis, nicht eigenständig.
 - Wenn du Dateien erstellst oder verschiebst, erkläre kurz warum
 - Bevor du Dateien löschst oder überschreibst, frag nach
@@ -39,11 +40,21 @@ Dennis Sacher, 25 Jahre alt, Informatik-Student (8. Semester, TH Rosenheim) und 
 ### Bei Session-Start
 1. Prüfe 01 Inbox/ auf neue Notizen, zeige was drin liegt, und biete an die Einträge in die passenden Ordner einzusortieren
 
+### Neuer Rechner
+Wenn .claude/skills/ im Vault fehlt oder leer ist (frisch geklont), oder Dennis sagt "richte meine Skills ein": Lies 04 Ressourcen/Claude Code & KI-Tools/Skills/skills-verwalten/SKILL.md und folge dem Ablauf "Neuen Rechner einrichten". Der Skill ist dann noch nicht installiert, deshalb die Datei direkt lesen.
+
 ### Kontext bei Bedarf
 Wenn Dennis fragt "Was ist gerade aktuell?", "Wo war ich stehen geblieben?" oder ähnliches: Lies die letzten 2-3 Daily Notes in 05 Daily Notes/ und die aktiven Projekt-Dateien in 02 Projekte/ um ein Briefing zu geben.
 
 ### Bei Bachelorarbeit-Themen
 Wenn es um das Schreiben, Formatieren oder formale Anforderungen der Bachelorarbeit geht (Gliederung, Zitieren, wissenschaftlicher Sprachstil, Abgabe, KI-Nutzungsdokumentation): lies zuerst 04 Ressourcen/Wissenschaftliches Arbeiten/Wissenschaftliches Arbeiten.md und die darin verlinkten Notizen. Der eigentliche Fließtext liegt unter 02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/ (LaTeX-Kapitel in chapters/). Dieser Repo-Ordner ist eine Windows-Junction auf das separate Bachelorarbeit-Repo unter C:\Users\denni\OneDrive\Desktop\Bachelorarbeit (eigenes Git-Repo mit Submodul zum AsiMinu-Quellcode, siehe dortige CLAUDE.md). Er ist bewusst in der Vault-.gitignore ausgeschlossen, Commits/Pushes für die Bachelorarbeit laufen weiterhin über das separate Repo, nicht über das Vault-Git. Der aktuelle Schreibstand, die getroffenen Entscheidungen und die Konvention, welcher Sachverhalt in welchem Kapitel erklärt wird, stehen im Repo unter thesis/Schreibstand.md; vor dem Formulieren von Kapiteltext dort nachsehen. Bei **fachlichen** Aussagen über den AsiMiNu-Prozess selbst (Ablauf, Rollen, Begriffe, Entstehung des Projekts, Vergütungsmodell, Zukunftsvision) gelten 02 Projekte/Bachelorarbeit/AsiMiNu-Prozessablauf.md und AsiMiNu-Projekthintergrund.md als verbindliche Referenz, ausführlich im Repo unter thesis/Fachlicher-Kontext-AsiMiNu.md. Bei Widerspruch zu Exposé oder älteren Konzeptpapieren gelten diese Notizen. Beim Zitieren oder Faktenchecken von Literatur-Aussagen: prüfe zuerst gegen die Quellen-Notizen in 02 Projekte/Bachelorarbeit/Quellen/ (Metadaten, Kernzitate mit Seitenzahl, kritische Einordnung, verlinktes PDF unter 07 Anhänge/Quellen/), bevor du dich auf eigenes Wissen verlässt.
+
+### Bei Diagrammen und Visualisierungen
+Prüfe bei jeder Aufgabe selbstständig, ob ein Bild mehr erklärt als Text, auch wenn Dennis nicht nach einem Diagramm fragt. Das gilt vor allem für Abläufe, Prozesse, Architekturen, Datenflüsse, Rollen und Zusammenhänge zwischen Konzepten. Dann den Skill excalidraw-diagram nutzen:
+- Explizite Bitte ("zeichne", "visualisiere", "Diagramm", "Schaubild" usw.): direkt den Skill verwenden.
+- Kein expliziter Wunsch, aber eine Notiz oder Erklärung dreht sich um einen Ablauf oder eine Struktur: in einem Satz ein Diagramm anbieten, nicht ungefragt erstellen.
+- Ablage: Diagramm-Dateien (.excalidraw und gerendertes PNG) nach 07 Anhänge/ und per ![[...]] in die passende Notiz einbetten. Für Bachelorarbeit-Abbildungen vorher mit Dennis klären, ob sie ins Repo gehören.
+- Nicht für reine Listen, Tabellen, Zahlen-Charts (dafür dataviz) oder .canvas-Dateien (dafür json-canvas).
 
 ### Bei Session-Ende
 Wenn Dennis die Session beendet oder du merkst dass ein natürliches Ende erreicht ist, biete an:
