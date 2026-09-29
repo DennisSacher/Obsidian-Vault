@@ -27,6 +27,7 @@ Gehört zu [[Claude Code & KI-Tools]].
 | skills-verwalten | Bibliothek verwalten: installieren, Rechner einrichten, Änderungen zurückspielen, fremde Skills aktualisieren | eigen | – | global |
 | grill-me | Löchert mit Fragen zu einem Plan, bis ein gemeinsames Verständnis steht | eigen | – | global |
 | excalidraw-diagram | Excalidraw-Diagramme, die visuell argumentieren, inkl. PNG-Rendering | angepasst von https://github.com/coleam00/excalidraw-diagram-skill | 8646fcc (2026-03-01) | global |
+| vermenschlichen | Deutsche Texte ohne KI-typische Sprachmuster schreiben und überarbeiten, auch für die Thesis (Fachkonventionen haben Vorrang) | https://github.com/LOGIN-TB/claude-skills (MIT, weitere 13 Marketing-Skills dort bewusst nicht übernommen) | e80bcfd (2026-09-17) | global |
 | defuddle | Webseiten als sauberes Markdown extrahieren | https://github.com/kepano/obsidian-skills | 3ccff53 (2026-09-15) | Vault |
 | json-canvas | Obsidian-Canvas-Dateien (.canvas) erstellen und bearbeiten | https://github.com/kepano/obsidian-skills | 3ccff53 (2026-09-15) | Vault |
 | obsidian-bases | Obsidian Bases (.base) mit Views, Filtern, Formeln | https://github.com/kepano/obsidian-skills | 3ccff53 (2026-09-15) | Vault |
