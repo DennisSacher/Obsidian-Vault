@@ -1,0 +1,23 @@
+{
+  "id": "conv-1790147072454-iy7g7eni0",
+  "providerId": "claude",
+  "title": "Find Dumas et al. source",
+  "titleGenerationStatus": "success",
+  "createdAt": 1790147072455,
+  "lastActivityAt": 1790252912195,
+  "sessionId": "5d8e8b55-e701-4015-a7df-8c42a054fdca",
+  "selectedModel": "sonnet",
+  "providerState": {
+    "providerSessionId": "5d8e8b55-e701-4015-a7df-8c42a054fdca"
+  },
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 2,
+    "cacheCreationInputTokens": 991,
+    "cacheReadInputTokens": 69843,
+    "contextWindow": 1000000,
+    "contextTokens": 70836,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}
