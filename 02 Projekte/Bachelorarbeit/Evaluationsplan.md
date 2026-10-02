@@ -12,6 +12,9 @@ Die empirische Wirkungsmessung ist gesetzt und wird durchgeführt. Dieser Plan b
 sie mit vertretbarem Aufwand so umzusetzen ist, dass die Ergebnisse einer kritischen Prüfung
 standhalten. Stand 09.09.2026.
 
+> [!note] Laufender Stand
+> Was davon schon gemessen ist und welcher Schritt als Nächstes ansteht, steht in [[Kapitel 6 Arbeitsstand]]. Die Testzahlen in dieser Notiz (971 Tests, 81,3 %) und der Zeitplan sind überholt. Aktuell sind es 2350 Tests und 86,9 % (Fassung 1.33.1, 30.09.2026).
+
 ## Zwei Klassen von Kennzahlen
 
 **Gruppe 1, ohne fremde Mitwirkung erhebbar.** Automatisierungsquote aus den Regelläufen
