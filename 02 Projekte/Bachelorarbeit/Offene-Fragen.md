@@ -13,23 +13,37 @@ erstellt: 2026-08-11
 ## Für den Betreuer
 
 - [ ] Welchen Fokus soll Kapitel 06 (Realisierung) haben? Breite (alle Features kurz) oder Tiefe (ausgewählte Features ausführlich)? Laut Abstimmungsdokument aktuell drei Tiefenschwerpunkte: Backend, TEF-Automatisierung, Sicherheit.
-- [ ] Wie viele ADRs sollen explizit diskutiert werden — alle 57 (Stand 09.09.2026, wächst laufend) oder eine Auswahl?
+- [x] Wie viele ADRs sollen explizit diskutiert werden — alle 57 (Stand 09.09.2026, wächst laufend) oder eine Auswahl?
+  - *Entschieden 04.10.2026:* dreistufige Regel, ausführlich nur Entscheidungen, die eine Forschungsfrage tragen (derzeit 7). Siehe [[ADR-zu-Kapitel]].
 - [ ] Soll das Sicherheitskonzept ein eigenes Kapitel bekommen oder in Realisierung integriert bleiben (aktueller Stand: integriert)?
 
 ## Für die Bayfu (Freigaben, ergänzt 16.09.2026)
 
-- [ ] **Darf das Vergütungsmodell in der Arbeit stehen?** Einzelabrechnung vorher, jetzt Einmalzahlung plus Pauschale für Betrieb und Wartung. Die Arbeit wird von der Hochschule archiviert und in der Regel veröffentlicht. Betroffen ist Abschnitt 1.1 der Einleitung. Ohne Freigabe reicht die neutrale Aussage, dass die Bayfu künftig alle Anfragen zentral übernimmt und den Prozess im Gegenzug automatisiert. Details in [[AsiMiNu-Projekthintergrund]].
+- [x] *Entfällt 04.10.2026: 1.1 nennt nur noch die neutrale Aussage.* **Darf das Vergütungsmodell in der Arbeit stehen?** Einzelabrechnung vorher, jetzt Einmalzahlung plus Pauschale für Betrieb und Wartung. Die Arbeit wird von der Hochschule archiviert und in der Regel veröffentlicht. Betroffen ist Abschnitt 1.1 der Einleitung. Ohne Freigabe reicht die neutrale Aussage, dass die Bayfu künftig alle Anfragen zentral übernimmt und den Prozess im Gegenzug automatisiert. Details in [[AsiMiNu-Projekthintergrund]].
 - [ ] Ebenfalls freigabepflichtig, derzeit bewusst nicht im Text: dass die Bayfu insgesamt weniger einnimmt als zuvor, die Angabe zum verbleibenden Personalbedarf von ein bis zwei Personen, und dass andere Firmen sich über den Prozess dazuverdienen wollten.
 - [ ] **Was genau hat der Kollege beigetragen?** Wird für Abschnitt 1.4 (Abgrenzung) gebraucht, dort steht aktuell ein Platzhalter. Das Abstimmungsdokument verlangt die Angabe ausdrücklich, und ungenaue Angaben zur Eigenleistung sind bei einer Abschlussarbeit heikel.
+  - *Stand 05.10.2026:* Der Platzhalter in 1.4 ist aus dem Text entfernt. AsiMiNu-AdHoc steht dort jetzt als Teil des Ist-Prozesses, „gemeinsam mit einem Kollegen entstanden“. Offen bleibt, ob daraus etwas ins neue System übernommen wurde und wie der Beitrag von Alexander Morbitzer am AsiMiNu-System (rund 350 von 600 Commits) in der Abgrenzung der Eigenleistung erscheint.
   - *Präzisiert 17.09.2026:* Möglicherweise ist damit die AsiMinu-AdHoc-Übergangslösung gemeint, die du mit einem Kollegen gebaut hast. Zwei Teilfragen: Wurde daraus etwas in das AsiMinu-System übernommen, etwa der Excel-Parser oder das Datenmodell? Und hat derselbe Kollege zusätzlich am AsiMinu-System selbst mitgewirkt? Siehe [[AsiMiNu-Prozessablauf]].
 
 ## Für den Betreuer (ergänzt 16.09.2026)
 
-- [ ] **Zielumfang für Kapitel 1.** Das Abstimmungsdokument sieht vier Seiten vor, der fertige
+- [x] *Erledigt 04.10.2026: Kapitel 1 auf 5 Seiten gekürzt, Gesamtziel 40 Seiten.* **Zielumfang für Kapitel 1.** Das Abstimmungsdokument sieht vier Seiten vor, der fertige
   Entwurf liegt bei knapp sechs. Der fachliche Kontext (drei Parteien, zwei Schaltfälle,
   firmeneigener Begriff) braucht diesen Platz. Argument: Was Kapitel 1 an Erklärung leistet,
   muss Kapitel 4 nicht noch einmal leisten. Zwei Kürzungshebel sind vorbereitet, 1.5 auf einen
   Absatz und der Absatz „Einordnung in die längerfristige Zielsetzung" in 1.2.
+
+## Neu am 04./05.10.2026
+
+- [ ] **Echte Schnittstelle zu Telefónica vor der Abgabe?** Falls ja, mit dem Betreuer klären, ob
+  sie noch in die Evaluation eingeht, denn der Evaluationsstand ist seit dem 30.09.2026
+  eingefroren. Liste der dann anzupassenden Stellen in `thesis/Schreibstand.md`.
+- [ ] **Testdurchläufe für Kapitel 6:** Wer übernimmt die Eingabe als Generalunternehmer? Für die
+  Zufriedenheit nach DIN EN ISO 9241-11 braucht es GU-seitige Testpersonen, nicht nur
+  BayFu-Mitarbeitende. Und: fünf Testfälle (Anhang B) oder zehn bis zwölf ([[Evaluationsplan]])?
+- [ ] **Seitenzahl des Dumas-Zitats** (Definition Geschäftsprozess, 2. Auflage, vermutlich
+  Kapitel 1.1, um S. 6) im PDF nachschlagen. Eine Quellen-Notiz zu Dumas 2018 fehlt noch.
+- [ ] **KI-Fußnote in Kapitel 2** ist bei der Überarbeitung am 05.10.2026 verloren gegangen.
 
 ## Für die Recherche
 
@@ -44,7 +58,7 @@ erstellt: 2026-08-11
 - [ ] **KI-Nutzung ist laut Fakultätsvorgabe per Fußnote im Text zu dokumentieren** (Anfang/Ende des betroffenen Abschnitts, System+Version+Datum) — bisher hat kein einziges Kapitel eine solche Fußnote, obwohl Kapitel 01 mit KI-Unterstützung entstand. Muss vor Abgabe rückwirkend geklärt werden: welche Abschnitte wie stark KI-unterstützt entstanden sind, dann Fußnoten nachtragen + `ki_erklaerung.tex`-Tabelle final ausfüllen.
   - *Update 02.09.2026:* wird jetzt automatisch vom [[Bachelorarbeit AsiMinu App|Dashboard]] (`thesis/dashboard/`) nachverfolgt — bestätigt aktuell genau die 4 Sektionen in Kapitel 01 als offen (als KI-unterstützt markiert, aber noch keine erkennbare Fußnote im Text).
   - *Update 15.09.2026:* betrifft jetzt zusätzlich alle neun Kapitel, weil die komplette Umstellung auf Variante D sowie die Kurzfassungs- und Budget-Notizen mit KI-Unterstützung entstanden sind, und Kapitel 01 wird gerade weiter mit KI-Unterstützung überarbeitet (Word-Arbeitsdokument). Vor Abgabe entsprechend breiter gegenchecken, nicht nur Kapitel 01.
-- [ ] `thesis.bib` hat aktuell nur 20 Einträge, Richtgröße laut Vorgabe sind 25–30+ Quellen (~2 Zitate/Seite) — bei fortschreitendem Kapitelausbau im Blick behalten, nicht erst am Ende nachzählen.
+- [ ] *Stand 05.10.2026: 21 Quellen zitiert, 11 Einträge ungenutzt (u. a. `MicrosoftAspNetSecurity2024`, seit der Kürzung von 2.4 nicht mehr zitiert).* `thesis.bib` hat aktuell nur 20 Einträge, Richtgröße laut Vorgabe sind 25–30+ Quellen (~2 Zitate/Seite) — bei fortschreitendem Kapitelausbau im Blick behalten, nicht erst am Ende nachzählen.
   - *Update 02.09.2026:* Dashboard zeigt live 13 von 20 Bib-Einträgen bereits im Text referenziert — Zähler „X von 25–30+" steht ab jetzt automatisch im Dashboard, kein manuelles Nachzählen mehr nötig.
 
 ## Nachzuziehen (ergänzt 16.09.2026)

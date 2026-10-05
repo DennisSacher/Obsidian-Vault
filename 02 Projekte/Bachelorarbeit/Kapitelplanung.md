@@ -1,7 +1,7 @@
 ---
 tags: [bachelorarbeit, planung]
 erstellt: 2026-08-11
-aktualisiert: 2026-09-16
+aktualisiert: 2026-10-05
 ---
 
 # Kapitelplanung
@@ -10,6 +10,10 @@ aktualisiert: 2026-09-16
 
 > [!tip] LaTeX-Dateien
 > `Bachelorarbeit/thesis/BA-Text/latex-projekt/chapters/` → ein Ordner je Kapitel
+
+> [!important] Aktueller Stand 04.10.2026: Gliederung zweistufig, Ziel 40 Seiten
+> Die gültige Kapitelstruktur mit Seitenbudget und Checkliste steht unten unter
+> [[#Kapitelstruktur (Stand 04.10.2026)]]. Die folgenden Abschnitte sind historisch.
 
 > [!important] Stand 16.09.2026 — Betreuer-Feedback: von neun auf sieben Kapitel zusammengelegt
 > Gespräch mit dem Betreuer zur Gliederung: ihm waren neun Überkapitel zu viele. Auf seinen
@@ -111,141 +115,57 @@ aktualisiert: 2026-09-16
 > damals:** KI-Nutzung ist laut Vorgabe per Fußnote im Text zu dokumentieren, siehe
 > [[Offene-Fragen]].
 
-## Kapitelstruktur
+## Kapitelstruktur (Stand 04.10.2026)
 
-### 01 – Einleitung
-**LaTeX:** `chapters/01/einleitung.tex` — **Status: alle fünf Abschnitte als Entwurf
-ausformuliert (16.09.2026), warten auf Dennis' Durchsicht**
+Seit dem 04.10.2026 nur noch **zwei Gliederungsebenen** (x.y), keine Unterabschnitte mehr.
+Inhaltsverzeichnis: 7 Kapitel, 29 Abschnitte (vorher 79 Einträge). Ziel **40 Seiten** Fließtext,
+harte Obergrenze 45. Seiten gemessen ohne Todo-Notizen über `measure.tex`. Details und alle
+Entscheidungen in `thesis/Schreibstand.md` im Repo.
 
-> [!warning] Der aktuelle Text steht noch nicht im LaTeX
-> Die fertige Fassung liegt in
-> `thesis/BA-Text/Arbeitsdokumente/Einleitung_Entwurf_v3_2026-09-16.docx`. Die `.tex` enthält
-> weiterhin die ältere Fassung mit leerem Abschnitt 1.4. Der Einbau erfolgt erst nach der
-> Durchsicht. Bis dahin ist die `.tex` **kein** gültiger Stand von Kapitel 1.
+| Nr. | Kapitel | Budget | Ist 04.10. | Abschnitte |
+|---|---|---|---|---|
+| 01 | Einleitung | 5 | 5 | 1.1 Unternehmenskontext · 1.2 Ausgangslage · 1.3 Zielsetzung und Forschungsfragen · 1.4 Abgrenzung · 1.5 Aufbau |
+| 02 | Grundlagen und Stand der Technik | 5 | 5 (nach Überarbeitung 2.1 eher 5,5) | 2.1 Geschäftsprozesse und CRQ · 2.2 Regelbasierte Automatisierung · 2.3 Datenqualität und Validierung · 2.4 Architektur- und Sicherheitsprinzipien · 2.5 Bestehende Lösungsansätze |
+| 03 | Vorgehen und Methodik | 2 | 2 | 3.1 Forschungslogik und Erhebung · 3.2 Entwurfs- und Entscheidungsverfahren |
+| 04 | Ist-Analyse und Anforderungen | 5 | 5 | 4.1 Bestehender Prozess · 4.2 Schwachstellenanalyse · 4.3 Anforderungen und Priorisierung |
+| 05 | Architektur und Realisierung | 10 | 8 | 5.1 Architektur und Technologie · 5.2 Datenhaltung und Berechtigungen · 5.3 Erfassung und Validierung · 5.4 Regelbasierte Übertragung · 5.5 Interne Bearbeitung · 5.6 Sicherheit, Nachvollziehbarkeit, Betrieb |
+| 06 | Evaluation und Diskussion | 9 | 4 | 6.1 Evaluationsdesign · 6.2 Technische Verifikation · 6.3 Effizienz und Datenqualität · 6.4 Automatisierungsgrad und Prozesssicherheit · 6.5 Beantwortung der Forschungsfragen · 6.6 Grenzen und kritische Reflexion |
+| 07 | Zusammenfassung und Ausblick | 3 | Bauplan | 7.1 Zusammenfassung · 7.2 Ausblick (inkl. Übertragbarkeit) |
 
-- [x] 1.1 Unternehmenskontext: BayFu und Telefónica — komplett neu geschnitten, erklärt jetzt
-  den vollständigen fachlichen Ablauf einer AsiMiNu-Anfrage samt Rollen, Change-Request-Begriff
-  und Vergütungsmodell. Neu dazu **Abbildung 1.1** (`figures/abb-1-1-prozessuebersicht.*`)
-- [x] 1.2 Ausgangslage und Problemstellung — erklärt den Ablauf nicht mehr, sondern setzt beim
-  Ist-Zustand an; rund 340 Wörter kürzer als vorher
-- [x] 1.3 Zielsetzung und Forschungsfragen — Fragen unverändert im Wortlaut des Exposés,
-  nur der Einstiegsabsatz neu
-- [x] 1.4 Abgrenzung des Betrachtungsgegenstands — **erstmals ausformuliert**, ein Platzhalter
-  bleibt: der Beitrag des Kollegen
-- [x] 1.5 Aufbau der Arbeit — sieben statt neun Kapitel
+Hochgerechnet etwa **37 Seiten**, wenn Kapitel 6 und 7 im Budget bleiben.
 
-**Offen bei Kapitel 1:** keine einzige Literaturquelle in 1.1, Umfang bei knapp sechs statt
-vier Seiten, Freigabe der BayFu für das Vergütungsmodell. Siehe [[Offene-Fragen]].
+### Checkliste
 
-**Kernaussage:** Warum braucht Bayfu ein CRQ-Management-System, und was ist Gegenstand dieser
-Arbeit?
+- [x] 01 Einleitung auf 5 Seiten gekürzt (04.10.2026), danach von Dennis Satz für Satz überarbeitet
+  (Fallbeispiel nur noch in 4.2, Power-Apps-Anwendung gestrichen, Absatz zur Echtanbindung
+  auskommentiert, Aufbau der Arbeit als Liste)
+- [ ] 02 Grundlagen: Überarbeitung durch Dennis läuft (Stand 05.10.2026: bei 2.1)
+  - [x] 2.1 neu formuliert: Übergänge zwischen den Begriffen, Prozesssicherheit von der
+    Arbeitssicherheit abgegrenzt, definierte Begriffe fett
+  - [x] 2.2 Fallbeispiel verweist auf 4.2
+  - [ ] KI-Fußnote am Kapitelanfang fehlt seit der Überarbeitung, wieder einfügen
+  - [ ] Seitenzahl für das Dumas-Zitat in 2.1 nachtragen (`S.\,X`)
+  - [ ] 2.3 bis 2.5 durchsehen
+- [x] 03 Vorgehen: zwei Abschnitte, BPM-Zuordnung nur noch hier, ADR-Regel in 3.2
+- [x] 04 Ist-Analyse: drei Abschnitte, Anforderungen verdichtet
+  - [ ] in 4.2 „Nachrichten“ durch „E-Mails“ ersetzen
+- [x] 05 Architektur und Realisierung: sechs Abschnitte, dreistufige ADR-Regel, Umsetzungstabelle
+  in Anhang B
+  - [ ] Screenshot GU-Formular (5.3)
+  - [ ] PostgreSQL-Begründung und Kühnel/Deitelhoff (5.1), Grund für fehlende
+    `isCurrent`-Versionierung (5.2)
+- [ ] 06 Evaluation und Diskussion
+  - [x] 6.2 Technische Verifikation
+  - [x] 6.4 Automatisierungsgrad und Prozesssicherheit
+  - [ ] 6.1 Evaluationsdesign an die Durchführung anpassen (Testpersonen, Zahl der Testfälle)
+  - [ ] 6.3 Ergebnisse alt gegen neu, Gebrauchstauglichkeit über DIN EN ISO 9241-11
+  - [ ] 6.5 Beantwortung der Forschungsfragen
+  - [ ] 6.6 Grenzen und kritische Reflexion
+- [ ] 07 Zusammenfassung und Ausblick (Bauplan steht, 3 Seiten)
+- [ ] Falls die echte Schnittstelle zu Telefónica vor der Abgabe steht: alle Stellen anpassen
+  (Liste in `Schreibstand.md`)
 
-### 02 – Grundlagen
-**LaTeX:** `chapters/02/grundlagen.tex` — **Status: Gliederung mit sehr ausführlichen
-Todo-Bauplänen**, 11 Unterabschnitte
-
-CRQ-Begriffe, Prozessredesign, Automatisierungsgrade, Regeln und Konfiguration,
-Qualitätsdimensionen, Validierung, Schichtung/Architekturprinzipien, Auth-Grundlagen und
-Security, Low-Code, ITSM, Einordnung der Eigenlösung.
-
-### 03 – Vorgehen
-**LaTeX:** `chapters/03/vorgehen.tex` — **Status: Gliederung mit Todo-Bauplänen**, 3 Abschnitte
-(neu als eigenständiges Kapitel in Variante D)
-
-Forschungslogik, Erhebung des Ist-Zustands, Entscheidungsverfahren für die Architektur- und
-Realisierungsentscheidungen.
-
-### 04 – Ist-Analyse und Anforderungen
-**LaTeX:** `chapters/04/ist_analyse_anforderungen.tex` — **Status: Gliederung mit sehr
-ausführlichen Todo-Bauplänen**, 9 Abschnitte (führt die früheren Kapitel „Ist-Analyse" und
-„Anforderungen" zusammen, weil die Anforderung die direkte Antwort auf die jeweilige
-Schwachstelle ist)
-
-Ablauf des bestehenden Prozesses, Akteure, Fehler bei der Erfassung, Medienbrüche, fehlende
-Nachvollziehbarkeit, funktionale Anforderungen, nicht-funktionale Anforderungen,
-rollenbezogene Anforderungen, Priorisierung.
-
-### 05 – Architektur und Realisierung
-**LaTeX:** `chapters/05/architektur_realisierung.tex` — **Status: Gliederung mit
-Todo-Bauplänen**, 12 Abschnitte (5 aus dem ehemaligen Kapitel „Architektur" + 7 aus dem
-ehemaligen Kapitel „Realisierung"), **am 16.09.2026 auf Wunsch des Betreuers aus zwei
-Überkapiteln zu einem zusammengelegt** — reiner Strukturmerge, kein Inhalt gekürzt
-
-Architektur-Teil: Systemkontext, Schichtenschnitt, Benutzermodell, Datentrennung,
-Vorgangsidentität, Rollenmodell, Technologieauswahl (Techstack) — jeweils mit den erwogenen
-Alternativen. Realisierungs-Teil: Aufbau, Formularentwurf, Fehlervermeidung,
-Validierungsregeln, Vorgangsnummer, Regelbasis, Ausführungsmodell, Schnittstellenentwurf,
-interne Bearbeitung (Admin-/ChangeCoordinator-Panel), Authentifizierung, Berechtigungen,
-Prüfprotokoll, Betrieb. Drei **Tiefenschwerpunkte** laut Abstimmungsdokument: Backend/
-serverseitige Validierung, TEF-Automatisierung, Sicherheit — dort ausführlicher als in den
-übrigen Abschnitten. Größtes Kapitel (19 Seiten Zielumfang, 7+12).
-
-> [!success] Damit geschlossen (waren vorher echte Lücken in der alten Struktur)
-> ChangeCoordinator-Panel/TicketSpecialist-Rollenmodell und INC-Worker sind jetzt als reguläre
-> Abschnitte vorhanden, nicht mehr nur im Code umgesetzt und in der Gliederung fehlend.
-
-### 06 – Evaluation und Diskussion
-**LaTeX:** `chapters/06/evaluation_diskussion.tex` — **Status: Evaluations-Teil vor der
-Umstrukturierung teilweise ausformuliert** (~900 Wörter Methodik/Kennzahnen, Ergebnisse-Abschnitt
-bewusst leer bis Testdurchläufe stattfinden), **Diskussions-Teil als Gliederung mit
-Todo-Bauplänen**, zusammen 9 Abschnitte (5 Evaluation + 4 Diskussion), **am 16.09.2026 auf
-Wunsch des Betreuers aus zwei Überkapiteln zu einem zusammengelegt** — reiner Strukturmerge, kein
-Inhalt gekürzt
-
-Evaluations-Teil: Kennzahlen, Testabdeckung, funktionale Abdeckung, Versuchsaufbau,
-Messverfahren, Effekt auf Datenqualität, Automatisierung und Prozesssicherheit, Limitationen.
-Diskussions-Teil: Beantwortung der sechs Forschungsfragen einzeln, Einordnung in den Stand der
-Technik, Übertragbarkeit auf vergleichbare Prozesse, kritische Reflexion der eigenen Lösung.
-Übernimmt zwei Inhalte aus dem aufgelösten früheren Kapitel „Herausforderungen": die Reflexion
-des Scope-Zuwachses und die exemplarische Fehleranalyse (JWT-Signaturschlüssel-Bug als
-Fallstudie).
-
-- [x] Methodik des Vergleichs alt vs. neu
-- [x] Kennzahlen (Bearbeitungszeit, Fehlerquote, Datenqualität, Kurzbefragung nach
-  DIN EN ISO 9241-110)
-- [ ] Ergebnisse und Diskussion — wartet auf Datenerhebung mit Bayfu-Mitarbeitenden
-
-### 07 – Zusammenfassung und Ausblick
-**LaTeX:** `chapters/07/zusammenfassung.tex` — **Status: Gliederung mit Todo-Bauplänen**,
-2 Abschnitte (seit 16.09.2026 unter `chapters/07/` statt `chapters/09/`)
-
-Zusammenfassung der Ergebnisse (ohne die Forschungsfragen zu wiederholen, das passiert in
-Kapitel 06), Ausblick auf TEF-Echtanbindung, Streaming-Parser, objekt-level RBAC und weitere
-offene Punkte aus `STATUS.md`.
-
-### Anhang
-**LaTeX:** `chapters/07/anhang.tex` (seit 16.09.2026 unter `chapters/07/` statt `chapters/09/`)
-— unverändert, enthält u. a. Erhebungsinstrumente, Architekturentscheidungen im Volltext,
-Screenshots, Quellcode-Auszüge und die gemäß den Vorgaben der Hochschule Rosenheim
-verpflichtende Erklärung zur Verwendung generativer KI-Systeme (`chapters/07/ki_erklaerung.tex`).
-
----
-
-## Schreibreihenfolge (Empfehlung, aktualisiert 16.09.2026)
-
-1. Ist-Analyse und Anforderungen (04) — bekannter Prozess, direkte Grundlage für alles Weitere
-2. Vorgehen (03) — kurz, direkt daraus ableitbar
-3. Grundlagen (02) — Theorie nachziehen, wenn klar ist, was gebraucht wird
-4. Architektur und Realisierung (05) — das Herzstück, parallel zum [[ADR-zu-Kapitel]]
-5. Evaluation und Diskussion (06) — Evaluations-Teil sobald Testdurchläufe mit
-   Bayfu-Mitarbeitenden stattgefunden haben, Diskussions-Teil setzt beides voraus
-6. Einleitung (01) — ursprünglich für ganz zuletzt vorgesehen; wird seit 15.09.2026 als bewusste
-   Ausnahme vorgezogen, weil vier von fünf Abschnitten bereits stehen und nur 1.4 neu ist
-7. Zusammenfassung und Ausblick (07) — nach dem Rest
-
----
-
-> [!success] Stand 23.09.2026 — Tatsächlicher Schreibstand (aus LaTeX-Dateien ermittelt)
-
-| Nr. | Kapitel | Status | Anmerkung |
-|---|---|---|---|
-| 01 | Einleitung | ✅ vollständig ausformuliert | ~2.960 Wörter / ca. 6,6 Seiten; 5 `\todo`-Marker für offene Punkte (Quellen 1.1, BayFu-Freigabe, Anfragevolumen, Kollegenbeitrag) |
-| 02 | Grundlagen | ✅ vollständig | Alle 11 Unterabschnitte ausformuliert. Abschnitt 2.4.1 (Schichtung/Clean Architecture) geschrieben mit Lano & Yassipour Tehrani 2023 (Springer) als Hauptquelle. |
-| 03 | Vorgehen | ✅ vollständig ausformuliert | Neu am 22.09.2026: alle 3 Abschnitte fertig (Forschungslogik, Erhebung Ist-Zustand, ADR-Entscheidungsverfahren) |
-| 04 | Ist-Analyse und Anforderungen | 🔲 Todo-Baupläne | Nächstes Schreibziel, sehr ausführliche Baupläne vorhanden (249 Zeilen Struktur) |
-| 05 | Architektur und Realisierung | 🔲 Todo-Baupläne | 532 Zeilen Struktur, inkl. Variante-D-Darstellungsprinzip und Verweissystem |
-| 06 | Evaluation und Diskussion | 🔲 Konzept vorhanden, Daten fehlen | Evaluationskonzept mit Kennzahlen fertig (~900 Wörter); Datenerhebung noch nicht begonnen |
-| 07 | Zusammenfassung und Ausblick | 🔲 Todo-Baupläne | 63 Zeilen, nur Gliederung |
-
-**Hinweis:** `Schreibstand.md` im Repo ist für Kapitel 02 und 03 nicht mehr aktuell — ist nach dem Schreiben vom 22.09.2026 nachgezogen worden.
-
+> [!info] Historische Planung
+> Die Abschnitte oben zu den Ständen vom 16.09., 15.09., 02.09., 13.08. und 12.08.2026 zeigen
+> frühere Gliederungen und Zielumfänge (zuletzt 56 Seiten). Sie sind durch die Tabelle in diesem
+> Abschnitt ersetzt.

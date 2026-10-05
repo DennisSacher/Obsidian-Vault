@@ -8,6 +8,20 @@ date: 2026-09-23
 
 ← zurück zu [[Bachelorarbeit AsiMinu App]] · verwandt: [[Gliederung Variante D - Abschnittsinhalte]], [[Formale Anforderungen TH Rosenheim]], [[Kapitelplanung]]
 
+> [!important] Entscheidung 04.10.2026: Ziel 40 Seiten, harte Obergrenze 45
+> Die Empfehlung unten (55 bis 60 Seiten) ist überholt. Auslöser war der Vergleich mit
+> Abschlussarbeiten aus dem Archiv, die mit 25 bis 40 Seiten gute Noten bekommen haben, und deren
+> Inhaltsverzeichnisse (36 bis 47 Einträge, kaum dritte Ebene). Seitdem gilt:
+> - **Budget 5 / 5 / 2 / 5 / 10 / 9 / 3 = 39 Seiten** (Kapitel 1 bis 7)
+> - **nur zwei Gliederungsebenen**, Inhaltsverzeichnis von 79 auf 36 Einträge
+> - Kapitel 5 kürzt nach einer dreistufigen ADR-Regel (ausführlich nur, was eine Forschungsfrage
+>   trägt)
+> - Stand nach der Kürzung: Kapitel 1 bis 5 belegen 25 Seiten, hochgerechnet rund 37 Seiten
+>
+> Die Argumente unten (was bei weniger Platz unter Druck gerät) bleiben als Prüfliste nützlich:
+> Entwurfsalternativen, Einordnung in den Stand der Technik und die Diskussion dürfen beim
+> Schreiben von Kapitel 6 nicht als Erstes leiden. Aktuelle Struktur in [[Kapitelplanung]].
+
 ## Befund zur Vorgabenlage
 
 **Es gibt keine verbindliche Seitenvorgabe.** Weder die „Hinweise zur Erstellung von Abschlussarbeiten" noch die „Informationen zur Bachelorarbeit" noch die Seminarfolien nennen eine Ober- oder Untergrenze. Die einzige Umfangsangabe („2 bis 5 Seiten") betrifft das Exposé.
