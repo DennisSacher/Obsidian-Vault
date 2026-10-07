@@ -47,6 +47,7 @@ Bachelorarbeit über das AsiMinu CRQ-Management-System, entwickelt bei Bayfu Gmb
 ## Navigation
 
 - [[AsiMiNu-Prozessablauf]] — **Verbindliche fachliche Referenz:** wie eine AsiMiNu-Anfrage wirklich abläuft, Rollen, Glossar
+- [[AsiMiNu-Systemarchitektur]] — Poster des gebauten Systems (Umgebung Test): Bausteine, Datenbanken, Datenflüsse, Azure-Aufbau
 - [[AsiMiNu-Projekthintergrund]] — **Verbindliche fachliche Referenz:** warum es das Projekt gibt, Vergütungsmodell, Zukunftsvision
 - [[Kapitelplanung]] — Welche Kapitel, was kommt wo, Fortschritt
 - [[ADR-zu-Kapitel]] — 52 ADRs × Kapitel-Mapping (welche sind schon drin?)
