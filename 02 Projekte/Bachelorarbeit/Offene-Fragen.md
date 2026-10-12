@@ -45,6 +45,25 @@ erstellt: 2026-08-11
   Kapitel 1.1, um S. 6) im PDF nachschlagen. Eine Quellen-Notiz zu Dumas 2018 fehlt noch.
 - [ ] **KI-Fußnote in Kapitel 2** ist bei der Überarbeitung am 05.10.2026 verloren gegangen.
 
+## Neu am 09. bis 12.10.2026
+
+- [ ] **KI-Fußnote in Kapitel 5** fehlt am Kapitelanfang, die Datei wurde während der Session
+  außerhalb geändert. Bewusst entfernt? Falls nicht, wieder einfügen und dabei die
+  Überarbeitung vom 09. bis 12.10.2026 und die Excalidraw-Abbildungen 5.1 bis 5.4 nennen.
+  Gleiches Muster wie in Kapitel 2 (05.10.2026).
+- [ ] **Submodul-Stand:** Am 09.10.2026 wurde `asiminu-projekt` auf `5741794` (Fassung 1.34.1)
+  aktualisiert, obwohl der Evaluationsstand laut Schreibstand bei `e7ca1ca` eingefroren ist.
+  Zeiger zurücksetzen oder so lassen? Die Messwerte beziehen sich weiterhin auf `e7ca1ca`.
+- [ ] **Läuft die Produktion schon?** 5.6 sagt „in der Produktion sind zwei Instanzen
+  vorgesehen“. Gibt es vor Prod eine Freigabe wie vor Test?
+- [ ] **Was bedeuten die Werte in eckigen Klammern** bei der Standortkategorie („2 [1-3-1]“)?
+  Der Text sagt nur „weitere Angaben“.
+- [ ] **Kapitel 5 liegt bei 13 Seiten** (Budget 10). Mit dem Betreuer klären, ob das bei
+  insgesamt noch rund 40 Seiten in Ordnung ist, sonst gezielt kürzen.
+- [ ] **F07 in Kapitel 6:** Die Lücke ist in 5.4 jetzt genau beschrieben (Anomalieerkennung
+  nur auf dem Weg der Automatik, keine Überschneidungsprüfung im manuellen Weg, kein
+  Hinweis im CC-Panel). Bewertung in 6.2 daran angleichen.
+
 ## Für die Recherche
 
 - [x] **Erledigt 18.09.2026:** Quelle für CRQ-Definition → `ISO/IEC/IEEE 24765:2017` (`\cite{ISO24765}`), frei bei IEEE Xplore. Für ITSM/ITIL → Serrano/Faustino 2021 (`\cite{SerranoFaustino2021}`), Open Access. Beide in `thesis.bib` eingetragen, in Kapitel 2.1.1 und 1.1 verwendet. Siehe [[Zitate-und-Quellen]].

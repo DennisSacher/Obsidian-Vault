@@ -32,6 +32,9 @@ Newman 2015 S. XX
 
 ## Kernaussagen und Zitate
 
+- **S. 11 („No Silver Bullet“), geprüft 09.10.2026:** Microservices bringen „all the associated complexities of distributed systems“ mit. Wer von einem Monolithen kommt, muss bei „deployment, testing, and monitoring“ deutlich besser werden, dazu kommen Skalierung, Resilienz sowie verteilte Transaktionen und das CAP-Theorem. Verwendet in Kapitel 5.1 (Monolith statt Microservices), die Beispiele dort (Löschen von Vorgang und Chat, Test des Einreichens) sind eigene Erläuterung.
+- **S. 41 f. („The Shared Database“), geprüft 12.10.2026:** Greifen mehrere Dienste direkt auf dieselbe Datenbank zu, wird das Schema zu einer großen, brüchigen gemeinsamen Schnittstelle. Jede Schemaänderung kann andere Dienste brechen, die Logik zu denselben Daten verteilt sich, lose Kopplung und Kohäsion gehen verloren. Fazit: „Avoid at (nearly) all costs.“ Verwendet in Kapitel 5.1 als Begründung, warum zu Microservices je eigene Daten gehören.
+
 *(noch auszuwerten — Klappentext deutet auf zentrale Themen: Ausrichtung der Architektur an Organisationszielen, inkrementelle Zerlegung von Monolithen, Service-Integration. Für konkrete Zitate mit Seitenzahl bitte beim Lesen ergänzen oder mir das relevante Kapitel/Thema nennen, dann suche ich gezielt die passende Stelle heraus.)*
 
 ## Verwendung in der Arbeit

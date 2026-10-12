@@ -18,7 +18,7 @@ erstellt: 2026-08-11
 | ADR | Titel (Kurzfassung) | Kapitel | Status | Notiz |
 |---|---|---|---|---|
 | ADR-001 | ApplicationUser in Infrastructure (Benutzermodell) | 05 | 🔶 | am 04.10.2026 aus 5.1 gestrichen, nur noch Anhang B (N07) |
-| ADR-002 | Auth-Provisioning Variante B (Token-Setup) | 04/05 | 🔶 | 5.2 (Freischaltung der Registrierung), ein Satz |
+| ADR-002 | Auth-Provisioning Variante B (Token-Setup) | 04/05 | 🔶 | 5.2 eigener kurzer Absatz (öffentliches GU-Panel, Freigabe der Registrierung, Setup-Link per E-Mail), seit 12.10.2026 |
 | ADR-003 | JWT-Parsing ohne NuGet (manuelles Base64url) | 05 | ⬜ | |
 | ADR-004 | SMTP-Entkopplung via IMailSender | 05 | ⬜ | |
 | ADR-005 | Microsoft Graph API für E-Mail | 05 | ⬜ | |
@@ -29,7 +29,7 @@ erstellt: 2026-08-11
 | ADR-010 | Stateful 2FA via Challenge-Token | 05 | 🔶 | 5.6 Tabelle Schutzmechanismen der Anmeldung |
 | ADR-011 | Passwort-Reset ohne TOTP-Reset | 05 | 🔶 | 5.6 Tabelle Schutzmechanismen der Anmeldung |
 | ADR-012 | Fire-and-Forget Upload-Pattern | 05 | ⬜ | |
-| ADR-013 | AMR-ID-Generierung via pg_advisory_lock | 05 | 🔶 | 5.2 nur als „erster Anlauf“ ohne Nummer; Nummer nur noch im Anhang-Bauplan C |
+| ADR-013 | AMR-ID-Generierung via pg_advisory_lock | 05 | 🔶 | 5.2 als ersetzte frühere Lösung mit Nummer und beiden Schwächen (gelöschte Nummer kam wieder, Sperre vor dem Speichern freigegeben), seit 12.10.2026 |
 | ADR-014 | RENAME COLUMN statt DROP/ADD | 05 | ⬜ | |
 | ADR-015 | SiteCategory-Ausblendung (Least Privilege) | 05 | 🔶 | 5.2 (Kritikalitätsstufe für GU ausgeblendet), ein Satz |
 | ADR-016 | Halbstündliche Zeitintervalle im CRQ-Formular | 05 | 🔶 | 5.3 (Halbstundenraster im Formular), ein Satz |
@@ -46,9 +46,9 @@ erstellt: 2026-08-11
 | ADR-027 | CSP Import-Map-Hash pipeline-seitig | 05 | ⬜ | |
 | ADR-028 | News-Feature-Datenmodell (AuthDbContext) | 05 | ⬜ | |
 | ADR-029 | Refresh-Token Race-Condition-Fix | 05 | ⬜ | |
-| ADR-030 | CRQ-Zeitraum-Validierungsregeln erweitert | 05 | ✅ | 5.3 ausführlich (wo eine Regel steht: gemeinsame Bibliothek gegen Endpunkt) |
+| ADR-030 | CRQ-Zeitraum-Validierungsregeln erweitert | 05 | ✅ | 5.3 (Regel einmal in `Shared`, Begründungspflicht mit geladenen Grenzwerten, Beispiel 6 Tage) |
 | ADR-031 | Freeze-Zeitraum-Datenmodell | 05 | ⬜ | |
-| ADR-032 | Grund-Pflichtprüfung manuell je Endpunkt | 05 | ✅ | 5.3 ausführlich, zusammen mit ADR-030 |
+| ADR-032 | Grund-Pflichtprüfung manuell je Endpunkt | 05 | ✅ | 5.3 (Regeln, die Datenbankdaten brauchen, prüft nur der Endpunkt: Standort, Fünf-Minuten-Pause) |
 | ADR-033 | RegistrationRequest bekommt UserId-Feld | 05 | ⬜ | |
 | ADR-034 | Datenschutz als Singleton-Upload (Markdig) | 05 | ⬜ | |
 | ADR-035 | AGB-Versionierung + zweistufige Akzeptanz | 05 | ⬜ | |
@@ -63,7 +63,7 @@ erstellt: 2026-08-11
 | ADR-044 | AGB-Version löschen nur wenn unakzeptiert | 05 | ⬜ | |
 | ADR-045 | INC-E-Mail-Worker aus Studentenprojekt | 04/05 | ⬜ | |
 | ADR-046 | AsiMinu-AdHoc-Integration (REST, Service-Account) | 04/05 | 🔶 | 5.1 (gemeinsame REST-Schnittstelle), Anhang B N06 |
-| ADR-047 | TicketSpecialist-Rollenmodell | 04/05 | 🔶 | 5.2 (Geltungsbereich des Change Coordinators), ein Satz |
+| ADR-047 | TicketSpecialist-Rollenmodell | 04/05 | ✅ | 5.2 eigener Absatz (Geltungsbereich als Merkmal im JWT, eigene Autorisierungsregel), Abb. 5.2 zeigt das Token, seit 12.10.2026 |
 | ADR-048 | TEF-Callback zweistufige Statuskette | 05 | 🔶 | 5.4 (toleranter Rückkanal), ein Satz |
 | ADR-049 | Spaltentrenner ohne JavaScript | 05 | ⬜ | |
 | ADR-050 | Dashboard-Diagramm ohne Chart-Bibliothek | 05 | ⬜ | |
@@ -75,17 +75,17 @@ erstellt: 2026-08-11
 | ADR-056 | Automatik als Lauf zu festen Uhrzeiten | 05 | 🔶 | 5.4 (Ausführung, Nachholen, Sperre), kurz |
 | ADR-057 | CRQ-Chat-Panel statt Mail-Reply | 05 | ✅ | 5.5 ausführlich (Fehlerklasse der E-Mail-Zuordnung) |
 | ADR-058 | Einzelbetrieb der Datenbank per Dateisperre | 05 | ⬜ | nicht im Text |
-| ADR-059 | Firmenzugehörigkeit über Firmen-ID | 05 | 🔶 | 5.2, ein Satz |
+| ADR-059 | Firmenzugehörigkeit über Firmen-ID | 05 | ✅ | 5.2 eigener Absatz als ABAC-Beispiel aus 2.4 (zwei „Bau GmbH“, Umbenennung), seit 12.10.2026 |
 | ADR-060 | Rückkehr zu PostgreSQL Flexible Server | 05 | 🔶 | 5.6 (verwalteter Dienst), nur Endzustand |
-| ADR-061 | AMR-Nummer aus PostgreSQL-Sequenz | 05 | 🔶 | 5.2, seit 04.10.2026 nur noch kurz; Listing E.1 |
+| ADR-061 | AMR-Nummer aus PostgreSQL-Sequenz | 05 | 🔶 | 5.2 (Sequenz, ersetzt ADR-013, Nachteil Lücken in der Nummernfolge); Listing E.1 |
 
 ---
 
 ## Auswertung
 
 - **Gesamt:** 61 ADRs in dieser Tabelle (ADR-001 bis ADR-061; ADR-061 entstand am 30.09.2026 nach dem eingefrorenen Evaluationsstand)
-- **Behandelt (✅):** 7
-- **Erwähnt (🔶):** 18
+- **Behandelt (✅):** 9
+- **Erwähnt (🔶):** 16
 - **Noch offen (⬜):** 36
 
 > [!info] Stand 04.10.2026

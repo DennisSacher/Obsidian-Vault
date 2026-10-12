@@ -1,7 +1,7 @@
 ---
 tags: [bachelorarbeit, planung]
 erstellt: 2026-08-11
-aktualisiert: 2026-10-05
+aktualisiert: 2026-10-12
 ---
 
 # Kapitelplanung
@@ -154,6 +154,15 @@ Hochgerechnet etwa **37 Seiten**, wenn Kapitel 6 und 7 im Budget bleiben.
   - [ ] Screenshot GU-Formular (5.3)
   - [ ] PostgreSQL-Begründung und Kühnel/Deitelhoff (5.1), Grund für fehlende
     `isCurrent`-Versionierung (5.2)
+  - [x] Stil an Kapitel 2/3 angeglichen, alle Abschnitte 5.1 bis 5.6 mit Beispielen
+    ausgebaut, Abb. 5.1 bis 5.4 als Excalidraw, Tabelle 5.3 neu (09. bis 12.10.2026)
+  - [ ] Umfang: 13 statt 10 Seiten, Kürzungsdurchgang (Kandidat Tabelle 5.1)
+  - [ ] KI-Fußnote am Kapitelanfang fehlt (wie in Kapitel 2), wieder einfügen
+  - [ ] Langen Absatz in 5.1 vor „Für diese Projekte gilt die Dependency Rule“ teilen
+  - [ ] Zweites „etwa“ im Microservices-Absatz (5.1)
+  - [ ] Ggf. Halbsatz: Firma steht nicht im JWT, wird serverseitig nachgeschlagen (5.2)
+  - [ ] „in der Produktion sind zwei vorgesehen“ (5.6) prüfen, sobald Prod läuft
+  - [ ] Überlange Zeile in Anhang E (Listing E.1, Klassennamen)
 - [ ] 06 Evaluation und Diskussion
   - [x] 6.2 Technische Verifikation
   - [x] 6.4 Automatisierungsgrad und Prozesssicherheit
