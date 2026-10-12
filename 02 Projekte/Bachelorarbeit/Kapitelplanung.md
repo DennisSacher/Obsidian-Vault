@@ -115,6 +115,28 @@ aktualisiert: 2026-10-12
 > damals:** KI-Nutzung ist laut Vorgabe per Fußnote im Text zu dokumentieren, siehe
 > [[Offene-Fragen]].
 
+## Restarbeiten bis zur Abgabe (Stand 12.10.2026)
+
+Geprüft am 12.10.2026 direkt in den LaTeX-Dateien. Inhaltlich fertig sind Kapitel 1, 2, 4 und 5.
+Offen sind neben Kapitel 6, 7 und der Durchsicht von Kapitel 3 aber noch einige kleinere Punkte:
+
+- [ ] **Kapitel 6** komplett nach [[Kapitel 6 Arbeitsstand]] (Testdurchläufe, 6.1, 6.2 F07, 6.3, 6.5, 6.6)
+- [ ] **Kapitel 7** Zusammenfassung und Ausblick schreiben (Bauplan steht, 3 Seiten, hängt an 6.5)
+- [ ] **Kapitel 3** komplett durchgehen (`bayfu-crq-problem.md` als Erhebungsquelle, Semikolon in 3.1)
+- [ ] **KI-Fußnoten fehlen in Kapitel 2, 3, 4 und 5.** Nur Kapitel 1 und 6 haben eine
+  (Suche nach „Claude“ in den .tex-Dateien). Laut TH-Vorgabe Pflicht.
+- [ ] **Kapitel 5 Reste:** langen Absatz in 5.1 teilen, zweites „etwa“, Screenshot GU-Formular (5.3),
+  PostgreSQL-Begründung und Kühnel/Deitelhoff (5.1), Satz zu `isCurrent` (5.2), Löschlauf im
+  Probelauf passend zu 6.6
+- [ ] **Kapitel 2 Reste:** Semikolons, Absatz Nachvollziehbarkeit, Schichtabsatz, Vorverweis Dumas,
+  NIST-Beleg, Dumas-Seitenzahl
+- [ ] **Kapitel 1:** Todo „Offene Punkte zu Abschnitt 1.1“ klären
+- [ ] **Anhang:** Testfälle in Anhang B auf sechs anpassen, überlange Zeile in Anhang E, drei Todos
+- [ ] **Kurzfassung (Abstract)** zuletzt schreiben
+- [ ] **KI-Erklärung** (`ki_erklaerung.tex`, ein Todo)
+- [ ] **Schlussdurchsicht:** alle `\todo` und `\quellen` entfernen (aktuell rund 20 Todos), Semikolons
+  im Fließtext, Verweise, Abbildungs- und Abkürzungsverzeichnis, Druckfassung synchron
+
 ## Kapitelstruktur (Stand 04.10.2026)
 
 Seit dem 04.10.2026 nur noch **zwei Gliederungsebenen** (x.y), keine Unterabschnitte mehr.
@@ -156,7 +178,7 @@ Hochgerechnet etwa **37 Seiten**, wenn Kapitel 6 und 7 im Budget bleiben.
     `isCurrent`-Versionierung (5.2)
   - [x] Stil an Kapitel 2/3 angeglichen, alle Abschnitte 5.1 bis 5.6 mit Beispielen
     ausgebaut, Abb. 5.1 bis 5.4 als Excalidraw, Tabelle 5.3 neu (09. bis 12.10.2026)
-  - [ ] Umfang: 13 statt 10 Seiten, Kürzungsdurchgang (Kandidat Tabelle 5.1)
+  - [x] Umfang: 13 statt 10 Seiten bleibt so (Entscheidung Dennis 12.10.2026), keine Kürzung
   - [ ] KI-Fußnote am Kapitelanfang fehlt (wie in Kapitel 2), wieder einfügen
   - [ ] Langen Absatz in 5.1 vor „Für diese Projekte gilt die Dependency Rule“ teilen
   - [ ] Zweites „etwa“ im Microservices-Absatz (5.1)

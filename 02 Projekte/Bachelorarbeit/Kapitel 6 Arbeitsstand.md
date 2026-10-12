@@ -10,10 +10,36 @@ date: 2026-09-30
 
 Diese Notiz hält fest, welche Messungen für Kapitel 6 (Evaluation und Diskussion) anstehen, was schon gemessen ist und wo es weitergeht. Sie wird nach jedem Schritt ergänzt.
 
-> [!important] Hier geht es weiter
-> **Alle Schritte, die Dennis allein machen kann (1 bis 6), sind erledigt.** Als Nächstes zur Wahl: den Konzeptteil von Kapitel 6 (6.1, 6.3, 6.5) an das tatsächlich Gemessene anpassen, die Schritte 7 bis 10 mit der BayFu planen (Termine!), oder mit dem Diskussionsteil beginnen. Empfehlung: zuerst Termine für die Testdurchläufe anfragen, weil sie von anderen abhängen, und in der Wartezeit den Konzeptteil überarbeiten.
-> Alles mit dem Skill vermenschlichen geschrieben.
-> Vereinbarte Arbeitsweise: Schritt für Schritt, der nächste Schritt beginnt erst, wenn Dennis „fertig“ schreibt.
+> [!important] Hier geht es weiter (Stand 12.10.2026, Abend)
+> Schritte 1 bis 6 sind erledigt. Die Testdurchläufe (Schritte 7 bis 9) sind fertig geplant, die Unterlagen liegen unter **`02 Projekte/Bachelorarbeit/Testdurchläufe/`** (`Testfälle Testdurchläufe.docx` und `Protokoll Testdurchläufe.xlsx`, beide im Vault-Git). Entwurf der Nachricht an die BayFu im [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-12|Arbeitsprotokoll 12.10.2026]].
+> **Nächster Schritt: Anleitungsschritt 1 unten, also die Nachricht an die BayFu verschicken.** Danach der Reihe nach weiter.
+> Alles mit dem Skill vermenschlichen geschrieben. Arbeitsweise: Textänderungen zuerst als Vorschlag im Chat, einbauen erst nach Freigabe.
+
+## Anleitung bis zur Abgabe (erstellt 12.10.2026)
+
+Abgabe etwa 31.10.2026. Kritisch sind die Testdurchläufe, weil sie von anderen abhängen.
+
+| Abschnitt | Stand 12.10. | Was fehlt |
+|---|---|---|
+| 6.1 Evaluationsdesign | Konzepttext | an das tatsächliche Vorgehen anpassen |
+| 6.2 Technische Verifikation | fertig | Should-Anforderungen ergänzen (F07) |
+| 6.3 Effizienz und Datenqualität | Bauplan | hängt an den Testdurchläufen |
+| 6.4 Automatisierung und Prozesssicherheit | fertig | nichts |
+| 6.5 Forschungsfragen | Bauplan | komplett schreiben |
+| 6.6 Grenzen | ein Absatz und Bauplan | korrigieren, Rest schreiben |
+
+1. **BayFu anfragen** (heute bzw. sofort): 2 bis 3 CC-Personen je 1,5 bis 2 Stunden, eine GU-Person, Termin bis 23.10. mit Ausweichtermin, Monatsvolumen und heutige Bearbeitungsdauer (Schritt 10). Stichtag 16.10., sonst Plan B.
+2. **Vorbereiten** (13. bis 16.10.) nach Abschnitt 3 im Testfall-Dokument: Standorte U und K, Testkonten, Automatik Konfiguration A, TSM-Ersatz mit den echten TSM-Feldern, Template für TF 4 testen, AdHoc-Testinstanz klären, vorab TF 4 und TF 5 einreichen, Karten ausfüllen und drucken.
+3. **Pilot allein** (Schritt 7): TF 1 und TF 3 auf beiden Wegen, Zeitbedarf und Protokoll prüfen.
+4. **a) Testdurchläufe und Befragung** (Schritte 8 und 9) bis 23.10. **b) Plan B**, falls kein Termin: 6.3 als analytische Bewertung (Tabelle Fehlerquelle → Regel → wo abgefangen, Vergleich Abb. 4.1 und Abb. 5.3, Pilot als Richtwert, N05 über die 12 Bedienbarkeitstests und den Rundgang). Dann auch Kapitel-Einleitung, 6.1 und 6.6 anpassen.
+5. **6.3 schreiben** (ca. 1,5 Seiten): Übersichtstabelle aus dem Blatt Auswertung (Median), je Kennzahl Messung und Einordnung, wo Fehler abgefangen wurden (FF 3), Datenqualität mit Bezug auf 2.3, Hochrechnung, Gebrauchstauglichkeit nach DIN EN ISO 9241-11, **N05 ausdrücklich bewerten** (6.2 verweist darauf), KI-Fußnote.
+6. **6.1 überarbeiten:** gelbes Todo raus, Semikolon in der Passage zur Bearbeitungszeit ersetzen, sechs Testfälle statt fünf, tatsächliches Vorgehen (Rollen, Reihenfolge, Stoppuhr, Simulation des TSM, Automatik in der Testumgebung an, drei Werte), Kennzahlen ohne und mit Beteiligten trennen, KI-Fußnote.
+7. **6.2 ergänzen:** zwei bis drei Sätze zu den sechs Should-Anforderungen (F07, F10, F13, N07, N08, R03). F07 nur teilweise erfüllt (Überschneidungsprüfung nur auf dem Weg der Automatik), Formulierung wie in 5.4.
+8. **6.5 schreiben** (ca. 1,5 Seiten): sechs Unterfragen in Reihenfolge, FF 5 am ausführlichsten, **danach ein Absatz zur Hauptforschungsfrage** (fehlt im Bauplan), dann Einordnung in den Stand der Technik (147 Schreibweisen, ITSM und RPA rückblickend).
+9. **6.6 fertigstellen:** ersten Absatz korrigieren („keine echten Produktivdaten“ stimmt nicht, 6.4 nutzt die echte Standortdatei, gemeint sind keine echten Anfragen). Bauplanpunkte: Automatik nie produktiv, Löschlauf im Probelauf (`appsettings.json` `"Probelauf": true`, 5.6 sagt nur „täglicher Löschlauf entfernt“), Umfangszuwachs, was heute anders entschieden würde. Dazu: Testkatalog aus dem Code abgeleitet, Messverfahren, Besetzung der Rollen, Prüfprotokoll-Fehler nach dem eingefrorenen Stand behoben, fehlende Schnittstelle (Korrekturen erreichen Telefónica nicht).
+10. **Abschluss Kapitel 6:** Todos und `\quellen` raus, KI-Fußnoten, vermenschlichen, keine Semikolons und keine Versionsangaben, kompilieren.
+
+**Zeitplan:** Mo 12.10. Anfrage · 13. bis 16.10. Vorbereitung, Pilot, 6.1, 6.2 · Fr 16.10. Entscheidung Termin oder Plan B · 19. bis 23.10. Testdurchläufe, 6.3, 6.5 · 26. bis 28.10. 6.6, Kapitel 7, Abschluss · 29. bis 31.10. Puffer und Gesamtdurchsicht.
 
 ## Evaluationsstand (eingefroren)
 

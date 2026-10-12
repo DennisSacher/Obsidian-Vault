@@ -58,11 +58,25 @@ erstellt: 2026-08-11
   vorgesehen“. Gibt es vor Prod eine Freigabe wie vor Test?
 - [ ] **Was bedeuten die Werte in eckigen Klammern** bei der Standortkategorie („2 [1-3-1]“)?
   Der Text sagt nur „weitere Angaben“.
-- [ ] **Kapitel 5 liegt bei 13 Seiten** (Budget 10). Mit dem Betreuer klären, ob das bei
-  insgesamt noch rund 40 Seiten in Ordnung ist, sonst gezielt kürzen.
+- [x] **Kapitel 5 liegt bei 13 Seiten** (Budget 10). **Entschieden 12.10.2026:** Für Dennis in Ordnung, die Arbeit darf etwas länger werden. Keine Kürzung nötig.
 - [ ] **F07 in Kapitel 6:** Die Lücke ist in 5.4 jetzt genau beschrieben (Anomalieerkennung
   nur auf dem Weg der Automatik, keine Überschneidungsprüfung im manuellen Weg, kein
   Hinweis im CC-Panel). Bewertung in 6.2 daran angleichen.
+
+## Neu am 12.10.2026 (Testdurchläufe)
+
+- [ ] **Antwort der BayFu** auf die Anfrage zu den Testdurchläufen (Personen, Termin bis 23.10.,
+  Monatsvolumen, heutige Bearbeitungsdauer). Stichtag 16.10., sonst Plan B.
+- [ ] **Gibt es eine Testinstanz von AsiMiNu-AdHoc?** Davon hängen TF 4 und TF 5 auf dem alten Weg ab.
+- [ ] **Welche Felder hat die TSM-Eingabemaske?** Danach den TSM-Ersatz bauen.
+- [ ] **Verhält sich das anonymisierte Excel-Template wie das Original** (Zeilen werden beim
+  Verringern der Ausfalltage nur ausgeblendet)?
+- [ ] **Wie arbeitet die BayFu im Betrieb, solange die Telefónica-Schnittstelle fehlt?** Tippt der CC
+  weiter von Hand ins TSM? Zeigt das CC-Panel die Angaben so, dass man sie gut übernehmen kann?
+- [ ] **Submodul-Zeiger** auf `5741794` lassen (Empfehlung) und im Schreibstand vermerken, dass sich
+  die Messwerte auf `e7ca1ca` beziehen? Bestätigung von Dennis fehlt.
+- [x] **Telefónica-Schnittstelle:** kommt nicht vor der Abgabe (Info Dennis 12.10.2026). Absatz in 1.4
+  wieder eingebaut.
 
 ## Für die Recherche
 

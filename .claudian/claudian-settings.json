@@ -2,7 +2,6 @@
   "userName": "",
   "permissionMode": "yolo",
   "model": "haiku",
-  "thinkingBudget": "off",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -24,7 +23,6 @@
   "providerConfigs": {
     "claude": {
       "enabled": true,
-      "responseStyle": "Default",
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {},
@@ -94,7 +92,10 @@
           "reasoningMetadataResolved": true,
           "supportedEffortLevels": []
         }
-      ]
+      ],
+      "outputStyle": null,
+      "promptSuggestions": false,
+      "discoveredOutputStyles": []
     },
     "codex": {
       "enabled": false,
@@ -110,7 +111,8 @@
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {},
       "responseStyle": "pragmatic",
-      "selectedModels": []
+      "selectedModels": [],
+      "responseVerbosity": "default"
     },
     "grok": {
       "cliPath": "",
@@ -131,7 +133,6 @@
       "environmentVariables": "OPENCODE_ENABLE_EXA=1",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "selectedMode": "",
       "thinkingOptionsByModel": {},
       "visibleModels": [],
       "selectedModels": []
@@ -144,7 +145,6 @@
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "toolMode": "all",
       "visibleModels": [],
       "selectedModels": []
     }
@@ -161,25 +161,27 @@
     "claude": "high"
   },
   "savedProviderServiceTier": {},
-  "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
   "pendingProviderSessionInvalidations": {},
-  "maxWarmAgentProcesses": 5,
   "enableAutoScroll": true,
   "showMessageTimestamps": false,
   "deferMathRenderingDuringStreaming": true,
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
+  "enableZenMode": true,
   "enableDualPane": true,
   "dualPaneSide": "right",
   "restoreTabsOnStartup": true,
   "skillsSynced": false,
   "sessionManagerOrganization": "list",
   "sessionManagerSort": "last-updated",
+  "sessionAutoArchiveAfter": "off",
   "pinnedLinkedContentPaths": [],
   "hiddenCommands": [],
+  "thinkingBudget": "off",
+  "savedProviderThinkingBudget": {},
   "customModelAliases": {},
   "lastCustomModel": "",
   "collabEnabled": false,
