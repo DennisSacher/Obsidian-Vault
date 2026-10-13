@@ -115,27 +115,28 @@ aktualisiert: 2026-10-12
 > damals:** KI-Nutzung ist laut Vorgabe per Fußnote im Text zu dokumentieren, siehe
 > [[Offene-Fragen]].
 
-## Restarbeiten bis zur Abgabe (Stand 12.10.2026)
+## Restarbeiten bis zur Abgabe (Stand 13.10.2026)
 
-Geprüft am 12.10.2026 direkt in den LaTeX-Dateien. Inhaltlich fertig sind Kapitel 1, 2, 4 und 5.
-Offen sind neben Kapitel 6, 7 und der Durchsicht von Kapitel 3 aber noch einige kleinere Punkte:
+Abgabe etwa 31.10.2026. Nach Dringlichkeit sortiert. Kapitel 1, 2, 4, 5 sind inhaltlich fertig, 6.1, 6.2, 6.4, 6.6 und Kapitel 7 geschrieben, Anhang A und C fertig.
 
-- [ ] **Kapitel 6** komplett nach [[Kapitel 6 Arbeitsstand]] (Testdurchläufe, 6.1, 6.2 F07, 6.3, 6.5, 6.6)
-- [ ] **Kapitel 7** Zusammenfassung und Ausblick schreiben (Bauplan steht, 3 Seiten, hängt an 6.5)
-- [ ] **Kapitel 3** komplett durchgehen (`bayfu-crq-problem.md` als Erhebungsquelle, Semikolon in 3.1)
-- [ ] **KI-Fußnoten fehlen in Kapitel 2, 3, 4 und 5.** Nur Kapitel 1 und 6 haben eine
-  (Suche nach „Claude“ in den .tex-Dateien). Laut TH-Vorgabe Pflicht.
-- [ ] **Kapitel 5 Reste:** langen Absatz in 5.1 teilen, zweites „etwa“, Screenshot GU-Formular (5.3),
-  PostgreSQL-Begründung und Kühnel/Deitelhoff (5.1), Satz zu `isCurrent` (5.2), Löschlauf im
-  Probelauf passend zu 6.6
-- [ ] **Kapitel 2 Reste:** Semikolons, Absatz Nachvollziehbarkeit, Schichtabsatz, Vorverweis Dumas,
-  NIST-Beleg, Dumas-Seitenzahl
-- [ ] **Kapitel 1:** Todo „Offene Punkte zu Abschnitt 1.1“ klären
-- [ ] **Anhang:** Testfälle in Anhang B auf sechs anpassen, überlange Zeile in Anhang E, drei Todos
-- [ ] **Kurzfassung (Abstract)** zuletzt schreiben
-- [ ] **KI-Erklärung** (`ki_erklaerung.tex`, ein Todo)
-- [ ] **Schlussdurchsicht:** alle `\todo` und `\quellen` entfernen (aktuell rund 20 Todos), Semikolons
-  im Fließtext, Verweise, Abbildungs- und Abkürzungsverzeichnis, Druckfassung synchron
+1. [ ] **Testdurchläufe mit der BayFu (höchste Priorität).** Details in [[Kapitel 6 Arbeitsstand]].
+   - Stichtag **Fr 16.10.2026**: ohne Termin Plan B (6.3 als analytische Bewertung)
+   - Vorbereitung: Standorte U und K, Testkonten, Automatik Konfiguration A in der Testumgebung, TSM-Ersatztabelle, Template für Testfall 4, Testfall 4 und 5 vorab einreichen, Karten drucken
+   - Pilot allein (Testfall 1 und 3)
+   - Monatsvolumen bei der BayFu erfragen (für die Hochrechnung in 6.3)
+   - Danach 6.3 schreiben und die Todos mit Testergebnissen füllen (6.3, Tabelle und fünf Stellen in 6.5, 7.1)
+2. [ ] **Kapitel 3 überarbeiten** im Stil von Kapitel 4, `bayfu-crq-problem.md` als Erhebungsquelle
+3. [ ] **Ab 6.2 alles noch einmal überarbeiten** (6.2 bis 6.6 und Kapitel 7), Satz für Satz, prüfen ob alles zusammenpasst
+4. [ ] **Eventuell Gliederung um eine Ebene erweitern** (x.y.z). Seit dem 04.10.2026 gibt es nur zwei Ebenen (siehe Kapitelstruktur unten und `thesis/Schreibstand.md`). Kandidaten wären die fett eingeleiteten Teile in 6.5, 6.6, 7.1 und 7.2, die dann zu Unterabschnitten würden. Vorher entscheiden, damit die Überarbeitung (Punkt 2 und 3) nicht doppelt läuft.
+5. [ ] **Screenshots:** Anhang D (GU-Panel, Admin-Panel, Change-Coordinator-Panel) und das GU-Formular mit Fehlermeldung in 5.3 (Todo im Text)
+6. [ ] **Quellen prüfen und fehlende Literatur besorgen.** Ohne PDF im Vault: DIN EN ISO 9241-11 und 9241-110 (Hochschulbibliothek), Pressman/Maxim 2019, Clegg/Barker 1994, Sandhu 1996, Saltzer/Schroeder 1975, Serrano/Faustino 2021, NIST SP 800-162 und 800-63B, OMG DMN, RFC 6238 und 7519 (die letzten frei verfügbar). Dazu die Kapitel-2-Reste: Absatz Nachvollziehbarkeit, Schichtabsatz, Vorverweis Dumas, NIST-Beleg.
+7. [ ] **Kapitel 5 Reste:** Löschlauf in 5.1 („entfernt Vorgänge“) und 5.6 („nach einem Jahr entfernt“) an den Probelauf anpassen (passend zu 6.6, löscht Konten, Token, Protokolleinträge), langen Absatz in 5.1 teilen, zweites „etwa“
+8. [ ] **Anhang E:** überlange Zeile im Code-Listing
+9. [ ] **KI-Erklärung** (`chapters/07/ki_erklaerung.tex`, ein Todo). Wichtig, weil es keine KI-Fußnoten gibt (laut Professor nicht nötig).
+10. [ ] **Abstract** zuletzt schreiben, wenn die Testergebnisse da sind
+11. [ ] **Schlussdurchsicht:** alle übrigen `\todo` entfernen, Abgabedatum auf dem Titelblatt, Abbildung 1.1 gegenlesen, Verweise und Verzeichnisse, Druckfassung (`thesis_single-sided_print`) mit der digitalen Fassung abgleichen
+
+Erledigt am 13.10.2026: Anhang A (Erhebungsinstrumente), Anhang B auf sechs Testfälle angepasst, Anhang C (ADR-Übersicht und ADR-055), Abkürzungsverzeichnis, Semikolons und Doppelpunkte im ganzen Text, `\quellen`-Kästen entfernt (Inhalt in [[Quellenhinweise Kapitel]]), Todos in Kapitel 1 und 5.1, JWT-Abbildung vereinfacht. Entfallen: KI-Fußnoten in Kapitel 2 bis 5.
 
 ## Kapitelstruktur (Stand 04.10.2026)
 
@@ -174,7 +175,7 @@ Hochgerechnet etwa **37 Seiten**, wenn Kapitel 6 und 7 im Budget bleiben.
 - [x] 05 Architektur und Realisierung: sechs Abschnitte, dreistufige ADR-Regel, Umsetzungstabelle
   in Anhang B
   - [ ] Screenshot GU-Formular (5.3)
-  - [ ] PostgreSQL-Begründung und Kühnel/Deitelhoff (5.1), Grund für fehlende
+  - [ ] Grund für fehlende
     `isCurrent`-Versionierung (5.2)
   - [x] Stil an Kapitel 2/3 angeglichen, alle Abschnitte 5.1 bis 5.6 mit Beispielen
     ausgebaut, Abb. 5.1 bis 5.4 als Excalidraw, Tabelle 5.3 neu (09. bis 12.10.2026)
