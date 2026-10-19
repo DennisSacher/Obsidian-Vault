@@ -13,10 +13,11 @@ Diese Notiz hält fest, welche Messungen für Kapitel 6 (Evaluation und Diskussi
 > [!warning] Vorgemerkt (13.10.2026)
 > Dennis möchte **ab 6.2 alles noch einmal überarbeiten**, also 6.2 bis 6.6 und Kapitel 7. Am 13.10. wurden 6.1, 6.2, 6.4, 6.5, 6.6 und Kapitel 7 neu geschrieben bzw. umgebaut (Stil wie Kapitel 4, Beispiele, fette Einstiege). Diese Fassung ist der Ausgangspunkt für die Überarbeitung, Satz für Satz wie bei 6.1.
 
-> [!important] Hier geht es weiter (Stand 13.10.2026, Abend)
-> Text von Kapitel 6 und 7 ist bis auf 6.3 und die Todos mit Testergebnissen fertig (6.1 bis 6.6 außer 6.3, Kapitel 7, Anhang A, B, C). Gesamtliste mit 11 Punkten in [[Kapitelplanung]], Abschnitt „Restarbeiten bis zur Abgabe“. Details im [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-13|Arbeitsprotokoll 13.10.2026]].
-> **Nächster Schritt: Testdurchläufe mit der BayFu** (Anleitungsschritte 1 bis 4 unten). Erst klären, ob die Nachricht an die BayFu raus ist (Entwurf im [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-12|Arbeitsprotokoll 12.10.2026]]). Stichtag Fr 16.10., sonst Plan B. Unterlagen unter **`02 Projekte/Bachelorarbeit/Testdurchläufe/`**.
-> Danach 6.3 schreiben und die Todos füllen (Tabelle 6.2 und fünf Stellen in 6.5, eine in 7.1).
+> [!important] Hier geht es weiter (Stand 15.10.2026, Abend)
+> Text von Kapitel 6 und 7 ist bis auf 6.3 und die Todos mit Testergebnissen fertig (6.1 bis 6.6 außer 6.3, Kapitel 7, Anhang A, B, C). Gesamtliste mit 11 Punkten in [[Kapitelplanung]], Abschnitt „Restarbeiten bis zur Abgabe“.
+> **Testdurchläufe sind vorbereitet** (15.10.): Testtag **Mo 19.10.2026**, Termin laut Dennis kein Problem, Plan B entfällt. Standorte, Automatik, Testkonten, Beobachtung TSM statt TSM-Ersatz und Auftragskarten stehen im [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-15|Arbeitsprotokoll 15.10.2026]].
+> **Nächster Schritt:** die 10 Punkte „Nächste Schritte bis zum Testtag“ im Arbeitsprotokoll 15.10., beginnend mit: Kollegen fragen (Termin, Monatszahl, Zuschauen beim TSM), Testkonten, Testpostfach, AdHoc, Template für TF 4. Unterlagen unter **`02 Projekte/Bachelorarbeit/Testdurchläufe/`**.
+> Danach 6.3 schreiben und die Todos füllen (Tabelle 6.2 und fünf Stellen in 6.5, eine in 7.1). **6.1 und Anhang A.2 anpassen:** Abtippen wird nicht mehr im Test gemessen, sondern im Betrieb beobachtet.
 > Alles mit dem Skill vermenschlichen geschrieben. Arbeitsweise: Textänderungen zuerst als Vorschlag im Chat, einbauen erst nach Freigabe.
 
 ## Anleitung bis zur Abgabe (erstellt 12.10.2026)
@@ -33,7 +34,7 @@ Abgabe etwa 31.10.2026. Kritisch sind die Testdurchläufe, weil sie von anderen 
 | 6.6 Grenzen | geschrieben 13.10. | fertig, bei Plan B anpassen |
 
 1. **BayFu anfragen** (heute bzw. sofort): 2 bis 3 CC-Personen je 1,5 bis 2 Stunden, eine GU-Person, Termin bis 23.10. mit Ausweichtermin, Monatsvolumen und heutige Bearbeitungsdauer (Schritt 10). Stichtag 16.10., sonst Plan B.
-2. **Vorbereiten** (13. bis 16.10.) nach Abschnitt 3 im Testfall-Dokument: Standorte U und K, Testkonten, Automatik Konfiguration A, TSM-Ersatz mit den echten TSM-Feldern, Template für TF 4 testen, AdHoc-Testinstanz klären, vorab TF 4 und TF 5 einreichen, Karten ausfüllen und drucken.
+2. **Vorbereiten** (13. bis 16.10.) nach Abschnitt 3 im Testfall-Dokument: Standorte U und K, Testkonten, Automatik Konfiguration A, Beobachtung der TSM-Übertragung im Betrieb (statt TSM-Ersatz, Entscheidung 15.10.), Template für TF 4 testen, AdHoc-Testinstanz klären, vorab TF 4 und TF 5 einreichen, Karten ausfüllen und drucken.
 3. **Pilot allein** (Schritt 7): TF 1 und TF 3 auf beiden Wegen, Zeitbedarf und Protokoll prüfen.
 4. **a) Testdurchläufe und Befragung** (Schritte 8 und 9) bis 23.10. **b) Plan B**, falls kein Termin: 6.3 als analytische Bewertung (Tabelle Fehlerquelle → Regel → wo abgefangen, Vergleich Abb. 4.1 und Abb. 5.3, Pilot als Richtwert, N05 über die 12 Bedienbarkeitstests und den Rundgang). Dann auch Kapitel-Einleitung, 6.1 und 6.6 anpassen.
 5. **6.3 schreiben** (ca. 1,5 Seiten): Übersichtstabelle aus dem Blatt Auswertung (Median), je Kennzahl Messung und Einordnung, wo Fehler abgefangen wurden (FF 3), Datenqualität mit Bezug auf 2.3, Hochrechnung, Gebrauchstauglichkeit nach DIN EN ISO 9241-11, **N05 ausdrücklich bewerten** (6.2 verweist darauf), KI-Fußnote.

@@ -68,7 +68,7 @@ erstellt: 2026-08-11
 - [ ] **Antwort der BayFu** auf die Anfrage zu den Testdurchläufen (Personen, Termin bis 23.10.,
   Monatsvolumen, heutige Bearbeitungsdauer). Stichtag 16.10., sonst Plan B.
 - [ ] **Gibt es eine Testinstanz von AsiMiNu-AdHoc?** Davon hängen TF 4 und TF 5 auf dem alten Weg ab.
-- [ ] **Welche Felder hat die TSM-Eingabemaske?** Danach den TSM-Ersatz bauen.
+- [x] **Welche Felder hat die TSM-Eingabemaske?** Entfällt (15.10.2026): Kein TSM-Ersatz, die Abtippzeit wird stattdessen im Betrieb bei 5 bis 10 echten Anfragen beobachtet (Abschnitt 3.5 im Testfall-Dokument, Blatt Beobachtung TSM).
 - [ ] **Verhält sich das anonymisierte Excel-Template wie das Original** (Zeilen werden beim
   Verringern der Ausfalltage nur ausgeblendet)?
 - [ ] **Wie arbeitet die BayFu im Betrieb, solange die Telefónica-Schnittstelle fehlt?** Tippt der CC
