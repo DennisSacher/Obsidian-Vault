@@ -30,7 +30,7 @@ erstellt: 2026-08-11
 | ADR-011 | Passwort-Reset ohne TOTP-Reset | 05 | 🔶 | 5.6 Tabelle Schutzmechanismen der Anmeldung |
 | ADR-012 | Fire-and-Forget Upload-Pattern | 05 | ⬜ | |
 | ADR-013 | AMR-ID-Generierung via pg_advisory_lock | 05 | 🔶 | 5.2 als ersetzte frühere Lösung mit Nummer und beiden Schwächen (gelöschte Nummer kam wieder, Sperre vor dem Speichern freigegeben), seit 12.10.2026 |
-| ADR-014 | RENAME COLUMN statt DROP/ADD | 05 | ⬜ | |
+| ADR-014 | RENAME COLUMN statt DROP/ADD | 03 | 🔶 | 18.10.2026: in 3.2 als Beispiel für ein Implementierungsdetail, das nur im ADR steht |
 | ADR-015 | SiteCategory-Ausblendung (Least Privilege) | 05 | 🔶 | 5.2 (Kritikalitätsstufe für GU ausgeblendet), ein Satz |
 | ADR-016 | Halbstündliche Zeitintervalle im CRQ-Formular | 05 | 🔶 | 5.3 (Halbstundenraster im Formular), ein Satz |
 | ADR-017 | Refresh-Token-System (localStorage) | 05 | ⬜ | |
@@ -85,8 +85,8 @@ erstellt: 2026-08-11
 
 - **Gesamt:** 61 ADRs in dieser Tabelle (ADR-001 bis ADR-061; ADR-061 entstand am 30.09.2026 nach dem eingefrorenen Evaluationsstand)
 - **Behandelt (✅):** 9
-- **Erwähnt (🔶):** 16
-- **Noch offen (⬜):** 36
+- **Erwähnt (🔶):** 17
+- **Noch offen (⬜):** 35
 
 > [!info] Stand 04.10.2026
 > Seit der Kürzung gilt in Kapitel 5 eine dreistufige ADR-Regel (siehe `thesis/Schreibstand.md`):

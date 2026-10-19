@@ -107,3 +107,10 @@ erstellt: 2026-08-11
 - [ ] USt-IdNr. (DE327797562) und aktuelle Geschäftsführernamen im Impressum → gegen aktuelle Handelsregisterauszug prüfen
 - [ ] `WertBeiGenehmigung`-Klon in den ADRs: welche Implementierungsdetails sind schutzwürdig und sollten in der öffentlichen BA nicht zu detailliert stehen?
 - [ ] `thesis/dashboard/` nach der Umbenennung der Kapiteldateien im Zuge von Variante D (15.09.2026) prüfen: liest es noch die richtigen Pfade (z. B. `chapters/04/ist_analyse_anforderungen.tex` statt der alten `ist_analyse.tex`/`anforderungen_architektur.tex`, `herausforderungen.tex` entfällt komplett), oder müssen `update.ps1`/`status-setzen.ps1` angepasst werden? Siehe [[Kapitelplanung]].
+
+## Ergänzt 18.10.2026
+
+- [ ] **Gliederung mit drei Ebenen beim Betreuer ansprechen.** Seit 18.10. gibt es 19 Unterkapitel in 2.4, 5.1 bis 5.4, 5.6, 6.1 und 6.5. Findet er die alte zweistufige Fassung besser, liegt sie als Git-Tag `vor-dritte-ebene-2026-10-18` und als PDF in `thesis/Sicherung/` bereit, Rückweg in `thesis/Schreibstand.md`.
+- [ ] **Neue Quelle Österle et al. 2010** ist ein Positionspapier (Rubrik „Kontaktstudium“ der zfbf), Peer-Review unklar. Falls der Betreuer eine international begutachtete Quelle für die Methodik erwartet, Hevner et al. 2004 (MIS Quarterly) ergänzen. Zugang über die TH-Bibliothek prüfen. Siehe [[Österle et al. 2010 - Memorandum gestaltungsorientierte Wirtschaftsinformatik]].
+- [ ] **ADR-055 nennt acht Bedingungen, 5.4 nennt neun.** Beim Faktencheck am 18.10. aufgefallen. Prüfen, ob nach dem ADR eine Bedingung dazukam (Abb. 5.4 zeigt die Kennungen aus `AutomatisierungsGrund`).
+- [ ] **Unbenutzte Einträge in `thesis.bib` (Stand 18.10.: 22 von 33 zitiert).** Nicht zitiert: KuehnelDeitelhoff2025, Loehr2024, MicrosoftAspNetSecurity2024, MicrosoftAzureSecurity2024, Nielsen1993, RichterFlueckiger2013, Schlick2022, SchmelzerSesselmann2020, Suryn2014, VanDerAalst2018, VomBrockeRosemann2015. Vor der Abgabe entfernen oder zitieren (Richtlinie: jede Quelle im Verzeichnis muss im Text vorkommen).

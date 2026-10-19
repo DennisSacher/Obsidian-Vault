@@ -27,3 +27,9 @@ erstellt: 2026-08-11
 2026-10-12 — Die Kommentare im AsiMiNu-Code sind eine sehr gute Quelle für Beispiele in der Arbeit. Der Fünf-Minuten-Begrenzer (zwei Instanzen zählen doppelt), die Anomalieerkennung (Überlappung heißt Korrektur, Anschluss heißt Stückelung) und das Prüfprotokoll ohne Anfrageinhalt sind dort schon fachlich begründet.
 
 2026-10-12 — Ein echtes, mit dem Code des Systems erzeugtes JWT (Abb. 5.2) zeigt mehr als jede Beschreibung. Dabei fiel auf, dass die Firmenkennung nicht im Token steht, sondern serverseitig nachgeschlagen wird.
+
+2026-10-18 — Ein Methodenbegriff wird verständlich, wenn man ihn gegen sein Gegenteil stellt und am eigenen Fall zeigt. „Gestaltungsorientiert“ wurde erst klar über den Vergleich mit einer verhaltensorientierten Arbeit, die nur zählen würde, wie oft Anfragen unvollständig ankommen.
+
+2026-10-18 — Beim Faktencheck für Beispiele lohnt es sich, die ADRs selbst zu öffnen statt sich auf Erinnerung zu verlassen. Das SMS-Beispiel in 3.2 klang plausibel, hatte aber gar keinen eigenen ADR, nur einen Hinweis in ADR-002.
+
+2026-10-18 — Seitenzahlen aus PDFs immer an der Fußzeile prüfen. Beim Memorandum standen sie unten, nicht oben, und der erste Beleg war dadurch um eine Seite verschoben.

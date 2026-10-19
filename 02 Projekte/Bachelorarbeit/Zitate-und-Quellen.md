@@ -66,6 +66,12 @@ Ausführliche Quellen-Notizen (Metadaten, Zitate, Bewertung, PDF) liegen einzeln
 - [[Langmann, Turi 2021 - RPA]] — Langmann, Turi 2021, `\cite{LangmannTuri2020}` (Auflage in thesis.bib korrigiert, siehe Notiz)
 - [[van der Aalst et al. 2018 - RPA Editorial]] — van der Aalst, Bichler, Heinzl 2018, `\cite{VanDerAalst2018}` (vollständig ausgewertet, kurzer Artikel)
 
+## Themenbereich: Forschungsmethodik
+
+*(neuer Themenbereich, ergänzt am 18.10.2026)*
+
+- [[Österle et al. 2010 - Memorandum gestaltungsorientierte Wirtschaftsinformatik]] — Österle et al. 2010, `\cite{Oesterle2010}` (in thesis.bib seit 18.10.2026) — Beleg für „gestaltungsorientiert“ in 3.1, Unterscheidung gestaltungs- vs. verhaltensorientiert S. 666 f., Phasen Analyse/Entwurf/Evaluation/Diffusion S. 667 f. Frei verfügbar (CC BY 4.0), PDF im Vault.
+
 ---
 
 ## Vorlagen für BibTeX-Einträge

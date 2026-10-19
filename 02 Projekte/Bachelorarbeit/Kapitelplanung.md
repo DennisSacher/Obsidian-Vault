@@ -115,7 +115,7 @@ aktualisiert: 2026-10-12
 > damals:** KI-Nutzung ist laut Vorgabe per Fußnote im Text zu dokumentieren, siehe
 > [[Offene-Fragen]].
 
-## Restarbeiten bis zur Abgabe (Stand 13.10.2026)
+## Restarbeiten bis zur Abgabe (Stand 18.10.2026)
 
 Abgabe etwa 31.10.2026. Nach Dringlichkeit sortiert. Kapitel 1, 2, 4, 5 sind inhaltlich fertig, 6.1, 6.2, 6.4, 6.6 und Kapitel 7 geschrieben, Anhang A und C fertig.
 
@@ -125,9 +125,9 @@ Abgabe etwa 31.10.2026. Nach Dringlichkeit sortiert. Kapitel 1, 2, 4, 5 sind inh
    - Pilot allein (Testfall 1 und 3)
    - Monatsvolumen bei der BayFu erfragen (für die Hochrechnung in 6.3)
    - Danach 6.3 schreiben und die Todos mit Testergebnissen füllen (6.3, Tabelle und fünf Stellen in 6.5, 7.1)
-2. [ ] **Kapitel 3 überarbeiten** im Stil von Kapitel 4, `bayfu-crq-problem.md` als Erhebungsquelle
-3. [ ] **Ab 6.2 alles noch einmal überarbeiten** (6.2 bis 6.6 und Kapitel 7), Satz für Satz, prüfen ob alles zusammenpasst
-4. [ ] **Eventuell Gliederung um eine Ebene erweitern** (x.y.z). Seit dem 04.10.2026 gibt es nur zwei Ebenen (siehe Kapitelstruktur unten und `thesis/Schreibstand.md`). Kandidaten wären die fett eingeleiteten Teile in 6.5, 6.6, 7.1 und 7.2, die dann zu Unterabschnitten würden. Vorher entscheiden, damit die Überarbeitung (Punkt 2 und 3) nicht doppelt läuft.
+2. [x] **Kapitel 3 überarbeiten** (abgeschlossen 18.10.2026) im Stil von Kapitel 4, `bayfu-crq-problem.md` als Erhebungsquelle. **18.10.2026:** Stilüberarbeitung übernommen, neue Quelle [[Österle et al. 2010 - Memorandum gestaltungsorientierte Wirtschaftsinformatik]]. Danach Satz für Satz mit Dennis durchgegangen. Bewusst nicht geändert (Entscheidung Dennis): kein Satz zum Ablageort der ADRs, Satz „nicht im Nachhinein abgeleitet“ bleibt trotz ADR-061. ADR-014 muss nicht in Anhang C, weil 3.2 jetzt auf die in Kapitel 5 zitierten ADRs verweist.
+3. [ ] **Ab 6.2 alles noch einmal überarbeiten** (6.2 bis 6.6 und Kapitel 7), Satz für Satz, prüfen ob alles zusammenpasst. **Begonnen 18.10.2026 bei 6.1:** Satz „Woran eine Verbesserung zu erkennen ist … stand deshalb fest“ gestrichen (steht in Kapitel 3), Übergang „Verglichen wird an sechs Kennzahlen“. Prüfprotokoll in 6.1.1 bleibt ohne Erklärung (erklärt in 5.6.2), Entscheidung über einen Rückverweis steht noch aus. **Weiter ab 6.1.1, Absatz „Die übrigen drei Kennzahlen …“.**
+4. [x] **Erledigt 18.10.2026:** 19 Unterkapitel in 2.4, 5.1 bis 5.4, 5.6, 6.1 und 6.5 eingefügt, Fließtext unverändert. Alter Stand mit zwei Ebenen als Git-Tag `vor-dritte-ebene-2026-10-18` und PDF `thesis/Sicherung/Vollfassung_vor-dritte-ebene_2026-10-18.pdf`, Rückweg in `thesis/Schreibstand.md` (Entscheidung 18.10.). Danach erledigt: doppelte Fetteinstiege in 6.5.2/6.5.3 gestrichen, Einleitung 5.6 um den Betrieb ergänzt, Überleitungssatz unter 2.4. Ursprüngliche Notiz: **Eventuell Gliederung um eine Ebene erweitern** (x.y.z). Seit dem 04.10.2026 gibt es nur zwei Ebenen (siehe Kapitelstruktur unten und `thesis/Schreibstand.md`). Kandidaten wären die fett eingeleiteten Teile in 6.5, 6.6, 7.1 und 7.2, die dann zu Unterabschnitten würden. Vorher entscheiden, damit die Überarbeitung (Punkt 2 und 3) nicht doppelt läuft.
 5. [ ] **Screenshots:** Anhang D (GU-Panel, Admin-Panel, Change-Coordinator-Panel) und das GU-Formular mit Fehlermeldung in 5.3 (Todo im Text)
 6. [ ] **Quellen prüfen und fehlende Literatur besorgen.** Ohne PDF im Vault: DIN EN ISO 9241-11 und 9241-110 (Hochschulbibliothek), Pressman/Maxim 2019, Clegg/Barker 1994, Sandhu 1996, Saltzer/Schroeder 1975, Serrano/Faustino 2021, NIST SP 800-162 und 800-63B, OMG DMN, RFC 6238 und 7519 (die letzten frei verfügbar). Dazu die Kapitel-2-Reste: Absatz Nachvollziehbarkeit, Schichtabsatz, Vorverweis Dumas, NIST-Beleg.
 7. [ ] **Kapitel 5 Reste:** Löschlauf in 5.1 („entfernt Vorgänge“) und 5.6 („nach einem Jahr entfernt“) an den Probelauf anpassen (passend zu 6.6, löscht Konten, Token, Protokolleinträge), langen Absatz in 5.1 teilen, zweites „etwa“
