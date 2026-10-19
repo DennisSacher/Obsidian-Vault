@@ -13,10 +13,10 @@ Diese Notiz hält fest, welche Messungen für Kapitel 6 (Evaluation und Diskussi
 > [!warning] Vorgemerkt (13.10.2026)
 > Dennis möchte **ab 6.2 alles noch einmal überarbeiten**, also 6.2 bis 6.6 und Kapitel 7. Am 13.10. wurden 6.1, 6.2, 6.4, 6.5, 6.6 und Kapitel 7 neu geschrieben bzw. umgebaut (Stil wie Kapitel 4, Beispiele, fette Einstiege). Diese Fassung ist der Ausgangspunkt für die Überarbeitung, Satz für Satz wie bei 6.1.
 
-> [!important] Hier geht es weiter (Stand 15.10.2026, Abend)
+> [!important] Hier geht es weiter (Stand 19.10.2026)
 > Text von Kapitel 6 und 7 ist bis auf 6.3 und die Todos mit Testergebnissen fertig (6.1 bis 6.6 außer 6.3, Kapitel 7, Anhang A, B, C). Gesamtliste mit 11 Punkten in [[Kapitelplanung]], Abschnitt „Restarbeiten bis zur Abgabe“.
-> **Testdurchläufe sind vorbereitet** (15.10.): Testtag **Mo 19.10.2026**, Termin laut Dennis kein Problem, Plan B entfällt. Standorte, Automatik, Testkonten, Beobachtung TSM statt TSM-Ersatz und Auftragskarten stehen im [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-15|Arbeitsprotokoll 15.10.2026]].
-> **Nächster Schritt:** die 10 Punkte „Nächste Schritte bis zum Testtag“ im Arbeitsprotokoll 15.10., beginnend mit: Kollegen fragen (Termin, Monatszahl, Zuschauen beim TSM), Testkonten, Testpostfach, AdHoc, Template für TF 4. Unterlagen unter **`02 Projekte/Bachelorarbeit/Testdurchläufe/`**.
+> **Testdurchläufe sind fertig vorbereitet und alles ist ausgedruckt** (19.10.). Testtag ist jetzt **Di 20.10.2026**, am Abend davor spielt Dennis alles einmal selbst durch. Excel-Templates, Druckvorlagen und Entscheidungen im [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-19|Arbeitsprotokoll 19.10.2026]], Standorte, Automatik und Ablauf im [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-15|Arbeitsprotokoll 15.10.2026]]. Unterlagen unter **`02 Projekte/Bachelorarbeit/Testdurchläufe/`**.
+> Die Testdurchläufe finden auf jeden Fall statt, auch wenn sich der Termin verschiebt. Kein Plan B nötig.
 > Danach 6.3 schreiben und die Todos füllen (Tabelle 6.2 und fünf Stellen in 6.5, eine in 7.1). **6.1 und Anhang A.2 anpassen:** Abtippen wird nicht mehr im Test gemessen, sondern im Betrieb beobachtet.
 > Alles mit dem Skill vermenschlichen geschrieben. Arbeitsweise: Textänderungen zuerst als Vorschlag im Chat, einbauen erst nach Freigabe.
 

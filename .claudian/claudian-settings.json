@@ -95,7 +95,8 @@
       ],
       "outputStyle": null,
       "promptSuggestions": false,
-      "discoveredOutputStyles": []
+      "discoveredOutputStyles": [],
+      "sessionEnvironmentHash": ""
     },
     "codex": {
       "enabled": false,
@@ -112,7 +113,8 @@
       "wslDistroOverridesByHost": {},
       "responseStyle": "pragmatic",
       "selectedModels": [],
-      "responseVerbosity": "default"
+      "responseVerbosity": "default",
+      "sessionEnvironmentHash": ""
     },
     "grok": {
       "cliPath": "",
@@ -145,7 +147,21 @@
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
+      "sessionEnvironmentHash": "",
       "visibleModels": [],
+      "selectedModels": []
+    },
+    "deepseek": {
+      "enabled": false,
+      "codeMode": false,
+      "presetPlugins": "",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "environmentVariables": "",
+      "environmentHash": "",
+      "visibleModels": [],
+      "modelAliases": {},
+      "preferredReasoningByModel": {},
       "selectedModels": []
     }
   },
@@ -154,6 +170,7 @@
     "providerId": "claude",
     "model": "sonnet"
   },
+  "inlineEditModel": null,
   "savedProviderModel": {
     "claude": "haiku"
   },
@@ -168,9 +185,11 @@
   "enableAutoScroll": true,
   "showMessageTimestamps": false,
   "deferMathRenderingDuringStreaming": true,
+  "pluginRenderedFenceLanguages": [],
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
   "enableZenMode": true,
+  "zenModePosition": null,
   "enableDualPane": true,
   "dualPaneSide": "right",
   "restoreTabsOnStartup": true,

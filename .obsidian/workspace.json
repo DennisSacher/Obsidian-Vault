@@ -184,9 +184,14 @@
                     {
                       "tabId": "tab-1790147039074-za1sns3",
                       "conversationId": "conv-1790147072454-iy7g7eni0"
+                    },
+                    {
+                      "tabId": "tab-1792407306024-rwgjr23",
+                      "conversationId": "conv-1790147072454-iy7g7eni0",
+                      "preview": true
                     }
                   ],
-                  "activeTabId": "tab-1790147039074-za1sns3"
+                  "activeTabId": "tab-1792407306024-rwgjr23"
                 }
               },
               "icon": "bot",
@@ -215,22 +220,24 @@
   },
   "active": "daca79735146a0f1",
   "lastOpenFiles": [
+    "05 Daily Notes/2026-10-19.md",
+    "02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-19.md",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/99971100",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/Excel-Templates/~$Template alter Weg.xlsx",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/Excel-Templates/~$Template TF 2.xlsx",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/Druckvorlagen/4 Zettel und Spickzettel (1x drucken).pdf",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/Druckvorlagen/3 Fragebogen (5x drucken).pdf",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/Druckvorlagen/2 Hinweisblatt CC (2x drucken).pdf",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/Druckvorlagen/1 Auftragskarten (1x drucken).pdf",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/Druckvorlagen",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/~$stfälle Testdurchläufe.docx",
+    "02 Projekte/Bachelorarbeit/Testdurchläufe/Excel-Templates/Template TF 4 ursprünglich.xlsx",
     "05 Daily Notes/2026-10-06.md",
     "02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-06.md",
     "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/figures/abb-4-1-ist-prozess.png",
-    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/figures/abb-4-1-ist-prozess.excalidraw",
-    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.synctex(busy)",
-    "02 Projekte/Bachelorarbeit/Repo/thesis/BA-Text/latex-projekt/thesis_digital.synctex.gz",
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/wiki/Betrieb.md",
     "CLAUDE.md",
-    "CLAUDE.md.tmp.15316.570dbedc4c91",
-    "04 Ressourcen/Claude Code & KI-Tools/Skills/vermenschlichen/LICENSE",
     "04 Ressourcen/Claude Code & KI-Tools/Skills/vermenschlichen/SKILL.md",
-    "04 Ressourcen/Claude Code & KI-Tools/Skills/vermenschlichen",
-    "04 Ressourcen/Claude Code & KI-Tools/1LpKiCQ7",
-    "04 Ressourcen/Claude Code & KI-Tools/b2PoEpq8",
-    "04 Ressourcen/Claude Code & KI-Tools/oyB405Dd",
-    "CLAUDE.md.tmp.15316.010fe7be6893",
     "04 Ressourcen/Claude Code & KI-Tools/Skills.md",
     "04 Ressourcen/Claude Code & KI-Tools/Skills/skills-verwalten/SKILL.md",
     "04 Ressourcen/Claude Code & KI-Tools/Skills/thesis-session-end/SKILL.md",
@@ -250,8 +257,6 @@
     "04 Ressourcen/Claude Code & KI-Tools/Skills/obsidian-cli/SKILL.md",
     "04 Ressourcen/Claude Code & KI-Tools/Skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
     "04 Ressourcen/Claude Code & KI-Tools/Skills/obsidian-bases/SKILL.md",
-    "04 Ressourcen/Claude Code & KI-Tools/Skills/json-canvas/references/EXAMPLES.md",
-    "04 Ressourcen/Claude Code & KI-Tools/Skills/json-canvas/SKILL.md",
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/backend/AsiMinu.Api/Reporting/Bilder/logo_klein.png",
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/backend/AsiMinu.Api/Reporting/Bilder/logo.png",
     "02 Projekte/Bachelorarbeit/Repo/asiminu-projekt/src/backend/AsiMinu.Api/Reporting/Bilder/kompass.png",

@@ -114,3 +114,8 @@ erstellt: 2026-08-11
 - [ ] **Neue Quelle Österle et al. 2010** ist ein Positionspapier (Rubrik „Kontaktstudium“ der zfbf), Peer-Review unklar. Falls der Betreuer eine international begutachtete Quelle für die Methodik erwartet, Hevner et al. 2004 (MIS Quarterly) ergänzen. Zugang über die TH-Bibliothek prüfen. Siehe [[Österle et al. 2010 - Memorandum gestaltungsorientierte Wirtschaftsinformatik]].
 - [ ] **ADR-055 nennt acht Bedingungen, 5.4 nennt neun.** Beim Faktencheck am 18.10. aufgefallen. Prüfen, ob nach dem ADR eine Bedingung dazukam (Abb. 5.4 zeigt die Kennungen aus `AutomatisierungsGrund`).
 - [ ] **Unbenutzte Einträge in `thesis.bib` (Stand 18.10.: 22 von 33 zitiert).** Nicht zitiert: KuehnelDeitelhoff2025, Loehr2024, MicrosoftAspNetSecurity2024, MicrosoftAzureSecurity2024, Nielsen1993, RichterFlueckiger2013, Schlick2022, SchmelzerSesselmann2020, Suryn2014, VanDerAalst2018, VomBrockeRosemann2015. Vor der Abgabe entfernen oder zitieren (Richtlinie: jede Quelle im Verzeichnis muss im Text vorkommen).
+
+## Ergänzt 19.10.2026
+
+- [ ] **Kapitel 4, Fall 1 „ausgeblendete Excel-Zeilen“ prüfen.** Das echte Work Info Template v1.51 blendet beim Verringern der Ausfalltage keine Zeilen aus. Datum und Uhrzeit der überzähligen Tage bleiben sichtbar, nur die Beschriftung „Tag n“ wird weiß. Prüfen, auf welcher Template-Version Abb. 4.2 und die Beschreibung von Fall 1 beruhen, und den Text ggf. anpassen. Siehe [[Arbeitsprotokolle/2026-10-19|Arbeitsprotokoll 19.10.2026]].
+- [ ] **Wartezeit bei Rückfragen** wird im Test nicht nachgestellt. Für 6.3 bei den Kollegen erfragen (typische Antwortzeit eines GU, Häufigkeit) und als Grenze in 6.6 nennen.
