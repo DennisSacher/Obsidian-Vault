@@ -59,6 +59,79 @@ Die GU-Person sitzt am besten mit im Raum, an einem eigenen Rechner. Sie bekommt
 - Zu Inhalten nichts sagen, nur Fragen zum Ablauf beantworten. Jede Hilfe kommt als Eingriff ins Protokoll.
 - Nach dem Testfall die Karte wieder einsammeln.
 
+### Spickzettel Protokoll (Blatt Durchläufe)
+
+Nur diese Spalten von Hand ausfüllen. A bis E sind vorbelegt, K, N, Q, T und Y bis AD rechnen selbst.
+
+**Live während des Testfalls**
+
+| Spalte | Was rein kommt |
+|---|---|
+| I / J Eingabe Start / Ende | Uhrzeit, wenn die GU-Person öffnet bzw. absendet |
+| L / M Prüfung Start / Ende | Uhrzeit, wenn die CC-Person öffnet bzw. entscheidet. Greift die Automatik, bleibt das leer bzw. 0 |
+| O Rückfrage nötig? | ja / nein |
+| P Rückfrage [min] | Dauer der Klärung als Zahl, z. B. 3,2 |
+
+> [!tip] Rückfrage richtig messen
+> Die Prüfzeit endet (M), sobald die CC-Person die Rückfrage stellt. Ab da läuft nur noch die Rückfrage, bis die CC-Person nach der Klärung endgültig entscheidet. Nicht beides weiterlaufen lassen, sonst zählt die Rückfrage doppelt (Gesamt = Eingabe + Prüfung + Rückfrage). Wartezeit, in der niemand arbeitet, zählt nicht. Fragt die GU-Person bei TF 2 neu nach der Nummer, ist das keine Rückfrage, die Eingabezeit läuft weiter.
+
+**Direkt nach dem Testfall (Dropdowns)**
+
+| Spalte | Bedeutung | Werte |
+|---|---|---|
+| R Ergebnis | Was am Ende mit der Anfrage passiert ist | *übertragen* (alt: CC hat sie angenommen, sie würde ins TSM gehen) · *vorgemerkt (Automatik)* (neu: System hat selbst validiert) · *manuelle Prüfung* (neu: CC musste ran und hat validiert) · *abgelehnt* · *verworfen* (z. B. AdHoc schluckt die Mail bei TF 5 alt) · *abgebrochen* (Testperson kommt nicht weiter) |
+| S Konsistent? | Passen die Angaben **innerhalb** der Anfrage zueinander? Nicht verwechseln mit „korrekt“, das prüft das Blatt Datenqualität. | *ja* / *nein* / *–*, wenn es für den Testfall keine Rolle spielt |
+| U Eingriff | Musstest du helfen oder etwas erklären? | ja / nein, bei ja kurz in X beschreiben |
+| X Bemerkung | Alles Auffällige als Freitext | |
+
+**Wo S wirklich relevant wird**
+
+- **TF 1 / TF 2:** meist *ja*, wenn nichts Widersprüchliches drinsteht.
+- **TF 3:** Betreff `121990074` gegen Template `121990047`. Bleibt die Abweichung unbemerkt, *nein*.
+- **TF 4 / TF 6:** Passt die Zahl der Ausfalltage zu den Tageszeilen bzw. zum Zeitraum?
+- **TF 5:** Gibt es am Ende eine Anfrage oder zwei? Zwei bedeutet *nein*.
+
+**Einmalig bzw. am Ende**
+
+- F, G, H (GU-Kürzel, CC-Kürzel, Datum) vor dem Durchgang einmal eintragen und nach unten kopieren.
+- V und W (DB-Zeitstempel eingereicht, validiert) nur bei den neu-Zeilen. Für Durchgang A **vor dem Löschen** zwischen A und B eintragen, ebenso das Blatt Datenqualität für Nr 1 bis 12.
+
+### Was „Konsistent“ (Spalte S) heißt
+
+Die Fehler in TF 2 bis TF 6 sind absichtlich eingebaut. Gemessen wird nicht, ob die Testperson etwas falsch macht, sondern ob der Prozess den eingebauten Fehler abfängt (wie beim Test eines Rauchmelders). S beantwortet nur: **Widersprechen sich am Ende noch zwei Angaben?** Bewertet wird das Endergebnis, also nach einer Rückfrage. Ob die Angaben zur Karte passen, ist Korrektheit und gehört ins Blatt Datenqualität. Eine fehlende Angabe (TF 2) ist Unvollständigkeit, kein Widerspruch, S bleibt dann *ja*. *–* nur, wenn es nichts zu bewerten gibt (z. B. abgebrochen).
+
+### Worum es in den Testfällen geht
+
+Jeder Testfall bildet eine Schwachstelle aus Kapitel 4 nach. „Optimal“ heißt nur: Es passiert, was erwartet wird. Läuft es anders, ist das trotzdem ein Ergebnis und kommt ehrlich in 6.3.
+
+| TF | Szenario | Merkmal | Erwartet alt | Erwartet neu | Was es zeigt |
+|---|---|---|---|---|---|
+| 1 | Korrekte Anfrage | Effizienz | CC prüft und nimmt an, Abtippen kommt aus der Beobachtung | Automatik merkt vor, Prüfzeit 0 | Grundlinie für den Zeitvergleich, CC-Arbeit entfällt im Normalfall |
+| 2 | Telefonnummer fehlt | Vollständigkeit | Lücke fällt erst bei CC auf (oder gar nicht), Rückfrage nötig | Knopf gesperrt, Lücke fällt beim GU auf, keine Rückfrage | Fehlerprüfung wandert nach vorne |
+| 3 | Zahlendreher Betreff/Template | Konsistenz, Korrektheit | Offen, ob CC es merkt, im schlimmsten Fall falscher Standort im TSM | Standort nur einmal über Suche, Widerspruch unmöglich | Widerspruch technisch ausgeschlossen |
+| 4 | Korrektur vor Übertragung (3 → 1 Tag) | Konsistenz | Korrektur kommt mit 3 Tagen an, fällt kaum auf | Gleicher Datensatz, gleiche AMR-Nummer, Verlauf im Chat | Korrektur eindeutig und nachvollziehbar |
+| 5 | Korrektur nach Übertragung | Nachvollziehbarkeit | AdHoc verwirft ohne Rückmeldung oder doppelter CR | Gleicher Datensatz, GU sieht Verlauf, Telefónica erfährt nichts | Korrektur geht nicht verloren, Grenze ohne Schnittstelle |
+| 6 | Kritischer Standort, 10 Tage | Prozesssicherheit | Kritikalität hängt allein am Wissen der CC | Begründung Pflicht, keine Automatik, Grund sichtbar | Kritische Fälle landen gezielt beim Menschen |
+
+### Sonderfälle
+
+**TF 3 alt: Wie soll die CC reagieren?** Nichts vorgeben, sie arbeitet wie im Alltag. Immer notieren, welche Nummer sie ins TSM übernehmen würde (und welche AdHoc anzeigt).
+
+| CC-Reaktion | Protokoll |
+|---|---|
+| Merkt es, fragt nach | O ja, P Minuten, S ja |
+| Merkt es, nimmt ohne Rückfrage die Template-Nummer | O nein, S ja, in X notieren. Richtig nur, weil das Template zufällig stimmt |
+| Merkt es nicht, Template-Nummer | O nein, S nein |
+| Merkt es nicht, Betreff-Nummer | O nein, S nein, Fehler im Endergebnis ja |
+
+**TF 4 alt: Woran erkennt die CC die Korrektur?** Wahrscheinlich gar nicht, das ist der Punkt. TF 4 steht in AdHoc auf Offen, also überschreibt AdHoc den Eintrag als Korrektur. Es liest aber alle Zeilen, auch die weiß beschrifteten Tage 2 und 3. In AdHoc steht danach wieder 09.11. bis 11.11. (3 Tage), im Template-Anhang dagegen Anzahl Tage 1. Auffallen kann es nur, wenn die CC beides vergleicht. Keinen Hinweis geben. Beobachten: Öffnet sie den Anhang, vergleicht sie, zeigt AdHoc einen Hinweis aufs Überschreiben? Am Ende fragen, welchen Zeitraum sie ins TSM übernehmen würde. 3 Tage: Fehler im Endergebnis, S nein. 1 Tag: in X festhalten, **wie** sie es gemerkt hat.
+*Nachtrag 21.10.2026:* Laut CC schaut sie immer auch in Mailpostfach und Template, und der GU schreibt die Änderung meist in den Mailtext. Im Alltag fängt sie TF 4 darüber ab, siehe [[Expertenbefragung Change-Koordinatorin]].
+
+**TF 5 alt: AdHoc verwirft die Mail.** Dann sieht die CC nichts und es gibt keine Prüfzeit. I/J normal, L/M/P leer, R = verworfen, in X Rückmeldung an GU notieren. Kommt die Mail doch bei der CC an, normal messen.
+Achtung Excel: Die Hilfsspalten AA/AC rechnen bei leerer Prüfzeit mit 0. Ein verworfener Durchlauf ginge als „alt mit 0 Minuten Prüfung“ in den Median ein und ließe den alten Weg schneller aussehen. Vor der Auswertung verworfene bzw. abgebrochene Zeilen aus dem Zeitvergleich herausnehmen (Formeln noch nicht angepasst, Stand 21.10.2026).
+
+**TF 5 neu: Ändern nach der Übertragung.** Geht, im Code geprüft: Der Bearbeiten-Endpunkt (`AdminCrqController.BearbeitenAsync`) prüft den Status nicht, Zeitraum, SA-Dauer und CRQ-Nummer sind auch bei *Übertragen* änderbar. „In Rücksprache“ geht nur aus *Neu*, die CC ändert also direkt. Die Änderung wird **nicht** erneut an Telefónica bzw. ins TSM geschickt, im Betrieb müsste die CC das TSM zusätzlich von Hand korrigieren. Grenze für 6.6. Prüfzeit: vom Öffnen der Anfrage bzw. Chatnachricht bis zum Speichern.
+
 ### TF 1: korrekte Anfrage (erst alt, dann neu)
 
 **Alt (Nr 1)**

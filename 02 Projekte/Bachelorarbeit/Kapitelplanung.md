@@ -119,7 +119,16 @@ aktualisiert: 2026-10-12
 
 Abgabe etwa 31.10.2026. Nach Dringlichkeit sortiert. Kapitel 1, 2, 4, 5 sind inhaltlich fertig, 6.1, 6.2, 6.4, 6.6 und Kapitel 7 geschrieben, Anhang A und C fertig.
 
-1. [ ] **Testdurchläufe mit der BayFu (höchste Priorität).** Details in [[Kapitel 6 Arbeitsstand]].
+1. [x] **Testdurchläufe mit der BayFu (höchste Priorität).** Details in [[Kapitel 6 Arbeitsstand]]. **Erledigt 21.10.2026.**
+   - **21.10.2026: Methode geändert.** Statt kontrollierter Durchläufe wurden die sechs Testfälle mit der Change-Koordinatorin durchgesprochen (Erfahrungswerte) und einzelne Schritte gemessen, Ergebnisse in [[Testdurchläufe/Expertenbefragung Change-Koordinatorin|Expertenbefragung Change-Koordinatorin]]. Daraus folgt:
+   - [x] 6.1.2 „Testfälle und Durchführung“ auf das tatsächliche Vorgehen umschreiben
+   - [x] 6.3 schreiben: Bearbeitungszeit und Durchlaufzeit getrennt, Rückfragequote 50 %, Eingabezeit 4:30 gegen 58 s, Hochrechnung auf 256 Anfragen, Gebrauchstauglichkeit und N05
+   - [x] 6.5 Unterfrage 1 korrigiert (größter Aufwand sind die Rückfragen)
+   - [x] Todos in 6.5 und 7.1 gefüllt, 6.6 „Aussagekraft der Befragung“
+   - [x] Anhang A angepasst, 3.1 und 7.2 angepasst. Anhang B unverändert (nennt nur die Testfälle mit Nummer)
+   - [x] Kurzfassung mit Ergebnissen (war Punkt 10)
+   - [ ] **Offen:** Gründe der Rückfragen mit der Change-Koordinatorin prüfen (Todo in 6.3)
+   - [ ] **Offen:** TF 5, wo wird überschrieben (TSM oder BPMN-Prozess)? Ggf. Tabelle 6.1 Zeile 5 und 4.2 anpassen
    - Stichtag **Fr 16.10.2026**: ohne Termin Plan B (6.3 als analytische Bewertung)
    - Vorbereitung: Standorte U und K, Testkonten, Automatik Konfiguration A in der Testumgebung, TSM-Ersatztabelle, Template für Testfall 4, Testfall 4 und 5 vorab einreichen, Karten drucken
    - Pilot allein (Testfall 1 und 3)
@@ -133,7 +142,8 @@ Abgabe etwa 31.10.2026. Nach Dringlichkeit sortiert. Kapitel 1, 2, 4, 5 sind inh
 7. [ ] **Kapitel 5 Reste:** Löschlauf in 5.1 („entfernt Vorgänge“) und 5.6 („nach einem Jahr entfernt“) an den Probelauf anpassen (passend zu 6.6, löscht Konten, Token, Protokolleinträge), langen Absatz in 5.1 teilen, zweites „etwa“
 8. [ ] **Anhang E:** überlange Zeile im Code-Listing
 9. [ ] **KI-Erklärung** (`chapters/07/ki_erklaerung.tex`, ein Todo). Wichtig, weil es keine KI-Fußnoten gibt (laut Professor nicht nötig).
-10. [ ] **Abstract** zuletzt schreiben, wenn die Testergebnisse da sind
+   - [ ] **Eigenständigkeitserklärung** (`chapters/declaration-of-originality.tex`): in der digitalen Fassung bewusst ausgelassen, wird laut TH separat über das DMS-Portal beim Upload abgegeben. Vor der Abgabe prüfen, unterschreiben, Datum.
+10. [x] **Abstract** geschrieben 21.10.2026 (Ergebnisabsatz, passt auf eine Seite)
 11. [ ] **Schlussdurchsicht:** alle übrigen `\todo` entfernen, Abgabedatum auf dem Titelblatt, Abbildung 1.1 gegenlesen, Verweise und Verzeichnisse, Druckfassung (`thesis_single-sided_print`) mit der digitalen Fassung abgleichen
 
 Erledigt am 13.10.2026: Anhang A (Erhebungsinstrumente), Anhang B auf sechs Testfälle angepasst, Anhang C (ADR-Übersicht und ADR-055), Abkürzungsverzeichnis, Semikolons und Doppelpunkte im ganzen Text, `\quellen`-Kästen entfernt (Inhalt in [[Quellenhinweise Kapitel]]), Todos in Kapitel 1 und 5.1, JWT-Abbildung vereinfacht. Entfallen: KI-Fußnoten in Kapitel 2 bis 5.

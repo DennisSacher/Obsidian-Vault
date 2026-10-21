@@ -33,3 +33,9 @@ erstellt: 2026-08-11
 2026-10-18 — Beim Faktencheck für Beispiele lohnt es sich, die ADRs selbst zu öffnen statt sich auf Erinnerung zu verlassen. Das SMS-Beispiel in 3.2 klang plausibel, hatte aber gar keinen eigenen ADR, nur einen Hinweis in ADR-002.
 
 2026-10-18 — Seitenzahlen aus PDFs immer an der Fußzeile prüfen. Beim Memorandum standen sie unten, nicht oben, und der erste Beleg war dadurch um eine Seite verschoben.
+
+2026-10-21 — Eine erfahrene Fachperson kann eine Evaluation realistischer machen als ein gestellter Testlauf. Den größten Aufwand im Prozess, die Wartezeit auf Rückfragen, kann ein Termin mit einer Kollegin, die sofort antwortet, gar nicht abbilden.
+
+2026-10-21 — Bearbeitungszeit und Durchlaufzeit trennen. Pro Anfrage arbeitet die BayFu nur rund eine halbe Minute, aber jede zweite Anfrage liegt Stunden bis Tage in einer Rückfrage. Der Nutzen des Systems liegt vor allem in der Durchlaufzeit.
+
+2026-10-21 — Die manuelle Prüfung fängt heute fast alle Fehler ab, auch die Korrekturen, die AsiMiNu-AdHoc falsch liest, weil die Mitarbeiterin immer zusätzlich ins Postfach schaut. Das bestätigt die Entscheidung vom 17.09. (Prüfung als Schutzinstanz, nicht dramatisieren) und zeigt, woran die Qualität heute hängt: an der Aufmerksamkeit einer Person.

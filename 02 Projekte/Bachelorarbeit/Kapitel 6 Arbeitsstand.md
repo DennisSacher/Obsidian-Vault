@@ -13,7 +13,10 @@ Diese Notiz hält fest, welche Messungen für Kapitel 6 (Evaluation und Diskussi
 > [!warning] Vorgemerkt (13.10.2026)
 > Dennis möchte **ab 6.2 alles noch einmal überarbeiten**, also 6.2 bis 6.6 und Kapitel 7. Am 13.10. wurden 6.1, 6.2, 6.4, 6.5, 6.6 und Kapitel 7 neu geschrieben bzw. umgebaut (Stil wie Kapitel 4, Beispiele, fette Einstiege). Diese Fassung ist der Ausgangspunkt für die Überarbeitung, Satz für Satz wie bei 6.1.
 
-> [!important] Hier geht es weiter (Stand 20.10.2026)
+> [!important] Hier geht es weiter (Stand 21.10.2026)
+> **Kapitel 6 ist fertig geschrieben.** Statt kontrollierter Durchläufe gab es am 21.10. eine Befragung der Change-Koordinatorin entlang der sechs Testfälle plus Einzelmessungen ([[Testdurchläufe/Expertenbefragung Change-Koordinatorin|Expertenbefragung Change-Koordinatorin]]). 6.1.2, 6.3, die Todos in 6.5, 6.6, 7.1, Anhang A und die Kurzfassung sind angepasst, siehe [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-21|Arbeitsprotokoll 21.10.2026]]. Offen: ein Todo in 6.3 (Gründe der Rückfragen) und die Frage zu TF 5 (wo überschrieben wird). Danach Satz-für-Satz-Durchsicht ab 6.1.1.
+
+> [!note] Alter Stand (20.10.2026)
 > Text von Kapitel 6 und 7 ist bis auf 6.3 und die Todos mit Testergebnissen fertig (6.1 bis 6.6 außer 6.3, Kapitel 7, Anhang A, B, C). Gesamtliste mit 11 Punkten in [[Kapitelplanung]], Abschnitt „Restarbeiten bis zur Abgabe“.
 > **Testdurchläufe sind komplett startklar** (20.10.): Vorab-Anfragen TF 4 und TF 5 eingereicht (neu und alt, AdHoc-Testinstanz läuft mit), Templates repariert und vorbelegt. Testtag ist jetzt **Mi 21.10.2026**. Ablauf Schritt für Schritt in [[Testdurchläufe/Ablauf Testtag|Ablauf Testtag]], Stand des Tages im [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-20|Arbeitsprotokoll 20.10.2026]]. Ältere Entscheidungen im [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-19|Arbeitsprotokoll 19.10.2026]] und [[02 Projekte/Bachelorarbeit/Arbeitsprotokolle/2026-10-15|Arbeitsprotokoll 15.10.2026]]. Unterlagen unter **`02 Projekte/Bachelorarbeit/Testdurchläufe/`**.
 > Die Testdurchläufe finden auf jeden Fall statt, auch wenn sich der Termin verschiebt. Kein Plan B nötig.

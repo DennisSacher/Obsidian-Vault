@@ -119,3 +119,11 @@ erstellt: 2026-08-11
 
 - [ ] **Kapitel 4, Fall 1 „ausgeblendete Excel-Zeilen“ prüfen.** Das echte Work Info Template v1.51 blendet beim Verringern der Ausfalltage keine Zeilen aus. Datum und Uhrzeit der überzähligen Tage bleiben sichtbar, nur die Beschriftung „Tag n“ wird weiß. Prüfen, auf welcher Template-Version Abb. 4.2 und die Beschreibung von Fall 1 beruhen, und den Text ggf. anpassen. Siehe [[Arbeitsprotokolle/2026-10-19|Arbeitsprotokoll 19.10.2026]].
 - [ ] **Wartezeit bei Rückfragen** wird im Test nicht nachgestellt. Für 6.3 bei den Kollegen erfragen (typische Antwortzeit eines GU, Häufigkeit) und als Grenze in 6.6 nennen.
+
+## Ergänzt 21.10.2026
+
+- [ ] **Gründe der Rückfragen** bei der Change-Koordinatorin erfragen. In 6.3 steht vorläufig „meist weil eine Angabe fehlt oder die Standortnummer nicht stimmt“, mit Todo. Dennis klärt das am 22.10.
+- [ ] **TF 5: Wo wird bei überschneidendem Zeitraum überschrieben?** Laut BPMN-Verantwortlichem überschreibt ein neuer Eintrag zum selben Standort mit überschneidendem Zeitraum den alten im TSM. Kapitel 4.2 und Tabelle 6.1 Zeile 5 sagen „AdHoc verwirft die Korrektur ohne Rückmeldung“. Klären, ob das TSM selbst oder der BPMN-Prozess davor überschreibt, und ob 4.2/Tabelle 6.1 angepasst werden müssen.
+- [ ] **Methodenwechsel beim Betreuer erwähnen?** Die Arbeit beschreibt jetzt eine Befragung entlang der Testfälle statt kontrollierter Durchläufe (6.1.2). Falls der Betreuer die Durchläufe aus einem Gespräch kennt, den Wechsel kurz mündlich oder per Mail erklären.
+- [ ] **Schreibweise „Athea“** (Website zur Prüfung kritischer Standorte). Steht noch nicht im Text.
+- [x] ~~Wartezeit bei Rückfragen~~ (19.10.) **Geklärt 21.10.:** 2 Stunden bis 1 Woche, ca. 50 % der Anfragen brauchen eine Rückfrage. In 6.3 und 6.6 eingebaut.
